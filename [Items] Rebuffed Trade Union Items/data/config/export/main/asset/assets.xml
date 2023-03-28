@@ -1,0 +1,223 @@
+<ModOps>
+<!-- ############## BUILDING SPECIALISTS ################-->
+	<!-- Magnetist UNCOMMON -->
+	<ModOp Type="merge" GUID='191375' Path="/Values">
+		<FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>112706</Product>
+					<AdditionalOutputCycle>24</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Golden Harvester From The Future LEGENDARY -->
+	<ModOp Type="merge" GUID='116190' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>40</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- The "Country Bumpkin" Cigar Roller LEGENDARY -->
+	<ModOp Type="merge" GUID='116187' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>40</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Mrs. Mayson LEGENDARY -->
+	<ModOp Type="merge" GUID='191407' Path="/Values">
+		<FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Maxime Graves LEGENDARY -->
+	<ModOp Type="merge" GUID='191388' Path="/Values">
+		<FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010217</Product>
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Yvonne Yeowoman EPIC -->
+	<ModOp Type="merge" GUID='190750' Path="/Values">
+		<FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010257</Product>
+					<AdditionalOutputCycle>4</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Costumer RARE -->
+	<ModOp Type="merge" GUID='191348' Path="/Values">
+		<Item>
+			<MaxStackSize>1</MaxStackSize>
+			<Rarity>Rare</Rarity>
+			<ItemType>Specialist</ItemType>
+			<ExclusiveGroup>Cotton</ExclusiveGroup>
+			<TradePrice>93300</TradePrice>
+			<TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+		</Item>
+	</ModOp>	
+	<!-- Franke Craftsman EPIC -->
+	<ModOp Type="merge" GUID='192039' Path="/Values">
+		<Item>
+			<MaxStackSize>1</MaxStackSize>
+			<Rarity>Epic</Rarity>
+			<ItemType>Specialist</ItemType>
+			<ExclusiveGroup>Cotton</ExclusiveGroup>
+			<TradePrice>375000</TradePrice>
+			<TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>120043</Product>
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>120037</Product>
+					<AdditionalOutputCycle>8</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>1010250</Product>
+					<AdditionalOutputCycle>12</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+				<Item>
+					<OldInput>1010209</OldInput>
+					<NewInput>1010256</NewInput>
+				</Item>
+				<Item>
+					<OldInput>1010240</OldInput>
+					<NewInput>120036</NewInput>
+				</Item>
+			</ReplaceInputs>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Master Craftsman Morris EPIC -->
+	<ModOp Type="merge" GUID='191430' Path="/Values">
+		<FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010255</Product>
+					<AdditionalOutputCycle>4</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Bekonin EPIC -->
+	<ModOp Type="merge" GUID='111179' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>50</Value>
+			</ProductivityUpgrade>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Bruno Ironbright -->
+	<ModOp Type="merge" GUID="191422"   Path="/Values">
+		<FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010224</Product>
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>1010223</Product>
+					<AdditionalOutputCycle>9</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Cola Mola Wola Machine LEGENDARY -->
+	<ModOp Type="merge" GUID='116185' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>50</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<AdditionalOutputCycle>4</AdditionalOutputCycle>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Biniams Schleusentor EPIC -->
+	<ModOp Type="merge" GUID='125053' Path="/Values">
+		<IrrigationUpgrade>
+			<PipeCapacityUpgrade>
+				<Value>100</Value>
+			</PipeCapacityUpgrade>
+		</IrrigationUpgrade>    
+	</ModOp>
+	<!-- Fortschrittliches Schleusentor RARE -->
+	<ModOp Type="merge" GUID='125052' Path="/Values">
+		<IrrigationUpgrade>
+			<PipeCapacityUpgrade>
+				<Value>50</Value>
+			</PipeCapacityUpgrade>
+		</IrrigationUpgrade>    
+	</ModOp>
+	<!-- Items affecting Sand Mine also affect Salt Works -->
+	<!-- Driller -->
+	<ModOp GUID="191585" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+		<Item>
+			<GUID>114440</GUID>
+		</Item>
+	</ModOp>
+	<!-- Dredger -->
+	<ModOp GUID="191587" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+		<Item>
+			<GUID>114440</GUID>
+		</Item>
+	</ModOp>
+	<!-- Quarry Foreman -->
+	<ModOp GUID="191589" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+		<Item>
+			<GUID>114440</GUID>
+		</Item>
+	</ModOp>
+	<!-- Grigor the Geologist -->
+	<ModOp GUID="191590" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+		<Item>
+			<GUID>114440</GUID>
+		</Item>
+	</ModOp>
+	<!-- Steven MacLeod, Geological Surveyor -->
+	<ModOp GUID="191591" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+		<Item>
+			<GUID>114440</GUID>
+		</Item>
+	</ModOp>
+</ModOps>

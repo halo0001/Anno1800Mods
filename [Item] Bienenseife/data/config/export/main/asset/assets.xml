@@ -1,0 +1,103 @@
+<!-- Bienenseife -->
+<ModOps>
+	<ModOp Type="replace" GUID="190754"   Path="/Values">
+                         <Values>
+                        <Standard>
+                          <GUID>190754</GUID>
+                          <Name>Bienenseife</Name>
+                          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_101.png</IconFilename>
+                          <InfoDescription>19198</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Bienenseife</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>26619</LineID>
+                        </Text>
+                        <Item>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>Legendary</Rarity>
+                          <ItemType>Specialist</ItemType>
+                          <TradePrice>875000</TradePrice>
+                        </Item>
+                        <FactoryUpgrade>
+                          <ProductivityUpgrade>
+                            <Value>40</Value>
+                            <Percental>1</Percental>
+                          </ProductivityUpgrade>
+                          <AdditionalOutput>
+                            <Item>
+                              <Product>114390</Product>
+                              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item>
+                              <Product>114404</Product>
+                              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item>
+                              <Product>114431</Product>
+                              <AdditionalOutputCycle>12</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                          </AdditionalOutput>
+                          <ReplaceInputs>
+                            <Item>
+                              <OldInput>1010234</OldInput>
+                              <NewInput>114370</NewInput>
+                            </Item>
+                          </ReplaceInputs>
+                        </FactoryUpgrade>
+                        <ItemEffect>
+                          <EffectTargets>
+                            <Item>
+                              <GUID>1010281</GUID>
+                            </Item>
+                          </EffectTargets>
+                        </ItemEffect>
+                        <ItemAction />
+                        <ExpeditionAttribute>
+                          <BaseMorale>0</BaseMorale>
+                          <ExpeditionAttributes>
+                            <Item>
+                              <Attribute>PerkMale</Attribute>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item>
+                              <Attribute>Crafting</Attribute>
+                              <Amount>45</Amount>
+                            </Item>
+                            <Item>
+                              <Attribute>Navigation</Attribute>
+                              <Amount>20</Amount>
+                            </Item>
+                            <Item />
+                            <Item />
+                          </ExpeditionAttributes>
+                          <ItemDifficulties>Hard</ItemDifficulties>
+                          <FluffText>19198</FluffText>
+                        </ExpeditionAttribute>
+                        <CultureUpgrade>
+							<AttractivenessUpgrade>
+								<Value>-100</Value>
+								<Percental>1</Percental>
+							</AttractivenessUpgrade>
+						</CultureUpgrade>
+                        <BuildingUpgrade />
+                        <ModuleOwnerUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <ResidenceUpgrade />
+                        <PopulationUpgrade />
+                        <ElectricUpgrade />
+                        <ItemGeneratorUpgrade />
+                        <Locked />
+                        <Buff />
+                      </Values>
+	</ModOp>
+</ModOps>

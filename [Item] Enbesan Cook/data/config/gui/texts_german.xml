@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>191385</GUID>
+			<Text>Brahmia, Enbesanische Suppenköchin</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

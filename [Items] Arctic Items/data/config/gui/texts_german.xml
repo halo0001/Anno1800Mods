@@ -1,0 +1,124 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1337472001</GUID>
+      <Text>Fergus, der Wildbretkoch</Text>
+    </Text>
+    <Text>
+      <GUID>1337472003</GUID>
+      <Text>Irvin Flynn, der feuerfeste Gas-Prospektor</Text>
+    </Text>
+    <Text>
+      <GUID>1337472005</GUID>
+      <Text>Ismael, der Beifang-Verwerter</Text>
+    </Text>
+    <Text>
+      <GUID>1337472007</GUID>
+      <Text>Anton aus den Bergen</Text>
+    </Text>
+    <Text>
+      <GUID>1337472009</GUID>
+      <Text>Anja, die Walfang-Lobbyistin</Text>
+    </Text>
+    <Text>
+      <GUID>1337472011</GUID>
+      <Text>Rob Steen, der kochende Tierschützer</Text>
+    </Text>
+    <Text>
+      <GUID>1337472013</GUID>
+      <Text>Björn Hallqvist, Erfahrener Waldläufer</Text>
+    </Text>
+    <Text>
+      <GUID>1337472015</GUID>
+      <Text>Knud McCrane, Mitglied der geographischen Gesellschaft</Text>
+    </Text>
+    <Text>
+      <GUID>1337472017</GUID>
+      <Text>Konrad Moreau, Fachmann für Tierverhalten</Text>
+    </Text>
+    <Text>
+      <GUID>1337472019</GUID>
+      <Text>Clara Marell, Meisterin der Holzschnitzereien</Text>
+    </Text>
+    <Text>
+      <GUID>1337472021</GUID>
+      <Text>Ellen Nylund, Produzentin von Outdoorausrüstungen</Text>
+    </Text>
+    <Text>
+      <GUID>1337472023</GUID>
+      <Text>Horace Goodwin, Erfinder des Taschenfeuerzeugs</Text>
+    </Text>
+    <Text>
+      <GUID>1337472025</GUID>
+      <Text>Jona Northburg, Fleischliebhaber</Text>
+    </Text>
+    <Text>
+      <GUID>1337472067</GUID>
+      <Text>Georg von Schallert, Kommandant der königlichen Luftschiffflotte</Text>
+    </Text>
+	<Text>
+      <GUID>1337472079</GUID>
+      <Text>Rufu Niriunaq, der warmherzige Wonneproppen</Text>
+    </Text>
+    <Text>
+      <GUID>1337472002</GUID>
+      <Text>Der Experte für das Kochen von Wild.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472004</GUID>
+      <Text>Er weiß wie man Gas findet und es fördert, ohne dabei eine Explosion auszulösen.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472006</GUID>
+      <Text>Egal was er in den Netzen findet, Ismael macht etwas Nützliches daraus.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472008</GUID>
+      <Text>Er ist so schön, er ist so toll, er weiß genau was für Hüte man tragen soll!</Text>
+    </Text>
+    <Text>
+      <GUID>1337472010</GUID>
+      <Text>Sie hat nach langer Überzeugungsarbeit durchsetzen können, dass die Stadtbeleuchtung wieder durch Walöl befeuert wird.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472012</GUID>
+      <Text>Er erkennt die Notwendigkeit der Jagd in den eisigen Breiten des Nordens um zu überleben, doch er versucht jedes Tier vollständig zu verwerten, um unnötiges Töten zu verhindern.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472014</GUID>
+      <Text>Nachdem er monatelang in der Wäldern der alten Welt unterwegs war, ist er nun auf der Suche nach einer neuen Herausforderung.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472016</GUID>
+      <Text>Auf seinen zahllosen Expeditionen in den Norden hat er Freundschaft mit vielen Einheimischen geschlossen und dadurch zum besseren Verständnis zwischen den unterschiedlichen Kulteren beigetragen.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472018</GUID>
+      <Text>Nach den vielen gemeinsamen Stunden beim Studieren ihres Verhaltens sind Konrad und seine Tiere unzertrennlich geworden und sie danken ihm das gute Futter mit den weichesten Federn und als die treuesten Begleiter.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472020</GUID>
+      <Text>Ihre Augen fangen an zu leuchten wenn sie ein schönes Holzstück findet und wenn sie daraus ein Spielzeug für ein Kind herstellen kann, freut sie sich doppelt.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472022</GUID>
+      <Text>Vom kleinsten Hering bis zur größten Zeltplane, in ihrem Geschäft gibt es alles was man für einen Ausflug in die Natur brauchen könnte.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472024</GUID>
+      <Text>Jede Lieferung von Horaces praktischen Taschenfeuerzeugen kommt mit ein paar Zigarren, um den erfolgreichen Geschäftsabschluss zu feiern.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472026</GUID>
+      <Text>Angeblich stammt Jonahs gewaltiger Appetit auf das Fleisch von Meeressäugern daher, dass er einst von einem Wal verschluckt wurde und sich befreite, indem er den Wal von innen heraus aufaß.</Text>
+    </Text>
+    <Text>
+      <GUID>1337472068</GUID>
+      <Text>Seine Familie stand dem Königshaus schon immer sehr nahe, daher war es kein Wunder, dass er beim Aufbau der königlichen Luftschiffflotte helfen würde.</Text>
+    </Text>
+	<Text>
+      <GUID>1337472080</GUID>
+      <Text>Auch wenn Kleidung irgendwann nicht mehr warmhält, bei ihrem Lachen schmelzen zumindest die Herzen.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

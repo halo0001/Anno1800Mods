@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>191368</GUID>
+			<Text>Karl Karlsson, Kohleingenieur</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

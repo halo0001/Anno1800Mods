@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>116099</GUID>
+			<Text>Gary Gaslight, Heizer mit Gas</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

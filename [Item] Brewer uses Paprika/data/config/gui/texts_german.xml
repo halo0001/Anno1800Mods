@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>191461</GUID>
+			<Text>Pepperina, nicht so pikante Würzerin</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

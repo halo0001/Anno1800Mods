@@ -1,0 +1,2382 @@
+<!--
+Arctic Items Mod
+GUID Range: 1337472000-1337472999
+-->
+<ModOps>
+  <!-- Items affecting Caribou Hunting Cabin and Bear Hunting Cabin also affect Prime Hunting Cabin -->
+  <!-- Pititsi -->
+  <ModOp GUID="116078" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+    <Item>
+	  <GUID>116034</GUID>
+	</Item>
+  </ModOp>
+  <!-- Cable-Backed Bow -->
+  <ModOp GUID="116079" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+    <Item>
+	  <GUID>116034</GUID>
+	</Item>
+  </ModOp>
+  <!-- Bow Of The Lnu -->
+  <ModOp GUID="116080" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+    <Item>
+	  <GUID>116034</GUID>
+	</Item>
+  </ModOp>
+  <!-- Inuit Hunter -->
+  <ModOp GUID="116146" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+	<Item>
+	  <GUID>116034</GUID>
+	</Item>
+  </ModOp>
+  <!-- Artful Inuit Hunter -->
+  <ModOp GUID="116149" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+	<Item>
+	  <GUID>116034</GUID>
+	</Item>
+  </ModOp>
+  <!-- Toklo the Trapper -->
+  <ModOp GUID="116152" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+	<Item>
+	  <GUID>116034</GUID>
+	</Item>
+  </ModOp>
+  <!-- Gritty Gas Extractor -->
+  <ModOp GUID="116167" Path="/Values/ItemEffect/EffectTargets" Type="Add">
+	<Item>
+	  <GUID>116029</GUID>
+	</Item>
+  </ModOp>
+  <!-- Ivory Iggaak -->
+  <ModOp GUID="116098" Path="/Values/FactoryUpgrade/ProductivityUpgrade/Value" Type="Replace">
+    <Value>80</Value>
+  </ModOp>
+  <!-- GROUP: Arctic Item Mod -->
+  <!-- PURPOSE: Re-register the trigger that unlocks technicians' items so that the newly-added items get unlocked at traders/etc -->
+  <ModOp GUID="112649" Type="AddNextSibling">
+    <Asset>
+	  <Template>Trigger</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472800</GUID>
+		  <Name>[Harlekin Mod] Arctic Item Mod: Rerun trigger: Intermediate Arctic 2.1</Name>
+		</Standard>
+		<Trigger>
+		  <TriggerCondition>
+		    <Template>ConditionPlayerCounter</Template>
+			<Values>
+			  <Condition />
+			  <ConditionPlayerCounter>
+			    <PlayerCounter>PopulationByLevel</PlayerCounter>
+				<Context>112643</Context>
+				<CounterAmount>100</CounterAmount>
+			  </ConditionPlayerCounter>
+			</Values>
+		  </TriggerCondition>
+		  <TriggerActions>
+		    <Item>
+			  <TriggerAction>
+			    <Template>ActionRegisterTrigger</Template>
+				<Values>
+				  <Action />
+				  <ActionRegisterTrigger>
+				    <TriggerAsset>112649</TriggerAsset>
+				  </ActionRegisterTrigger>
+				</Values>
+			  </TriggerAction>
+			</Item>
+		  </TriggerActions>
+		</Trigger>
+	    <TriggerSetup />
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add Item: Fergus, the Venison Chef -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472001</GUID>
+		  <Name>Fergus, the Venison Chef</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_101.png</IconFilename>
+		  <InfoDescription>1337472002</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Fergus, the Venison Chef</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472001</LineID>
+		</Text>
+		<Item>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>293000</TradePrice>
+		  <TradePriceOnlineCurrency>100</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <AdditionalOutput>
+		    <Item>
+			  <Product>112705</Product>
+			  <AdditionalOutputCycle>3</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		  <ReplaceInputs>
+		    <Item>
+			  <OldInput>1010193</OldInput>
+			  <NewInput>112694</NewInput>
+			</Item>
+		  </ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>1010293</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Melee</Attribute>
+			  <Amount>30</Amount>
+			</Item>
+			<Item />
+			<Item />
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Average;Hard</ItemDifficulties>
+		  <FluffText>1337472002</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade>
+		  <AttractivenessUpgrade>
+		    <Value>5</Value>
+		  </AttractivenessUpgrade>
+		</CultureUpgrade>
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Fergus, the Venison Chef -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472002</GUID>
+		  <Name>item fluff Fergus, the Venison Chef</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>The expert for cooking deer.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472002</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Ishmael the bycatch-processor -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472005</GUID>
+		  <Name>Ishmael the bycatch-processor</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/icon_polar_4.png</IconFilename>
+		  <InfoDescription>1337472006</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Ishmael the bycatch-processor</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472005</LineID>
+		</Text>
+		<Item>
+		  <Allocation>HarborOffice</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>390500</TradePrice>
+		  <TradePriceOnlineCurrency>100</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <ProductivityUpgrade>
+		    <Value>50</Value>
+			<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <AdditionalOutput>
+		    <Item>
+			  <Product>112699</Product>
+			  <AdditionalOutputCycle>4</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>190779</GUID>
+			</Item>
+			<Item>
+			  <GUID>1010339</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Hunting</Attribute>
+			  <Amount>40</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Navigation</Attribute>
+			  <Amount>20</Amount>
+			</Item>
+			<Item>
+			  <Attribute>PerkDiver</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Average;Hard</ItemDifficulties>
+		  <FluffText>1337472006</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade>
+		  <MaintenanceUpgrade>
+		    <Value>-40</Value>
+			<Percental>1</Percental>
+		  </MaintenanceUpgrade>
+		</BuildingUpgrade>
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Ishmael the bycatch-processor -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472006</GUID>
+		  <Name>item fluff Ishmael the bycatch-processor</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>No matter what he finds in the nets, Ishmael will make something useful out of it.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472006</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Anton from the mountains -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472007</GUID>
+		  <Name>Anton from the mountains</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/icon_navigator_epic.png</IconFilename>
+		  <InfoDescription>1337472008</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Anton from the mountains</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472007</LineID>
+		</Text>
+		<Item>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>412500</TradePrice>
+		  <TradePriceOnlineCurrency>100</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <ProductivityUpgrade>
+		    <Value>40</Value>
+			<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <AdditionalOutput>
+		    <Item>
+			  <Product>112697</Product>
+			  <AdditionalOutputCycle>2</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+			<Item>
+			  <Product>112701</Product>
+			  <AdditionalOutputCycle>8</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+			<Item>
+			  <Product>112700</Product>
+			  <AdditionalOutputCycle>8</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		  <ReplaceInputs>
+		    <Item>
+			  <OldInput>1010240</OldInput>
+			  <NewInput>112697</NewInput>
+			</Item>
+		  </ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>101273</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Crafting</Attribute>
+			  <Amount>35</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Diplomacy</Attribute>
+			  <Amount>25</Amount>
+			</Item>
+			<Item />
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472008</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Anton from the mountains -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472008</GUID>
+		  <Name>item fluff Anton from the mountains</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Anton has left his home in the mountains of the old world to show the world what stylish designs he has to offer.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472008</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Anya the Whaling Lobbyist -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472009</GUID>
+		  <Name>Anya the Whaling Lobbyist</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_professor_316.png</IconFilename>
+		  <InfoDescription>1337472010</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Anya the Whaling Lobbyist</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472009</LineID>
+		</Text>
+		<Item>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>412500</TradePrice>
+		  <TradePriceOnlineCurrency>100</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <AdditionalOutput>
+			<Item>
+				<Product>112702</Product>
+				<AdditionalOutputCycle>4</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		  <ReplaceInputs>
+		    <Item>
+			  <OldInput>1010243</OldInput>
+			  <NewInput>112699</NewInput>
+			</Item>
+		  </ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>1010286</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkFemale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Diplomacy</Attribute>
+			  <Amount>40</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Faith</Attribute>
+			  <Amount>20</Amount>
+			</Item>
+			<Item />
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472010</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade>
+		  <IncidentExplosionIncreaseUpgrade>
+            <Value>-4</Value>
+          </IncidentExplosionIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Anya the Whaling Lobbyist -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472010</GUID>
+		  <Name>item fluff Anya the Whaling Lobbyist</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>After a long discussion with city councilors, she was able to get the switch to electric streetlights delayed.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472010</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Esther Hofwegen, the animal loving cook -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472011</GUID>
+		  <Name>Esther Hofwegen, the animal loving cook</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/icon_polar_1.png</IconFilename>
+		  <InfoDescription>1337472012</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Esther Hofwegen, the animal loving cook</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472011</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>984500</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <ProductivityUpgrade>
+		    <Value>50</Value>
+			<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <ReplaceInputs>
+		    <Item>
+			  <OldInput>112699</OldInput>
+			  <NewInput>1010234</NewInput>
+			</Item>
+		  </ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>112668</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkFemale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Melee</Attribute>
+			  <Amount>25</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Medicine</Attribute>
+			  <Amount>25</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Faith</Attribute>
+			  <Amount>25</Amount>
+			</Item>
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472012</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade>
+		  <MaintenanceUpgrade>
+		    <Value>-65</Value>
+			<Percental>1</Percental>
+		  </MaintenanceUpgrade>
+		</BuildingUpgrade>
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Esther Hofwegen, the animal loving cook -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472012</GUID>
+		  <Name>item fluff Esther Hofwegen, the animal loving cook</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Esther wants to harm as few animals as possible so she utilizes every last bit of them.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472012</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Bjorn Hallqvist, the Experienced Ranger -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472013</GUID>
+		  <Name>Bjorn Hallqvist, the Experienced Ranger</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/icon_hunter_epic.png</IconFilename>
+		  <InfoDescription>1337472014</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Bjorn Hallqvist, the Experienced Ranger</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472013</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>1061500</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <ProductivityUpgrade>
+		    <Value>50</Value>
+			<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <AdditionalOutput>
+		    <Item>
+			  <Product>1010197</Product>
+			  <AdditionalOutputCycle>5</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		  <NeededAreaPercentUpgrade>
+		    <Value>-30</Value>
+		  </NeededAreaPercentUpgrade>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>114703</GUID>
+			</Item>
+		    <Item>
+			  <GUID>114705</GUID>
+			</Item>
+		    <Item>
+			  <GUID>112667</GUID>
+			</Item>
+		    <Item>
+			  <GUID>112673</GUID>
+			</Item>
+		    <Item>
+			  <GUID>116034</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Hunting</Attribute>
+			  <Amount>25</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Medicine</Attribute>
+			  <Amount>25</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Navigation</Attribute>
+			  <Amount>25</Amount>
+			</Item>
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472014</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Bjorn Hallqvist, the Experienced Ranger -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472014</GUID>
+		  <Name>item fluff Bjorn Hallqvist, the Experienced Ranger</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>After roaming the woods of the old world for months, he is now looking for a new challenge.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472014</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Knud McCrane, Member of the geographical Society -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472015</GUID>
+		  <Name>Knud McCrane, Member of the geographical Society</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/influencer/icon_influencer_lewis_2.png</IconFilename>
+		  <InfoDescription>1337472016</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Knud McCrane, Member of the geographical Society</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472015</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>1039500</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade />
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>112091</GUID>
+			</Item>
+		    <Item>
+			  <GUID>112652</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Navigation</Attribute>
+			  <Amount>45</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Hunting</Attribute>
+			  <Amount>35</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Melee</Attribute>
+			  <Amount>25</Amount>
+			</Item>
+			<Item>
+			  <Attribute>PerkAnthropologist</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472016</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade>
+		  <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>114890</ProvidedNeed>
+              <AmountInPercent>-100</AmountInPercent>
+            </Item>
+			<Item>
+              <ProvidedNeed>112693</ProvidedNeed>
+              <AmountInPercent>-100</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+		</ResidenceUpgrade>
+        <PopulationUpgrade>
+          <InputBenefitModifier>
+            <Item>
+              <Product>112705</Product>
+              <AdditionalSupply>3</AdditionalSupply>
+            </Item>
+            <Item>
+              <Product>112703</Product>
+              <AdditionalSupply>3</AdditionalSupply>
+            </Item>
+          </InputBenefitModifier>
+        </PopulationUpgrade>
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Knud McCrane, Member of the geographical Society -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472016</GUID>
+		  <Name>item fluff Knud McCrane, Member of the geographical Society</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>On his countless succesful expeditions to the north, he has learned to survive without products from the old world and rather to rely on local goods.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472016</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Konrad Moreau, Expert for Animal Behaviour -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472017</GUID>
+		  <Name>Konrad Moreau, Expert for Animal Behaviour</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_109_b.png</IconFilename>
+		  <InfoDescription>1337472018</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Konrad Moreau, Expert for Animal Behaviour</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472017</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>825000</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+			<Item>
+              <Product>112697</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+			<Item>
+              <Product>112698</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+			<Item>
+              <Product>1010193</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+			<Item>
+              <Product>120034</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+		  </AdditionalOutput>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>112676</GUID>
+			</Item>
+		    <Item>
+			  <GUID>112682</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Diplomacy</Attribute>
+			  <Amount>50</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Hunting</Attribute>
+			  <Amount>30</Amount>
+			</Item>
+			<Item>
+			  <Attribute>PerkZoologist</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472018</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Konrad Moreau, Expert for Animal Behaviour -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472018</GUID>
+		  <Name>item fluff Konrad Moreau, Expert for Animal Behaviour</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Konrad has studied the animals for so long that they have become his best friends and he lets them live in his house.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472018</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Clara Marell, Master of Woodcarvings -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472019</GUID>
+		  <Name>Clara Marell, Master of Woodcarvings</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_312.png</IconFilename>
+		  <InfoDescription>1337472020</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Clara Marell, Master of Woodcarvings</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472019</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>873400</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <ProductivityUpgrade>
+		    <Value>50</Value>
+			<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <AdditionalOutput>
+		    <Item>
+			  <Product>1010207</Product>
+			  <AdditionalOutputCycle>10</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Product>1010242</Product>
+			  <AdditionalOutputCycle>10</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Product>1010211</Product>
+			  <AdditionalOutputCycle>10</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>114704</GUID>
+			</Item>
+		    <Item>
+			  <GUID>112681</GUID>
+			</Item>
+		    <Item>
+			  <GUID>112680</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkFemale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Crafting</Attribute>
+			  <Amount>50</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Diplomacy</Attribute>
+			  <Amount>30</Amount>
+			</Item>
+			<Item />
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472020</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Clara Marell, Master of Woodcarvings -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472020</GUID>
+		  <Name>item fluff Clara Marell, Master of Woodcarvings</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>She gets a sparkle in her eye when she finds a nice piece of wood and when she can make a toy for a child out of it, she will be even happier.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472020</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Amanda Flores, Empress of Textile Production -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472021</GUID>
+		  <Name>Amanda Flores, Empress of Textile Production</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_327.png</IconFilename>
+		  <InfoDescription>1337472022</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Amanda Flores, Empress of Textile Production</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472021</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>974000</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <ProductivityUpgrade>
+		    <Value>50</Value>
+			<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <AdditionalOutput>
+		    <Item>
+			  <Product>112697</Product>
+			  <AdditionalOutputCycle>6</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+			<Item>
+			  <Product>1010210</Product>
+			  <AdditionalOutputCycle>12</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Product>112704</Product>
+			  <AdditionalOutputCycle>12</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		  <ReplaceInputs>
+		    <Item>
+			  <OldInput>112696</OldInput>
+			  <NewInput>1010197</NewInput>
+			</Item>
+		  </ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>112675</GUID>
+			</Item>
+		    <Item>
+			  <GUID>112672</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkFemale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Crafting</Attribute>
+			  <Amount>45</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Diplomacy</Attribute>
+			  <Amount>35</Amount>
+			</Item>
+			<Item />
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472022</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Amanda Flores, Empress of Textile Production -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472022</GUID>
+		  <Name>item fluff Amanda Flores, Empress of Textile Production</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>She rules over an empire of sewing machines that she exports to countries all over the world and now she has discovered the Arctic as a gap in the market.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472022</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Eric Nylund, Inventor of the Pocket Lighter -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472023</GUID>
+		  <Name>Eric Nylund, Inventor of the Pocket Lighter</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/icon_craftsman_epic.png</IconFilename>
+		  <InfoDescription>1337472024</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Eric Nylund, Inventor of the Pocket Lighter</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472023</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>982000</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <ProductivityUpgrade>
+		    <Value>50</Value>
+			<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <AdditionalOutput>
+		    <Item>
+			  <Product>1010259</Product>
+			  <AdditionalOutputCycle>8</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		  <ReplaceInputs>
+		    <Item>
+			  <OldInput>112699</OldInput>
+			  <NewInput>120042</NewInput>
+			</Item>
+		  </ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>112679</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Crafting</Attribute>
+			  <Amount>50</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Diplomacy</Attribute>
+			  <Amount>30</Amount>
+			</Item>
+			<Item />
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472024</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade>
+		  <WorkforceAmountUpgrade>
+		    <Value>-50</Value>
+			<Percental>1</Percental>
+		  </WorkforceAmountUpgrade>
+		</BuildingUpgrade>
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Eric Nylund, Inventor of the Pocket Lighter -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472024</GUID>
+		  <Name>item fluff Eric Nylund, Inventor of the Pocket Lighter</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Each delivery of Eric's handy pocket lighters always includes a few cigars to celebrate the successful business deal.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472024</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Jonah Northburg, Muncher of Mammal Meat -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472025</GUID>
+		  <Name>Jonah Northburg, Muncher of Mammal Meat</Name>
+		  <InfoDescription>1337472026</InfoDescription>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/icon_captain_uncommon.png</IconFilename>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Jonah Northburg, Muncher of Mammal Meat</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472025</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>1089000</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <ProductivityUpgrade>
+		    <Value>50</Value>
+			<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <AddedFertility>115264</AddedFertility>
+		  <AdditionalOutput>
+		    <Item>
+			  <Product>112694</Product>
+			  <AdditionalOutputCycle>6</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+			<Item>
+			  <Product>1010199</Product>
+			  <AdditionalOutputCycle>6</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+			<Item>
+			  <Product>1010193</Product>
+			  <AdditionalOutputCycle>6</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>112666</GUID>
+			</Item>
+		    <Item>
+			  <GUID>112674</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Melee</Attribute>
+			  <Amount>50</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Hunting</Attribute>
+			  <Amount>30</Amount>
+			</Item>
+			<Item>
+			  <Attribute>PerkDiver</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+			<Item>
+			  <Attribute>PerkMilitaryShip</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472026</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Jonah Northburg, Muncher of Mammal Meat -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472026</GUID>
+		  <Name>item fluff Jonah Northburg, Muncher of Mammal Meat</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>The story goes that Jonah was swallowed by a whale and survived by eating the whale from the inside out. Although no one knows the truth, it is known that he disappeared for a while and after his return he had developed an appetite for the flesh of sea mammals.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472026</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Earvin Flynn, the Gas Prospector -->
+  <!-- Add after Broadcast Relay Station -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472003</GUID>
+		  <Name>Irvin Flynn, the Gas Prospector</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_203.png</IconFilename>
+		  <InfoDescription>1337472004</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Irvin Flynn, the Gas Prospector</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472003</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>1069000</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade>
+		  <ProductivityUpgrade>
+		    <Value>50</Value>
+			<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <AdditionalOutput>
+		    <Item>
+			  <Product>112706</Product>
+			  <AdditionalOutputCycle>3</AdditionalOutputCycle>
+			  <Amount>1</Amount>
+			</Item>
+		  </AdditionalOutput>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>116029</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Crafting</Attribute>
+			  <Amount>50</Amount>
+			</Item>
+			<Item />
+			<Item />
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472004</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade>
+		  <IncidentFireIncreaseUpgrade>
+            <Value>-8</Value>
+          </IncidentFireIncreaseUpgrade>
+		  <IncidentExplosionIncreaseUpgrade>
+		    <Value>-8</Value>
+		  </IncidentExplosionIncreaseUpgrade>
+		</IncidentInfectableUpgrade>
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Earvin Flynn, the Gas Prospector -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472004</GUID>
+		  <Name>item fluff Earvin Flynn, the Gas Prospector</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>He knows how to find gas and how to extract it without causing an explosion. </Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472004</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add item: Georg von Schallert, Her Majesty's personal Airship Captain -->
+  <!-- Add after Particulary Pull-y Pulley -->
+  <ModOp GUID="116174" Type="AddNextSibling">
+    <Asset>
+	  <Template>VehicleItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472067</GUID>
+		  <Name>Georg von Schallert, Commander of the Royal Airship Fleet</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_custom_officer_103.png</IconFilename>
+		  <InfoDescription>1337472068</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Georg von Schallert, Commander of the Royal Airship Fleet</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472067</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Airship</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>1114000</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<Cost />
+		<VehicleUpgrade>
+		  <ForwardSpeedUpgrade>
+		    <Value>20</Value>
+			<Percental>1</Percental>
+		  </ForwardSpeedUpgrade>
+		  <IgnoreWeightFactorUpgrade>
+		    <Value>100</Value>
+			<Percental>1</Percental>
+		  </IgnoreWeightFactorUpgrade>
+		</VehicleUpgrade>
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkMale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Navigation</Attribute>
+			  <Amount>50</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Diplomacy</Attribute>
+			  <Amount>30</Amount>
+			</Item>
+			<Item />
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472068</FluffText>
+		</ExpeditionAttribute>
+		<AttackerUpgrade />
+		<AttackableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+		<TradeShipUpgrade>
+		  <LoadingSpeedUpgrade>
+		    <Value>75</Value>
+			<Percental>1</Percental>
+		  </LoadingSpeedUpgrade>
+		</TradeShipUpgrade>
+        <CraftableItem />
+        <DivingBellUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Georg von Schallert, Commander of the Royal Airship Fleet -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472068</GUID>
+		  <Name>item fluff Georg von Schallert, Commander of the Royal Airship Fleet</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>His ancestors had always been close to the royal family, so it was clear that he would be the first to help build the royal airship fleet.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472068</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- +30% population Specialist -->
+  <ModOp GUID="125072" Type="AddNextSibling">
+    <Asset>
+	  <Template>GuildhouseItem</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472079</GUID>
+		  <Name>+30% population Specialist</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_inuit_specialist_900.png</IconFilename>
+		  <InfoDescription>1337472080</InfoDescription>
+		  <Version>dlc03</Version>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Rufu Niriunaq, The Warm Bundle of Joy</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472079</LineID>
+		</Text>
+		<Item>
+		  <Allocation>Lodge</Allocation>
+		  <MaxStackSize>1</MaxStackSize>
+		  <Rarity>Legendary</Rarity>
+		  <ItemType>Specialist</ItemType>
+		  <TradePrice>958000</TradePrice>
+		  <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+		</Item>
+		<FactoryUpgrade />
+		<ItemEffect>
+		  <EffectTargets>
+		    <Item>
+			  <GUID>112091</GUID>
+			</Item>
+		    <Item>
+			  <GUID>112652</GUID>
+			</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ItemAction />
+		<ExpeditionAttribute>
+		  <BaseMorale>0</BaseMorale>
+		  <ExpeditionAttributes>
+		    <Item>
+			  <Attribute>PerkFemale</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+		    <Item>
+			  <Attribute>Diplomacy</Attribute>
+			  <Amount>50</Amount>
+			</Item>
+			<Item>
+			  <Attribute>Hunting</Attribute>
+			  <Amount>30</Amount>
+			</Item>
+			<Item>
+			  <Attribute>PerkPolyglot</Attribute>
+			  <Amount>1</Amount>
+			</Item>
+			<Item />
+		  </ExpeditionAttributes>
+		  <ItemDifficulties>Hard</ItemDifficulties>
+		  <FluffText>1337472080</FluffText>
+		</ExpeditionAttribute>
+		<CultureUpgrade />
+		<BuildingUpgrade />
+		<ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade>
+          <IncidentArcticIllnessIncreaseUpgrade>
+            <Value>-5</Value>
+          </IncidentArcticIllnessIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+        <ResidenceUpgrade />
+        <PopulationUpgrade>
+          <InputBenefitModifier>
+            <Item>
+              <Product>112701</Product>
+              <AdditionalSupply>3</AdditionalSupply>
+              <AdditionalMoney>3</AdditionalMoney>
+            </Item>
+            <Item>
+              <Product>112700</Product>
+              <AdditionalSupply>3</AdditionalSupply>
+              <AdditionalMoney>3</AdditionalMoney>
+            </Item>
+          </InputBenefitModifier>
+        </PopulationUpgrade>
+        <IndustrializableUpgrade />
+        <Locked>
+		  <DLCDependency>410042</DLCDependency>
+		</Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Description for Rufu Niriunaq, The Warm Bundle of Joy -->
+  <ModOp GUID="112763" Type="AddNextSibling">
+    <Asset>
+	  <Template>Text</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472080</GUID>
+		  <Name>item fluff Rufu Niriunaq, The Warm Bundle of Joy</Name>
+		</Standard>
+		<Text>
+		  <LocaText>
+		    <English>
+			  <Text>Even if the clothes no longer keep you warm, her smile will melt your heart for sure.</Text>
+			  <Status>Exported</Status>
+			  <ExportCount>1</ExportCount>
+			</English>
+		  </LocaText>
+		  <LineID>1337472080</LineID>
+		</Text>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- New Reward Pool with Items for Trade Union -->
+  <ModOp GUID="22676" Type="AddNextSibling">
+    <Asset>
+	  <Template>RewardPool</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472700</GUID>
+		  <Name>Specialists - Trade Union</Name>
+		</Standard>
+		<RewardPool>
+		  <ItemsPool>
+		  </ItemsPool>
+		</RewardPool>
+		<Locked />
+		<Text />
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- New Reward Pool with Items for the Arctic -->
+  <ModOp GUID="22676" Type="AddNextSibling">
+    <Asset>
+	  <Template>RewardPool</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472701</GUID>
+		  <Name>Specialists - Arctic</Name>
+		</Standard>
+		<RewardPool>
+		  <ItemsPool>
+		  </ItemsPool>
+		</RewardPool>
+		<Locked />
+		<Text />
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- New Reward Pool with all the newly created Items -->
+  <ModOp GUID="22676" Type="AddNextSibling">
+    <Asset>
+	  <Template>RewardPool</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>1337472702</GUID>
+		  <Name>Specialists - All</Name>
+		</Standard>
+		<RewardPool>
+		  <ItemsPool>
+		  </ItemsPool>
+		</RewardPool>
+		<Locked />
+		<Text />
+	  </Values>
+	</Asset>
+  </ModOp>
+  <!-- Add Specialists - All to Asset Pool: Archetype (Explorer) Resident Quest Reward Pool -->
+  <ModOp GUID="193821" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472702</ItemLink>
+	  <Weight>25</Weight>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - All to Asset Pool: Archetype (Technician) Resident Quest Reward Pool -->
+  <ModOp GUID="193822" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472702</ItemLink>
+	  <Weight>25</Weight>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Trade Union to Asset Pool: Specialists - Epic -->
+  <ModOp GUID="192974" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472700</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Trade Union to Asset Pool: Eli Epic Specialists -->
+  <ModOp GUID="192908" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472700</ItemLink>
+	  <Weight>5</Weight>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Trade Union to Asset Pool: 2nd_party_07 (Carl von Malching) Epic Reward Pool -->
+  <ModOp GUID="192513" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472700</ItemLink>
+	  <Weight>5</Weight>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Trade Union to Asset Pool: Visiting Specialists - Epic -->
+  <ModOp GUID="193233" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472700</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Trade Union to Asset Pool: ProdTalentEpic -->
+  <ModOp GUID="123682" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472700</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Arctic to Asset Pool: ProdTalentLegendary -->
+  <ModOp GUID="123683" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472701</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Arctic to Asset Pool: Specialists - Legendary -->
+  <ModOp GUID="192975" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472701</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Arctic to Asset Pool: Eli Legendary Specialists -->
+  <ModOp GUID="192909" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472701</ItemLink>
+	  <Weight>8</Weight>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Arctic to Asset Pool: 2nd_party_07 (Carl von Malching) Legendary Reward Pool -->
+  <ModOp GUID="192514" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472701</ItemLink>
+	  <Weight>5</Weight>
+	</Item>
+  </ModOp>
+  <!-- Add Specialists - Arctic to Asset Pool: Visiting Specialists - Legendary -->
+  <ModOp GUID="193234" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472701</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Venison Chef to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472001</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Venison Chef to Asset Pool: Specialists - Trade Union -->
+  <ModOp GUID="1337472700" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472001</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Venison Chef to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472001</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Earvin Flynn, the Gas Prospector to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472003</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Earvin Flynn, the Gas Prospector to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472003</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Earvin Flynn, the Gas Prospector to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472003</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Ishmael the Bycatch-Processor to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472005</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Ishmael the Bycatch-Processor to Asset Pool: Specialists - Europe and SA Goods - Epic - Harbour -->
+  <ModOp GUID="193966" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472005</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Ishmael the Bycatch-Processor to Asset Pool: Specialists - Europe and SA Goods - Epic -->
+  <ModOp GUID="192839" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472005</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Ishmael the Bycatch-Processor to Asset Pool: Specialists - Farmer Specialists - Epic -->
+  <ModOp GUID="193058" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472005</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Ishmael the Bycatch-Processor to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472005</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Anton from the mountains to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472007</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Anton from the mountains to Asset Pool: Specialists - Other Regions -->
+  <ModOp GUID="1337472700" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472007</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Anton from the mountains to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472007</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Anya the Whaling Lobbyist to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472009</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Anya the Whaling Lobbyist to Asset Pool: Specialists - Other Regions -->
+  <ModOp GUID="1337472700" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472009</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Anya the Whaling Lobbyist to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472009</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Esther Hofwegen, the animal loving cook to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472011</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Esther Hofwegen, the animal loving cook to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472011</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Esther Hofwegen, the animal loving cook to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472011</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Bjorn Hallqvist, the Experienced Ranger to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472013</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Bjorn Hallqvist, the Experienced Ranger to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472013</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Bjorn Hallqvist, the Experienced Ranger to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472013</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Knud McCrane, Member of the geographical Society to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472015</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Knud McCrane, Member of the geographical Society to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472015</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Knud McCrane, Member of the geographical Society to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472015</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Konrad Moreau, Expert for Animal Behaviour to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472017</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Konrad Moreau, Expert for Animal Behaviour to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472017</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Konrad Moreau, Expert for Animal Behaviour to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472017</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Clara Marell, Master of Woodcarvings to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472019</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Clara Marell, Master of Woodcarvings to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472019</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Clara Marell, Master of Woodcarvings to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472019</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Amanda Flores, Empress of textile production to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472021</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Amanda Flores, Empress of textile production to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472021</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Amanda Flores, Empress of textile production to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472021</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Eric Nylund, Inventor of the Pocket Lighter to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472023</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Eric Nylund, Inventor of the Pocket Lighter to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472023</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Eric Nylund, Inventor of the Pocket Lighter to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472023</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Jonah Northburg, Muncher of Mammal Meat to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472025</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Jonah Northburg, Muncher of Mammal Meat to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472025</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Jonah Northburg, Muncher of Mammal Meat to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472025</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Georg von Schallert, Commander of the Royal Airship Fleet to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472067</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Georg von Schallert, Commander of the Royal Airship Fleet to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472067</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Georg von Schallert, Commander of the Royal Airship Fleet to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472067</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Knud McCrane, Member of the geographical Society to Asset Pool: Items Technicians 2.1 -->
+  <ModOp GUID="116285" Path="/Values/AssetPool/AssetList" Type="Add">
+    <Item>
+	  <Asset>1337472079</Asset>
+	</Item>
+  </ModOp>
+  <!-- Add Knud McCrane, Member of the geographical Society to Asset Pool: Specialists - Arctic -->
+  <ModOp GUID="1337472701" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472079</ItemLink>
+	</Item>
+  </ModOp>
+  <!-- Add Knud McCrane, Member of the geographical Society to Asset Pool: Specialists - All -->
+  <ModOp GUID="1337472702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+    <Item>
+	  <ItemLink>1337472079</ItemLink>
+	</Item>
+  </ModOp>
+</ModOps>

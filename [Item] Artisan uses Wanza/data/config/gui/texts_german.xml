@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>191380</GUID>
+			<Text>Enrico Salizani, Enbesanischer Schreiner</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

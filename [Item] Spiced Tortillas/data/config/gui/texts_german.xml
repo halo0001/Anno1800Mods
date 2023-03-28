@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>125126</GUID>
+			<Text>Halarius Grong, Händler von Gewürzen</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

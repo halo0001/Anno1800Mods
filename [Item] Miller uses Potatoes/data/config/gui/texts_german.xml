@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>190629</GUID>
+			<Text>Karl Backes, Nutzer von Kartoffelstärke</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

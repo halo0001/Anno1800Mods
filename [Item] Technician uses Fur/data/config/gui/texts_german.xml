@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>116147</GUID>
+			<Text>Franjo Foss der Fellwechsler</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

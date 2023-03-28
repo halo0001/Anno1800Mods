@@ -1,0 +1,15 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>190694</GUID>
+			<Text>Werner von Strom, Schiffselektriker</Text>
+		</Text>
+  </ModOp>
+</ModOps>

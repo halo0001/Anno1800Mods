@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>191374</GUID>
+			<Text>Rinus Borges, Retter der Bouillabaisse</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

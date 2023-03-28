@@ -1,0 +1,93 @@
+<!-- Enbesan Cook uses Gulash. -->
+<ModOps>
+	<ModOp Type="replace" GUID="191385"   Path="/Values">
+                         <Values>
+                        <Standard>
+                          <GUID>191385</GUID>
+                          <Name>Enbesan Cook</Name>
+                          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_bartender_813.png</IconFilename>
+                          <InfoDescription>19198</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Enbesan Cook</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>26619</LineID>
+                        </Text>
+                        <Item>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>Legendary</Rarity>
+                          <ItemType>Specialist</ItemType>
+                          <TradePrice>575000</TradePrice>
+                        </Item>
+                        <FactoryUpgrade>
+                          <ProductivityUpgrade>
+                            <Value>40</Value>
+                            <Percental>1</Percental>
+                          </ProductivityUpgrade>
+                          <AdditionalOutput>
+                            <Item>
+                              <Product>114371</Product>
+                              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item>
+                              <Product>114359</Product>
+                              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                          </AdditionalOutput>
+                          <ReplaceInputs>
+                            <Item>
+                              <OldInput>114408</OldInput>
+                              <NewInput>1010215</NewInput>
+                            </Item>
+                          </ReplaceInputs>
+                        </FactoryUpgrade>
+                        <ItemEffect>
+                          <EffectTargets>
+                            <Item>
+                              <GUID>114471</GUID>
+                            </Item>
+                          </EffectTargets>
+                        </ItemEffect>
+                        <ItemAction />
+                        <ExpeditionAttribute>
+                          <BaseMorale>0</BaseMorale>
+                          <ExpeditionAttributes>
+                            <Item>
+                              <Attribute>PerkFemale</Attribute>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item>
+                              <Attribute>Crafting</Attribute>
+                              <Amount>45</Amount>
+                            </Item>
+                            <Item>
+                              <Attribute>Navigation</Attribute>
+                              <Amount>20</Amount>
+                            </Item>
+                            <Item />
+                            <Item />
+                          </ExpeditionAttributes>
+                          <ItemDifficulties>Average;Hard</ItemDifficulties>
+                          <FluffText>19198</FluffText>
+                        </ExpeditionAttribute>
+                        <CultureUpgrade />
+                        <BuildingUpgrade />
+                        <ModuleOwnerUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <ResidenceUpgrade />
+                        <PopulationUpgrade />
+                        <ElectricUpgrade />
+                        <ItemGeneratorUpgrade />
+                        <Locked />
+                        <Buff />
+                      </Values>
+	</ModOp>
+</ModOps>

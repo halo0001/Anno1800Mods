@@ -1,0 +1,1159 @@
+<ModOps>
+  <!-- LEGENDARY - OW & NW -->
+  <ModOp GUID="192732,193074,193079,193234,192737,193089" Type="add" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>190478</ItemLink> <!-- Hendrick Harrison, Up and down -->
+    </Item>
+    <Item>
+      <ItemLink>111032</ItemLink> <!-- Jacques Brun, Baking chocolat biscuits -->
+    </Item>
+    <Item>
+      <ItemLink>191821</ItemLink> <!-- Henry Mill, Typing 24/7 -->
+    </Item>
+    <Item>
+      <ItemLink>191800</ItemLink> <!-- Juliana Perez, Wool is the answer -->
+    </Item>
+    <Item>
+      <ItemLink>191735</ItemLink> <!-- Rua Okoro, With the tides of the sea -->
+    </Item>
+    <Item>
+      <ItemLink>191723</ItemLink> <!-- Margaret Lee, Clay and sand -->
+    </Item>
+    <Item>
+      <ItemLink>191765</ItemLink> <!-- Adamo Adomako, Pipes & Cigars -->
+    </Item>
+    <Item>
+      <ItemLink>191717</ItemLink> <!-- Elgizouli Nnamani, The keeper of the golden bees -->
+    </Item>
+    <Item>
+      <ItemLink>191741</ItemLink> <!-- Makena Aku, Bringer of light -->
+    </Item>
+    <Item>
+      <ItemLink>191750</ItemLink> <!-- Yared Aguta, Shiny no color -->
+    </Item>
+    <Item>
+      <ItemLink>191753</ItemLink> <!-- John Lemon, Sugarfree lemonade -->
+    </Item>
+    <Item>
+      <ItemLink>191693</ItemLink> <!-- Georgina Ravenscroft, Inventor of modern sand collecting -->
+    </Item>
+    <Item>
+      <ItemLink>191729</ItemLink> <!-- Gertrude von Malching, Digging for gold -->
+    </Item>
+  </ModOp>
+  <!-- START Hendrick Harrison, Up and down -->
+  <ModOp Type="replace" GUID="190478">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>190478</GUID> <!-- GUID 0 -->
+          <Name>Hendrick Harrison, Up and down</Name>
+          <IconFilename>data/graphics/icons/icon_hendrick_harrison_up_and_down.png</IconFilename>
+          <InfoDescription>1742000081</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010208</Product> <!-- Light Bulbs -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010242</OldInput> <!-- Wood veneers -->
+              <NewInput>1010241</NewInput> <!-- Glass -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>134622</GUID> <!-- Assembly line - Elevators -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000081</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Hendrick Harrison, Up and down -->
+  
+  <!-- START Jacques Brun, Baking chocolat biscuits -->
+  <ModOp Type="replace" GUID="111032">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>111032</GUID> <!-- GUID 0 -->
+          <Name>Jacques Brun, Baking chocolat biscuits</Name>
+          <IconFilename>data/graphics/icons/icon_jacques_brun_baking_chocolat_biscuits.png</IconFilename>
+          <InfoDescription>1742000083</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010258</Product> <!-- Chocolade -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>133097</OldInput> <!-- Citrus -->
+              <NewInput>1010254</NewInput> <!-- Cocoa -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>135361</GUID> <!-- Assembly line - Biscuits -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000083</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Jacques Brun, Baking chocolat biscuits -->
+  
+  <!-- START Henry Mill, Typing 24/7 1742000084-1742000085 -->
+  <ModOp Type="replace" GUID="191821">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191821</GUID> <!-- GUID 0 -->
+          <Name>Henry Mill, Typing 24/7</Name>
+          <IconFilename>data/graphics/icons/icon_henry_mill_typing_247.png</IconFilename>
+          <InfoDescription>1742000085</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010248</Product> <!-- Gramophones -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>135129</OldInput> <!-- Laquer -->
+              <NewInput>1010242</NewInput> <!-- Wood Veneers -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>135148</GUID> <!-- Assembly line - Typewriter -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplonacy</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000085</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Henry Mill, Typing 24/7 -->
+  
+  <!-- START Juliana Perez, Wool is the answer 1742000100-1742000101 -->
+  <ModOp Type="replace" GUID="191800">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191800</GUID> <!-- GUID 0 -->
+          <Name>Juliana Perez, Wool is the answer</Name>
+          <IconFilename>data/graphics/icons/icon_juliana_perez_wool_is_the_answer.png</IconFilename>
+          <InfoDescription>1742000101</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010240</Product> <!-- Cotton Fabric -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>120044</Product> <!-- Felt -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>114391</Product> <!-- Linen -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>114391</OldInput> <!-- Linen -->
+              <NewInput>1010197</NewInput> <!-- Wool -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114466</GUID> <!-- Stickerei -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000101</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Juliana Perez, Wool is the answer -->
+  
+  <!-- START Rua Okoro, With the tides of the sea 1742000106-1742000107 -->
+  <ModOp Type="replace" GUID="191735">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191735</GUID> <!-- GUID 0 -->
+          <Name>Rua Okoro, With the tides of the sea</Name>
+          <IconFilename>data/graphics/icons/icon_rua_okoro_with_the_tides_of_the_sea.png</IconFilename>
+          <InfoDescription>1742000107</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>HarborOffice</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010228</Product> <!-- Quartz Sand -->
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010256</Product> <!-- Pearls -->
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114440</GUID> <!-- Salt Works -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diver</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000107</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Rua Okoro, With the tides of the sea -->
+  
+  <!-- START Margaret Lee, Clay and sand 1742000114-1742000115 -->
+  <ModOp Type="replace" GUID="191723">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191723</GUID> <!-- GUID 0 -->
+          <Name>Margaret Lee, Clay and sand</Name>
+          <IconFilename>data/graphics/icons/icon_margaret_lee_clay_and_sand.png</IconFilename>
+          <InfoDescription>1742000115</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010205</Product> <!-- Bricks -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010218</Product> <!-- Steel Beams -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010202</Product> <!-- Reinforced Concrete -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010201</OldInput> <!-- Clay -->
+              <NewInput>1010231</NewInput> <!-- Cement -->
+            </Item>
+            <Item>
+              <OldInput>114367</OldInput> <!-- Tef -->
+              <NewInput>1010192</NewInput> <!-- Grain -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114467</GUID> <!-- Brick Dry-house -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000115</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Margaret Lee, Clay and sand -->
+  
+  <!-- START Adamo Adomako, Pipes & Cigars 1742000120-1742000121 -->
+  <ModOp Type="replace" GUID="191765">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191765</GUID> <!-- GUID 0 -->
+          <Name>Adamo Adomako, Pipes and Cigars</Name>
+          <IconFilename>data/graphics/icons/icon_adamo_adomako_pipes_cigars.png</IconFilename>
+          <InfoDescription>1742000121</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010259</Product> <!-- Cigars -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>135233</Product> <!-- Violins -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>135232</Product> <!-- Billiard Tables -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010201</OldInput> <!-- Clay -->
+              <NewInput>135087</NewInput> <!-- Cherry Wood -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114472</GUID> <!-- Pipe Maker -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000121</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Adamo Adomako, Pipes & Cigars -->
+  
+  <!-- START Elgizouli Nnamani, The keeper of the golden bees 1742000122-1742000123 -->
+  <ModOp Type="replace" GUID="191717">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191717</GUID> <!-- GUID 0 -->
+          <Name>Elgizouli Nnamani, The keeper of the golden bees</Name>
+          <IconFilename>data/graphics/icons/icon_elgizouli_nnamani_the_keeper_of_the_golden_bees.png</IconFilename>
+          <InfoDescription>1742000123</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Locked>
+          <DLCDependency>410071</DLCDependency>
+        </Locked>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010239</Product> <!-- Sugar -->
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>114364</Product> <!-- Hibiscus Petals -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114453</GUID> <!-- Apiary -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>60</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkZoologist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000123</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <ModuleOwnerUpgrade>
+          <ModuleLimitPercent>-20</ModuleLimitPercent>
+        </ModuleOwnerUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Elgizouli Nnamani, The keeper of the golden bees  -->
+  
+  <!-- START Makena Aku, Bringer of light 1742000126-1742000127 -->
+  <ModOp Type="replace" GUID="191741">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191741</GUID> <!-- GUID 0 -->
+          <Name>Makena Aku, Bringer of light</Name>
+          <IconFilename>data/graphics/icons/icon_makena_aku_bringer_of_light.png</IconFilename>
+          <InfoDescription>1742000127</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010246</Product> <!-- Pocket Watches -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>117698</Product> <!-- Illuminated Script -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010250</Product> <!-- Jewellery -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>114368</OldInput> <!-- Indigo -->
+              <NewInput>1010249</NewInput> <!-- Gold -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114469</GUID> <!-- Tapestry Looms -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000127</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Makena Aku, Bringer of light -->
+  
+  <!-- START Yared Aguta, Shiny no color 1742000132-1742000133 -->
+  <ModOp Type="replace" GUID="191750">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191750</GUID> <!-- GUID 0 -->
+          <Name>Yared Aguta, Shiny no color</Name>
+          <IconFilename>data/graphics/icons/icon_yared_aguta_shiny_no_color.png</IconFilename>
+          <InfoDescription>1742000133</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010245</Product> <!-- Penny Farthings -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>135230</Product> <!-- Typewriter -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>135231</Product> <!-- Toys -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>114368</OldInput> <!-- Indigo Dye -->
+              <NewInput>135129</NewInput> <!-- Lacquer -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>118725</GUID> <!-- Ceramics Workshop -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000133</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Yared Aguta, Shiny no color -->
+  
+  <!-- START John Lemon, Sugarfree lemonade 1742000146-1742000147 -->
+  <ModOp Type="replace" GUID="191753">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191753</GUID> <!-- GUID 0 -->
+          <Name>John Lemon, Sugarfree lemonade</Name>
+          <IconFilename>data/graphics/icons/icon_john_lemon_sugarfree_lemonade.png</IconFilename>
+          <InfoDescription>1742000147</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>114390</Product> <!-- Hibiscus Tea -->
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010239</OldInput> <!-- Sugar -->
+              <NewInput>114364</NewInput> <!-- Hibiscus Petals -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>132777</GUID> <!-- Chemical Plant - Lemonade -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>70</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000147</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-30</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <IncidentInfectableUpgrade>
+          <IncidentFireIncreaseUpgrade>
+            <Value>-5</Value>
+          </IncidentFireIncreaseUpgrade>
+          <IncidentExplosionIncreaseUpgrade>
+            <Value>-5</Value>
+          </IncidentExplosionIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END John Lemon, Sugarfree lemonade -->
+  
+  <!-- START Georgina Ravenscroft, Inventor of modern sand collecting 1742000170-1742000171 -->
+  <ModOp Type="replace" GUID="191693">
+    <Asset>
+      <Template>HarborOfficeItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191693</GUID> <!-- GUID 0 -->
+          <Name>Georgina Ravenscroft, Inventor of modern sand collecting</Name>
+          <IconFilename>data/graphics/icons/icon_georgina_ravenscroft_inventor_of_modern_sand_collecting.png</IconFilename>
+          <InfoDescription>1742000171</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>HarborOffice</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112699</Product> <!-- Whale Oil -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>120042</Product> <!-- Fish Oil -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010228</Product> <!-- Quartz Sand -->
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>191593</GUID> <!-- All Saltpetre Works	-->
+            </Item>
+            <Item>
+              <GUID>1010560</GUID> <!-- Sand Mine	-->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>Hunting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkDiver</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000171</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Georgina Ravenscroft, Inventor of modern sand collecting -->
+  
+  <!-- START Gertrude von Malching, Digging for gold -->
+  <ModOp Type="replace" GUID="191729">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>191729</GUID> <!-- GUID 0 -->
+          <Name>Gertrude von Malching, Digging for gold</Name>
+          <IconFilename>data/graphics/icons/icon_gertrude_von_malching_digging_for_gold.png</IconFilename>
+          <InfoDescription>1742000097</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <IndustrializableUpgrade>
+          <ProvideIndustrialization>1</ProvideIndustrialization>
+        </IndustrializableUpgrade>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>300</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010227</Product> <!-- Iron -->
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>101311</GUID> <!-- Gold Mine -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkArcheologist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000097</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>+150</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Gertrude von Malching, Digging for gold -->
+</ModOps>

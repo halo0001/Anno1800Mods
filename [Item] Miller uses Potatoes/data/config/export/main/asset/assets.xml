@@ -1,0 +1,95 @@
+<!-- Kartoffelbaker. -->
+<ModOps>
+	<ModOp Type="replace" GUID="190629"   Path="/Values">
+                         <Values>
+                        <Standard>
+                          <GUID>190629</GUID>
+                          <Name>Konditor</Name>
+                          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_baker_202_b.png</IconFilename>
+                          <InfoDescription>12525</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Kartoffelbaker</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>26501</LineID>
+                        </Text>
+                        <Item>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>Legendary</Rarity>
+                          <ItemType>Specialist</ItemType>
+                          <TradePrice>113000</TradePrice>
+                        </Item>
+                        <FactoryUpgrade>
+                          <ProductivityUpgrade>
+                            <Value>50</Value>
+                            <Percental>1</Percental>
+                          </ProductivityUpgrade>
+                          <AdditionalOutput>
+                            <Item>
+                              <Product>1010216</Product>
+                              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item>
+                              <Product>1010239</Product>
+                              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item>
+                              <Product>1010214</Product>
+                              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                          </AdditionalOutput>
+                          <ReplaceInputs>
+                            <Item>
+                              <OldInput>1010192</OldInput>
+                              <NewInput>1010195</NewInput>
+                            </Item>
+                          </ReplaceInputs>
+                        </FactoryUpgrade>
+                        <ItemEffect>
+                          <EffectTargets>
+                            <Item>
+                              <GUID>1010313</GUID>
+                            </Item>
+                          </EffectTargets>
+                        </ItemEffect>
+                        <ItemAction />
+                        <ExpeditionAttribute>
+                          <BaseMorale>0</BaseMorale>
+                          <ExpeditionAttributes>
+                            <Item>
+                              <Attribute>PerkMale</Attribute>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item>
+                              <Attribute>Crafting</Attribute>
+                              <Amount>25</Amount>
+                            </Item>
+                            <Item />
+                            <Item />
+                            <Item />
+                          </ExpeditionAttributes>
+                          <ItemDifficulties>Average</ItemDifficulties>
+                          <FluffText>12525</FluffText>
+                        </ExpeditionAttribute>
+                        <CultureUpgrade />
+                        <BuildingUpgrade />
+                        <ModuleOwnerUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <ResidenceUpgrade />
+                        <PopulationUpgrade />
+                        <ElectricUpgrade />
+                        <ItemGeneratorUpgrade />
+                        <Locked />
+                        <Buff />
+                      </Values>
+	</ModOp>
+</ModOps>

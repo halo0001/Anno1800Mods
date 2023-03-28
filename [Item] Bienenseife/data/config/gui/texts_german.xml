@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>190754</GUID>
+			<Text>Salazar Sarini, Seifenimporter</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

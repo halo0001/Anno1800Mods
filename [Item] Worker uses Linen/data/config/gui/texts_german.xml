@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>191337</GUID>
+			<Text>Louise Leterrier, die Leinenlose</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

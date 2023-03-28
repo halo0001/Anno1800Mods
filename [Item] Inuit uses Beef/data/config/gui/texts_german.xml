@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>116130</GUID>
+			<Text>Anarun, findige Pemmikano</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

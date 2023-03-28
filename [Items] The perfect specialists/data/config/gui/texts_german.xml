@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<ModOps>
+  <!-- START Hendrick Harrison, Up and down  -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>190478</GUID>
+      <Text>Hendrick Harrison, angehender Aufzuginspekteur</Text>
+    </Text>
+    <Text>
+      <GUID>1742000081</GUID>
+      <Text>Aufzüge machen das Leben der Menschen so viel einfacher. Hendrick war einer der ersten, die einen Aufzug benutzten, und er war tief beeindruckt. Seiner Meinung nach sollte ein Aufzug jedoch einen Blick nach draußen ermöglichen. Deshalb zieht er es vor, Glas statt Holzfurniere zu verwenden.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Hendrick Harrison, Up and down  -->
+  <!-- START Jacques Brun, Baking chocolat biscuits  -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>111032</GUID>
+      <Text>Jacques Brun, kalkulierender Keks-Connaisseur</Text>
+    </Text>
+    <Text>
+      <GUID>1742000083</GUID>
+      <Text>Jacques ist der große Rivale von Marie-Antoine. Die beiden lieben es zu backen und fordern sich gegenseitig bei Backwettbewerben heraus. Das letzte Mal, als sie an einem Wettbewerb teilnahmen, zerstörten sie durch ein Handgemenge fast das Lebenswerk des anderen. Die Jury musste schlichtend eingreifen und sie deshalb beide disqualifizieren.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Jacques Brun, Baking chocolat biscuits  -->
+  <!-- START Henry Mill, Typing 24/7  -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191821</GUID>
+      <Text>Henry Mill, Schreibmaschinen-Spezialist</Text>
+    </Text>
+    <Text>
+      <GUID>1742000085</GUID>
+      <Text>Henry war einer der Ersten, der darüber nachdachte, Buchstaben in einer Reihenfolge auf Papier zu drucken. Das Ergebnis dieses Prozesses war die Schreibmaschine; eine Maschine, die Text in geraden Linien und vor allem leserlich zu Papier bringt.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Henry Mill, Typing 24/7  -->
+  <!-- START Juliana Perez, Wool is the answer  -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191800</GUID>
+      <Text>Juliana Perez, Wolle soweit das Auge reicht</Text>
+    </Text>
+    <Text>
+      <GUID>1742000101</GUID>
+      <Text>Juliana hat ihr Herz in Enbesa verloren. Sie reiste aus der Neuen Welt dorthin und verliebte sich nicht nur in den schönen Kontinent, sondern auch in eine Frau, Hibo Ameziane. Gemeinsam gründeten sie ein Bekleidungsgeschäft. Juliana kümmert sich um die Rohstoffe, und ihre Partnerin Hibo Ameziane verarbeitet diese zu schöner luftiger Kleidung. Sie hat ein paar nette Tricks auf Lager, um die zur Verfügung stehenden Rohmaterialien zu neuen Waren zu verarbeiten.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Juliana Perez, Wool is the answer  -->
+  <!-- START Rua Okoro, With the tides of the sea  -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191735</GUID>
+      <Text>Rua Okoro, die Tide ist ihr Freund</Text>
+    </Text>
+    <Text>
+      <GUID>1742000107</GUID>
+      <Text>Schwester von Aissa und Jumoke, die beide in die Arktis gezogen sind. Sie konzentriert sich darauf, in den Salinen dank des Tiedenhubs verschiedene andere Waren aus dem weiten enbesianischen Meer zu fischen.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Rua Okoro, With the tides of the sea  -->
+  <!-- START Margaret Lee, Clay and sand  -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191723</GUID>
+      <Text>Margaret Lee, Lehm oder Sand? Hauptsache Dreck!</Text>
+    </Text>
+    <Text>
+      <GUID>1742000115</GUID>
+      <Text>Als Kind spielte Margaret immer in den Tongruben. Ihre Eltern waren sehr arm und arbeiteten hart, um ihren Lebensunterhalt zu verdienen und Margaret eine bessere Zukunft zu ermöglichen. Als Margaret älter wurde, konnte sie trotz ihrer Geschicklichkeit im Umgang mit Lehm keine gute Arbeitserfahrung sammeln. Die einzige Arbeit, die sie finden konnte, war in der Ziegelfabrik. Sie macht das Beste daraus und stellt in ihrer Freizeit manchmal Keramiken her, um ihre Leidenschaft für Ton zu zeigen.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Margaret Lee, Clay and sand -->
+  <!-- START Adamo Adomako, Pipes & Cigars -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191765</GUID>
+      <Text>Adamo Adomako, Tabakwaren-Entrepreneur</Text>
+    </Text>
+    <Text>
+      <GUID>1742000121</GUID>
+      <Text>Zusammen mit seinem Bruder Kofi war Adamo immer auf den Tabakfeldern anzutreffen, um die beste Qualität für ihre Tonpfeifen zu erhalten. Auf ihren Reisen in die Neue Welt lernten sie die Zigarre kennen. Während sein Bruder beschloss, in der Neuen Welt zu bleiben, kehrte Adamo mit dem neuen Wissen über Zigarren nach Enbesa zurück.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Adamo Adomako, Pipes & Cigars -->
+  <!-- START Elgizouli Nnamani, The keeper of the golden bees -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191717</GUID>
+      <Text>Elgizouli Nnamani, Freund der Bienen</Text>
+    </Text>
+    <Text>
+      <GUID>1742000123</GUID>
+      <Text>Menschen sind nicht die besten Freunde von Elgizouli, er bevorzugt die Gesellschaft seiner Bienen. Er ist auch ein großer Liebhaber von Blumen, was die perfekte Kombination für seine Bienen ist.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Elgizouli Nnamani, The keeper of the golden bees -->
+  <!-- START Makena Aku, Bringer of gold -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191741</GUID>
+      <Text>Makena Aku, Gold ist ihr Geschäft</Text>
+    </Text>
+    <Text>
+      <GUID>1742000127</GUID>
+      <Text>Makena hatte schon immer ein Fable für Wanzaholz. Sie perfektionierte die Kunst, Laternen aus Wanzaholz zu schnitzen. Dieses Holz ist so stark, dass es die Hitze der Kerzen darin aushält. Die idealen Kerzen für ihr Vorhaben bekommt sie von ihrem Bruder Kwame geliefert.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Makena Aku, Bringer of light -->
+  <!-- START Yared Aguta, Shiny no color -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191750</GUID>
+      <Text>Yared Aguta, glänzt ganz ohne Farbe!</Text>
+    </Text>
+    <Text>
+      <GUID>1742000133</GUID>
+      <Text>Yareds Ziel ist es, dass seine Keramiken einen höheren Wert auf dem Basar erzielen. Indem er sie mit Perlen verziert anstatt sie zu färben, schuf er eine neue Art von Keramik, die sofort bei einer Vielzahl seiner Kunden sehr gefragt war. Gleichzeitig stellt er auch Schmuck aus Keramik her.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Yared Aguta, Shiny no color -->
+  <!-- START John Lemon, Sugarfree lemonade -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191753</GUID>
+      <Text>John Lemon, Zuckerfreie Limonade</Text>
+    </Text>
+    <Text>
+      <GUID>1742000147</GUID>
+      <Text>John mag keinen Zucker, er ist ein Übel für unsere Gesundheit. Er füllt Limonade ohne jeglichen Zuckerzusatz ab und ersetzt ihn durch Hibiskusblüten als zusätzlichen Geschmack.</Text>
+    </Text>
+  </ModOp>
+  <!-- END John Lemon, Sugarfree lemonade -->
+  <!-- START Georgina Ravenscroft, Inventor of modern sand collecting -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191693</GUID>
+      <Text>Georgina Ravenscroft, Erfinderin der modernen Sandgewinnung</Text>
+    </Text>
+    <Text>
+      <GUID>1742000171</GUID>
+      <Text>Das Glasmachergeschäft war schon immer Teil des Ravenscroft-Imperiums, aber es war Georgina, die den Prozess der Sandsammlung und -gewinnung erheblich automatisierte und verkürzte.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Georgina Ravenscroft, Inventor of modern sand collecting -->
+  <!-- START Gertrude von Malching, Digging for gold  -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>191729</GUID>
+      <Text>Gertrude von Malching, gierige Goldgräberin</Text>
+    </Text>
+    <Text>
+      <GUID>1742000097</GUID>
+      <Text>Der Bergbau ist eine Familientradition. Wie ihre Brüder Jörg und Fritz ist Gertrude immer auf der Suche nach Möglichkeiten, das Bergbaugeschäft zu optimieren. Sie beschloss, sich auf den Goldabbau in der Neuen Welt zu konzentrieren, weil die Extraktionsgeschwindigkeit für Golderz hier viel zu lang ist. Sie nutzt moderne Methoden, um die Produktion auf ein erstaunliches Niveau zu heben. Die Zahl 6 ist ihre Glückszahl.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Gertrude von Malching, Digging for gold  -->
+</ModOps>

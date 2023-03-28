@@ -1,0 +1,131 @@
+<!-- Little Hacienda Rework -->
+<ModOps>
+	<!-- Specialised Lumberjack Training works on All New World Orchards -->
+	<ModOp Type="replace" GUID="25734"   Path="/Values/ItemEffect">
+		  <ItemEffect>
+			<EffectTargets>
+			  <Item>
+				<GUID>25736</GUID>
+			  </Item>
+			  <Item>
+				<GUID>194013</GUID>
+			  </Item>
+			</EffectTargets>
+		  </ItemEffect>
+	</ModOp>
+	<!-- More Jornaleros in Hacienda -->
+	<ModOp Type="replace" GUID="24792" Path="/Values/Culture">
+        <Culture>
+            <Attractiveness>2</Attractiveness>
+        </Culture>
+    </ModOp>
+	<ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25506</Product>
+            <AdditionalSupply>4</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>1010216</Product>
+            <AdditionalSupply>3</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>120033</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>120043</Product>
+            <AdditionalSupply>1</AdditionalSupply>
+        </Item>
+    </ModOp>
+	<!-- More Obreros in Hacienda -->
+    <ModOp Type="replace" GUID="24793" Path="/Values/Culture">
+        <Culture>
+            <Attractiveness>3</Attractiveness>
+        </Culture>
+    </ModOp>
+    <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25506</Product>
+            <AdditionalSupply>6</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25131</Product>
+            <AdditionalSupply>8</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>120033</Product>
+            <AdditionalSupply>3</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>120043</Product>
+            <AdditionalSupply>3</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <!-- More Artistas in Hacienda -->
+    <ModOp Type="replace" GUID="6086" Path="/Values/Culture">
+        <Culture>
+            <Attractiveness>5</Attractiveness>
+        </Culture>
+    </ModOp>
+	<!-- Storage modules become warehouse -->
+	<ModOp Type="replace" GUID="24775" Path="/Template">
+        <Template>Warehouse</Template>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24775" Path="/Values/Standard/InfoDescription">
+        <InfoDescription>1999002028</InfoDescription>
+    </ModOp>
+
+    <ModOp Type="add" GUID="24775" Path="/Values/Building">
+        <BuildingType>Logistic</BuildingType>
+        <BuildingCategoryName>11151</BuildingCategoryName>
+        <AllowChangeDirection>1</AllowChangeDirection>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24775" Path="/Values/LogisticNode">
+        <LogisticNode>
+            <TransporterCountMax>0</TransporterCountMax>
+            <QueueConfiguration>
+                <ProcessingQueueParallelCount>3</ProcessingQueueParallelCount>
+            </QueueConfiguration>
+        </LogisticNode>
+    </ModOp>
+
+    <ModOp Type="add" GUID="24775" Path="/Values/Selection">
+        <GUIType>Warehouse</GUIType>
+        <ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24775" Path="/Values/Warehouse/WarehouseStorage">
+        <WarehouseStorage>
+            <StorageMax>100</StorageMax>
+        </WarehouseStorage>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24775" Path="/Values/Maintenance/Maintenances">
+        <Maintenances>
+            <Item>
+                <Product>1010017</Product>
+                <Amount>250</Amount>
+                <InactiveAmount>125</InactiveAmount>
+            </Item>
+            <Item>
+                <Product>1010367</Product>
+                <Amount>50</Amount>
+                <InactiveAmount>25</InactiveAmount>
+            </Item>
+        </Maintenances>
+	</ModOp>
+</ModOps>

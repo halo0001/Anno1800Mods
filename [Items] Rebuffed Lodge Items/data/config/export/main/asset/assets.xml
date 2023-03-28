@@ -1,0 +1,78 @@
+<ModOps>
+<!-- ############## Arctic Lodge Items ################-->
+	<!-- Arnarun Seemless -->
+    <ModOp Type="replace" GUID="116133" Path="/Values/ResidenceUpgrade">
+		<ResidenceUpgrade>
+			<GoodConsumptionUpgrade>
+				<Item>
+					<ProvidedNeed>112701</ProvidedNeed>
+					<AmountInPercent>-100</AmountInPercent>
+				</Item>
+			</GoodConsumptionUpgrade>
+		</ResidenceUpgrade>
+	</ModOp>
+	<!-- Thermo Jacket -->
+    <ModOp Type="replace" GUID="116166" Path="/Values/ResidenceUpgrade">
+		<ResidenceUpgrade>
+			<GoodConsumptionUpgrade>
+				<Item>
+					<ProvidedNeed>112700</ProvidedNeed>
+					<AmountInPercent>-100</AmountInPercent>
+				</Item>
+			</GoodConsumptionUpgrade>
+		</ResidenceUpgrade>
+	</ModOp>
+	<!-- Freiluftgrill -->
+    <ModOp Type="replace" GUID="116161" Path="/Values/ResidenceUpgrade">
+		<ResidenceUpgrade>
+			<GoodConsumptionUpgrade>
+				<Item>
+					<ProvidedNeed>112705</ProvidedNeed>
+					<AmountInPercent>-100</AmountInPercent>
+				</Item>
+			</GoodConsumptionUpgrade>
+		</ResidenceUpgrade>
+	</ModOp>
+	<!-- Freiluftkoch -->
+    <ModOp Type="replace" GUID="116151" Path="/Values/ResidenceUpgrade">
+		<ResidenceUpgrade>
+			<GoodConsumptionUpgrade>
+				<Item>
+					<ProvidedNeed>112705</ProvidedNeed>
+					<AmountInPercent>-100</AmountInPercent>
+				</Item>
+			</GoodConsumptionUpgrade>
+		</ResidenceUpgrade>
+	</ModOp>
+	<!-- Wasserkessel -->
+    <ModOp Type="replace" GUID="116169" Path="/Values/ResidenceUpgrade">
+		<ResidenceUpgrade>
+			<GoodConsumptionUpgrade>
+				<Item>
+					<ProvidedNeed>120032</ProvidedNeed>
+					<AmountInPercent>-100</AmountInPercent>
+				</Item>
+			</GoodConsumptionUpgrade>
+		</ResidenceUpgrade>
+	</ModOp>
+	<!-- Gritty Gas Extractor LEGENDARY -->
+	<ModOp Type="merge" GUID='116167' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>50</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>112706</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>1010226</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+</ModOps>

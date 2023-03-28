@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>190725</GUID>
+			<Text>Kassandra, Köderstellerin</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

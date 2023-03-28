@@ -1,0 +1,16 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>190640</GUID>
+			<Text>Darius Diederich, Dosenverzinker</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>
