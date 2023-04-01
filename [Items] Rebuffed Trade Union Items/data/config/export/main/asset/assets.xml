@@ -172,13 +172,13 @@
 			<AdditionalOutput>
 				<Item>
 					<Product>5400</Product> <!-- Pigments -->
-					<AdditionalOutputCycle>4</AdditionalOutputCycle>
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
 			</AdditionalOutput>
 			<ReplaceInputs>
 				<Item>
-					<OldInput>838</OldInput>  <!-- Aluminium Profiles -->
+					<OldInput>120008</OldInput>  <!-- Wood -->
 					<NewInput>5398</NewInput> <!-- Minerals -->
 				</Item>
 			</ReplaceInputs>
