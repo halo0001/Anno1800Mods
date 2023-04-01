@@ -38,9 +38,6 @@
   <!-- LEGENDARY - MACHINES SHIP -->
   <ModOp GUID="192702,193034,113175,113178,116341" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
-      <ItemLink>1742000190</ItemLink> <!-- Auto-Controllable-Pitch Propeller 1742000190-1742000191 -->
-    </Item>
-    <Item>
       <ItemLink>1742000204</ItemLink> <!-- Pirate Captain's Black Sail 1742000204-1742000205 -->
     </Item>
   </ModOp>
@@ -296,6 +293,9 @@
     </Item>
     <Item>
       <ItemLink>1742000186</ItemLink> <!-- Brahmia 1742000186-1742000187 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000190</ItemLink> <!-- Rinus Borges 1742000190-1742000191 -->
     </Item>
   </ModOp>
 
@@ -813,7 +813,7 @@
                         <Asset>1742000188</Asset> <!-- Franka Franja 1742000188-1742000189 -->
                       </Item>
                       <Item>
-                        <Asset>1742000190</Asset> <!-- Auto-Controllable-Pitch Propeller 1742000190-1742000191 -->
+                        <Asset>1742000190</Asset> <!-- Rinus Borges 1742000190-1742000191 -->
                       </Item>
                       <Item>
                         <Asset>1742000195</Asset> <!-- Doctor Edward Davy, A Healthy Lifestyle 1742000195-1742000196 -->
@@ -1213,7 +1213,7 @@
                         <Asset>1742000188</Asset> <!-- Franka Franja 1742000188-1742000189 -->
                       </Item>
                       <Item>
-                        <Asset>1742000190</Asset> <!-- Auto-Controllable-Pitch Propeller 1742000190-1742000191 -->
+                        <Asset>1742000190</Asset> <!-- Rinus Borges 1742000190-1742000191 -->
                       </Item>
                       <Item>
                         <Asset>1742000195</Asset> <!-- Doctor Edward Davy, A Healthy Lifestyle 1742000195-1742000196 -->
@@ -9490,7 +9490,7 @@
       <Values>
         <Standard>
           <GUID>1742000190</GUID> <!-- GUID 0 -->
-          <Name>Brahmia</Name>
+          <Name>Rinus Borges</Name>
 		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_416.png</IconFilename>
           <InfoDescription>1742000191</InfoDescription> <!-- GUID 1 -->
         </Standard>
