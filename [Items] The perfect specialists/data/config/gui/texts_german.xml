@@ -1116,18 +1116,18 @@
     </Text>
   </ModOp>
   <!-- END Brahmia -->
-  <!-- START Sea Mine Of Death -->
+  <!-- START Franka Franja -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000188</GUID>
-      <Text>Seemine des Todes</Text>
+      <Text>Franka Franja, Fischkonserven- Macherin</Text>
     </Text>
     <Text>
       <GUID>1742000189</GUID>
-      <Text>Legen Sie diese legendären Minen unter der Oberfläche aus und niemand wird sie passieren.</Text>
+      <Text>Fische in Konservendosen sind weltweit bekannt.</Text>
     </Text>
   </ModOp>
-  <!-- END Sea Mine Of Death -->
+  <!-- END Franka Franja -->
   <!-- START Auto-Controllable-Pitch Propeller -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
