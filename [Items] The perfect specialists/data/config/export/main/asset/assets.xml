@@ -26,9 +26,6 @@
   <ModOp GUID="192641" Type="add" Path="/Values/RewardPool">
     <ItemsPool>
       <Item>
-        <ItemLink>1742000186</ItemLink> <!-- Ultra Rapid Canister shot 1742000186-1742000187 + 1742000193 -->
-      </Item>
-      <Item>
         <ItemLink>1742000188</ItemLink> <!-- Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
       </Item>
     </ItemsPool>
@@ -40,7 +37,7 @@
       <ItemLink>1742000184</ItemLink> <!-- Daynamo Kyrallo 1742000184-1742000185 -->
     </Item>
     <Item>
-      <ItemLink>1742000186</ItemLink> <!-- Ultra Rapid Canister shot 1742000186-1742000187 + 1742000193 -->
+      <ItemLink>1742000186</ItemLink> <!-- Brahmia 1742000186-1742000187 -->
     </Item>
     <Item>
       <ItemLink>1742000188</ItemLink> <!-- Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
@@ -305,6 +302,9 @@
     </Item>
     <Item>
       <ItemLink>1742000178</ItemLink> <!-- Salazar Sarini 1742000178-1742000179 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000186</ItemLink> <!-- Brahmia 1742000186-1742000187 -->
     </Item>
   </ModOp>
 
@@ -813,7 +813,7 @@
                         <Asset>1742000184</Asset> <!-- Daynamo Kyrallo 1742000184-1742000185 -->
                       </Item>
                       <Item>
-                        <Asset>1742000186</Asset> <!-- Ultra Rapid Canister shot 1742000186-1742000187 + 1742000193 -->
+                        <Asset>1742000186</Asset> <!-- Brahmia 1742000186-1742000187 -->
                       </Item>
                       <Item>
                         <Asset>1742000188</Asset> <!-- Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
@@ -1213,7 +1213,7 @@
                         <Asset>1742000184</Asset> <!-- Daynamo Kyrallo 1742000184-1742000185 -->
                       </Item>
                       <Item>
-                        <Asset>1742000186</Asset> <!-- Ultra Rapid Canister shot 1742000186-1742000187 + 1742000193 -->
+                        <Asset>1742000186</Asset> <!-- Brahmia 1742000186-1742000187 -->
                       </Item>
                       <Item>
                         <Asset>1742000188</Asset> <!-- Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
