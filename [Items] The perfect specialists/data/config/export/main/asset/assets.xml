@@ -22,15 +22,6 @@
 
 <ModOps>
 
-  <!-- LEGENDARY - CONSUMABLES SHIP (NO POOL YET) -->
-  <ModOp GUID="192641" Type="add" Path="/Values/RewardPool">
-    <ItemsPool>
-      <Item>
-        <ItemLink>1742000188</ItemLink> <!-- Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
-      </Item>
-    </ItemsPool>
-  </ModOp>
-
   <!-- LEGENDARY - CONSUMABLES SHIP -->
   <ModOp GUID="113175,113178" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
@@ -40,7 +31,7 @@
       <ItemLink>1742000186</ItemLink> <!-- Brahmia 1742000186-1742000187 -->
     </Item>
     <Item>
-      <ItemLink>1742000188</ItemLink> <!-- Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
+      <ItemLink>1742000188</ItemLink> <!-- Franka Franja 1742000188-1742000189 -->
     </Item>
   </ModOp>
 
@@ -502,6 +493,9 @@
     <Item>
       <ItemLink>1742000184</ItemLink> <!-- Daynamo Kyrallo 1742000184-1742000185 -->
     </Item>
+    <Item>
+      <ItemLink>1742000188</ItemLink> <!-- Franka Franja 1742000188-1742000189 -->
+    </Item>
   </ModOp>
 
   <!-- LEGENDARY AI Droppool Items -->
@@ -816,7 +810,7 @@
                         <Asset>1742000186</Asset> <!-- Brahmia 1742000186-1742000187 -->
                       </Item>
                       <Item>
-                        <Asset>1742000188</Asset> <!-- Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
+                        <Asset>1742000188</Asset> <!-- Franka Franja 1742000188-1742000189 -->
                       </Item>
                       <Item>
                         <Asset>1742000190</Asset> <!-- Auto-Controllable-Pitch Propeller 1742000190-1742000191 -->
@@ -1216,7 +1210,7 @@
                         <Asset>1742000186</Asset> <!-- Brahmia 1742000186-1742000187 -->
                       </Item>
                       <Item>
-                        <Asset>1742000188</Asset> <!-- Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
+                        <Asset>1742000188</Asset> <!-- Franka Franja 1742000188-1742000189 -->
                       </Item>
                       <Item>
                         <Asset>1742000190</Asset> <!-- Auto-Controllable-Pitch Propeller 1742000190-1742000191 -->
