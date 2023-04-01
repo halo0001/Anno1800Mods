@@ -125,13 +125,6 @@
     </Item>
   </ModOp>
 
-  <!-- LEGENDARY - TOURIST - Public Buildings & City Institutions -->
-  <ModOp GUID="136950,137158,136925" Type="add" Path="/Values/RewardPool/ItemsPool">
-    <Item>
-      <ItemLink>1742000130</ItemLink> <!-- Maya The Cat, Purring to happiness 1742000130-1742000131 -->
-    </Item>
-  </ModOp>
-
   <!-- LEGENDARY - SCHOLAR - Public Buildings & City Institutions -->
   <ModOp GUID="127835,127470,130314" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
@@ -318,6 +311,9 @@
     </Item>
     <Item>
       <ItemLink>1742000132</ItemLink> <!-- Yared Aguta, Shiny no color 1742000132-1742000133 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000130</ItemLink> <!-- Enrico Salizani 1742000130-1742000131 -->
     </Item>
   </ModOp>
 
@@ -733,7 +729,7 @@
                         <Asset>1742000128</Asset> <!-- Catherina Hendrika, The first journalist 1742000128-1742000129 -->
                       </Item>
                       <Item>
-                        <Asset>1742000130</Asset> <!-- Maya The Cat, Purring to happiness 1742000130-1742000131 -->
+                        <Asset>1742000130</Asset> <!-- Enrico Salizani 1742000130-1742000131 -->
                       </Item>
                       <Item>
                         <Asset>1742000132</Asset> <!-- Yared Aguta, Shiny no color 1742000132-1742000133 -->
@@ -1133,7 +1129,7 @@
                         <Asset>1742000128</Asset> <!-- Catherina Hendrika, The first journalist 1742000128-1742000129 -->
                       </Item>
                       <Item>
-                        <Asset>1742000130</Asset> <!-- Maya The Cat, Purring to happiness 1742000130-1742000131 -->
+                        <Asset>1742000130</Asset> <!-- Enrico Salizani 1742000130-1742000131 -->
                       </Item>
                       <Item>
                         <Asset>1742000132</Asset> <!-- Yared Aguta, Shiny no color 1742000132-1742000133 -->
@@ -6801,32 +6797,32 @@
 			</ProductivityUpgrade>
 			<AdditionalOutput>
 			<Item>
-				<Product>114414</Product>
+				<Product>114414</Product> <!-- Clay Pipes -->
 				<AdditionalOutputCycle>4</AdditionalOutputCycle>
 				<Amount>1</Amount>
 			</Item>
 			<Item>
-				<Product>114430</Product>
+				<Product>114430</Product> <!-- Tailored Suits -->
 				<AdditionalOutputCycle>6</AdditionalOutputCycle>
 				<Amount>1</Amount>
 			</Item>
 			<Item>
-				<Product>114428</Product>
+				<Product>114428</Product> <!-- Leather Boots -->
 				<AdditionalOutputCycle>8</AdditionalOutputCycle>
 				<Amount>1</Amount>
 			</Item>
 			</AdditionalOutput>
 			<ReplaceInputs>
 			<Item>
-				<OldInput>1010242</OldInput>
-				<NewInput>114356</NewInput>
+				<OldInput>1010242</OldInput> <!-- Wood Veneers -->
+				<NewInput>114356</NewInput> <!-- Wanza Timber -->
 			</Item>
 			</ReplaceInputs>
 		</FactoryUpgrade>
 		<ItemEffect>
 			<EffectTargets>
 			<Item>
-				<GUID>118735</GUID>
+				<GUID>118735</GUID> <!-- Telephone Manufacturer -->
 			</Item>
 			</EffectTargets>
 		</ItemEffect>
