@@ -1,0 +1,71 @@
+{
+    "layers": {
+        "14e98c179c403f76471e82113ca566e7.baeb4bf19060f19514e2976bb9ecf656": {
+            "input_hash": "14e98c179c403f76471e82113ca566e7",
+            "layer_file": "30375b3032c602ea1256a58d93478c91",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Rebuffed Harbour Office Items\\data\\config\\export\\main\\asset\\assets.xml",
+            "output_hash": "30375b3032c602ea1256a58d93478c91",
+            "patch_hash": "baeb4bf19060f19514e2976bb9ecf656"
+        },
+        "30375b3032c602ea1256a58d93478c91.36c4e6af87df497d034aa5c507ea1eea": {
+            "input_hash": "30375b3032c602ea1256a58d93478c91",
+            "layer_file": "ee444262bd190f963603e19ea8d44f3f",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Rebuffed Lodge Items\\data\\config\\export\\main\\asset\\assets.xml",
+            "output_hash": "ee444262bd190f963603e19ea8d44f3f",
+            "patch_hash": "36c4e6af87df497d034aa5c507ea1eea"
+        },
+        "5701ad3cbadd0f20dedda759ac316f26.50d844e6f4a02c72760b16bb06023a45": {
+            "input_hash": "5701ad3cbadd0f20dedda759ac316f26",
+            "layer_file": "c94fc58715545d50f9a37a166f490b64",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Enbesa Fertility Items\\data\\config\\export\\main\\asset\\assets.xml",
+            "output_hash": "c94fc58715545d50f9a37a166f490b64",
+            "patch_hash": "50d844e6f4a02c72760b16bb06023a45"
+        },
+        "6823234bfc7a415880f0c3e76b13e27a.98c713e992c8ea0572727e9dc8e7d194": {
+            "input_hash": "6823234bfc7a415880f0c3e76b13e27a",
+            "layer_file": "5701ad3cbadd0f20dedda759ac316f26",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Buffed Fertility Items\\data\\config\\export\\main\\asset\\assets.xml",
+            "output_hash": "5701ad3cbadd0f20dedda759ac316f26",
+            "patch_hash": "98c713e992c8ea0572727e9dc8e7d194"
+        },
+        "c94fc58715545d50f9a37a166f490b64.8d7925321b7bf466a57795bb2392f844": {
+            "input_hash": "c94fc58715545d50f9a37a166f490b64",
+            "layer_file": "14e98c179c403f76471e82113ca566e7",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Legendary Fertility Items\\data\\config\\export\\main\\asset\\assets.xml",
+            "output_hash": "14e98c179c403f76471e82113ca566e7",
+            "patch_hash": "8d7925321b7bf466a57795bb2392f844"
+        },
+        "ee444262bd190f963603e19ea8d44f3f.b25aca7d18f3b28f06be1f6b3fc88df7": {
+            "input_hash": "ee444262bd190f963603e19ea8d44f3f",
+            "layer_file": "f7773431169a658950e781e7682318a3",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Rebuffed Trade Union Items\\data\\config\\export\\main\\asset\\assets.xml",
+            "output_hash": "f7773431169a658950e781e7682318a3",
+            "patch_hash": "b25aca7d18f3b28f06be1f6b3fc88df7"
+        },
+        "f7773431169a658950e781e7682318a3.a200a819adff38519db96a77183db749": {
+            "input_hash": "f7773431169a658950e781e7682318a3",
+            "layer_file": "a0c1f9d6082667ba6c1922bf80d66607",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] The perfect specialists\\data\\config\\export\\main\\asset\\assets.xml",
+            "output_hash": "a0c1f9d6082667ba6c1922bf80d66607",
+            "patch_hash": "a200a819adff38519db96a77183db749"
+        },
+        "fc5f5108b13da3f5435891bc6995a3eb.666df724169754a14d24be54004c2db2": {
+            "input_hash": "fc5f5108b13da3f5435891bc6995a3eb",
+            "layer_file": "6823234bfc7a415880f0c3e76b13e27a",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Addon] Hacienda\\data\\config\\export\\main\\asset\\assets.xml",
+            "output_hash": "6823234bfc7a415880f0c3e76b13e27a",
+            "patch_hash": "666df724169754a14d24be54004c2db2"
+        },
+        "order": [
+            "fc5f5108b13da3f5435891bc6995a3eb.666df724169754a14d24be54004c2db2",
+            "6823234bfc7a415880f0c3e76b13e27a.98c713e992c8ea0572727e9dc8e7d194",
+            "5701ad3cbadd0f20dedda759ac316f26.50d844e6f4a02c72760b16bb06023a45",
+            "c94fc58715545d50f9a37a166f490b64.8d7925321b7bf466a57795bb2392f844",
+            "14e98c179c403f76471e82113ca566e7.baeb4bf19060f19514e2976bb9ecf656",
+            "30375b3032c602ea1256a58d93478c91.36c4e6af87df497d034aa5c507ea1eea",
+            "ee444262bd190f963603e19ea8d44f3f.b25aca7d18f3b28f06be1f6b3fc88df7",
+            "f7773431169a658950e781e7682318a3.a200a819adff38519db96a77183db749"
+        ]
+    },
+    "version": "1.17"
+}

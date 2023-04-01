@@ -1,0 +1,23 @@
+{
+    "layers": {
+        "005afe55709635f890c43ebd8291c670.13c95aaff6950e82159ff1e4a2815372": {
+            "input_hash": "005afe55709635f890c43ebd8291c670",
+            "layer_file": "089ac6012af8b0f38bafb2785dbbe9c9",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Enbesa Fertility Items\\data\\config\\gui\\texts_japanese.xml",
+            "output_hash": "089ac6012af8b0f38bafb2785dbbe9c9",
+            "patch_hash": "13c95aaff6950e82159ff1e4a2815372"
+        },
+        "089ac6012af8b0f38bafb2785dbbe9c9.4a363e874a660f2dc0befbad6fbd7ebb": {
+            "input_hash": "089ac6012af8b0f38bafb2785dbbe9c9",
+            "layer_file": "46cee98b81a6559ba500eff966e6f317",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] The perfect specialists\\data\\config\\gui\\texts_japanese.xml",
+            "output_hash": "46cee98b81a6559ba500eff966e6f317",
+            "patch_hash": "4a363e874a660f2dc0befbad6fbd7ebb"
+        },
+        "order": [
+            "005afe55709635f890c43ebd8291c670.13c95aaff6950e82159ff1e4a2815372",
+            "089ac6012af8b0f38bafb2785dbbe9c9.4a363e874a660f2dc0befbad6fbd7ebb"
+        ]
+    },
+    "version": "1.17"
+}

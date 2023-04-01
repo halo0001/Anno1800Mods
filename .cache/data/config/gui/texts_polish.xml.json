@@ -1,0 +1,39 @@
+{
+    "layers": {
+        "334e5cc2a1418b9ead25e6e5795b2f06.723d6fc0147a1353e94a7a5491e55dd3": {
+            "input_hash": "334e5cc2a1418b9ead25e6e5795b2f06",
+            "layer_file": "f99ca308eff7f491d1bf752172b56d8b",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Legendary Fertility Items\\data\\config\\gui\\texts_polish.xml",
+            "output_hash": "f99ca308eff7f491d1bf752172b56d8b",
+            "patch_hash": "723d6fc0147a1353e94a7a5491e55dd3"
+        },
+        "353ce2830ae4c778a361711e5a85228e.13c95aaff6950e82159ff1e4a2815372": {
+            "input_hash": "353ce2830ae4c778a361711e5a85228e",
+            "layer_file": "334e5cc2a1418b9ead25e6e5795b2f06",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Enbesa Fertility Items\\data\\config\\gui\\texts_polish.xml",
+            "output_hash": "334e5cc2a1418b9ead25e6e5795b2f06",
+            "patch_hash": "13c95aaff6950e82159ff1e4a2815372"
+        },
+        "4f7c16832f4a060182ac2e68e7f75962.723d6fc0147a1353e94a7a5491e55dd3": {
+            "input_hash": "4f7c16832f4a060182ac2e68e7f75962",
+            "layer_file": "353ce2830ae4c778a361711e5a85228e",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Buffed Fertility Items\\data\\config\\gui\\texts_polish.xml",
+            "output_hash": "353ce2830ae4c778a361711e5a85228e",
+            "patch_hash": "723d6fc0147a1353e94a7a5491e55dd3"
+        },
+        "f99ca308eff7f491d1bf752172b56d8b.34187e72946b4dff4b3cba64cb3b7c1d": {
+            "input_hash": "f99ca308eff7f491d1bf752172b56d8b",
+            "layer_file": "95d2f6a96ee45dfc9db7fb15a6781b05",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] The perfect specialists\\data\\config\\gui\\texts_polish.xml",
+            "output_hash": "95d2f6a96ee45dfc9db7fb15a6781b05",
+            "patch_hash": "34187e72946b4dff4b3cba64cb3b7c1d"
+        },
+        "order": [
+            "4f7c16832f4a060182ac2e68e7f75962.723d6fc0147a1353e94a7a5491e55dd3",
+            "353ce2830ae4c778a361711e5a85228e.13c95aaff6950e82159ff1e4a2815372",
+            "334e5cc2a1418b9ead25e6e5795b2f06.723d6fc0147a1353e94a7a5491e55dd3",
+            "f99ca308eff7f491d1bf752172b56d8b.34187e72946b4dff4b3cba64cb3b7c1d"
+        ]
+    },
+    "version": "1.17"
+}

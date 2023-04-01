@@ -1,0 +1,15 @@
+{
+    "layers": {
+        "ef9b70bebf4cfbd4e9b70fa9163421f9.13c95aaff6950e82159ff1e4a2815372": {
+            "input_hash": "ef9b70bebf4cfbd4e9b70fa9163421f9",
+            "layer_file": "0326463735be6519c3747eb564ef5ea8",
+            "mod_name": "S:\\Ubisoft\\Anno 1800\\mods\\[Items] Enbesa Fertility Items\\data\\config\\gui\\texts_portuguese.xml",
+            "output_hash": "0326463735be6519c3747eb564ef5ea8",
+            "patch_hash": "13c95aaff6950e82159ff1e4a2815372"
+        },
+        "order": [
+            "ef9b70bebf4cfbd4e9b70fa9163421f9.13c95aaff6950e82159ff1e4a2815372"
+        ]
+    },
+    "version": "1.17"
+}
