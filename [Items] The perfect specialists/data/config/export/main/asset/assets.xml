@@ -35,13 +35,6 @@
     </Item>
   </ModOp>
 
-  <!-- LEGENDARY - MACHINES SHIP -->
-  <ModOp GUID="192702,193034,113175,113178,116341" Type="add" Path="/Values/RewardPool/ItemsPool">
-    <Item>
-      <ItemLink>1742000204</ItemLink> <!-- Pirate Captain's Black Sail 1742000204-1742000205 -->
-    </Item>
-  </ModOp>
-
   <!-- RARE - ARCTIC -->
   <ModOp GUID="193948,193786,116673" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
@@ -177,6 +170,9 @@
     </Item>
     <Item>
       <ItemLink>1742000410</ItemLink> <!-- Roberta Dompson, Layered Storage Solutions 1742000410-1742000411 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000204</ItemLink> <!-- Gary Gaslight 1742000204-1742000205 -->
     </Item>
   </ModOp>
 
@@ -831,7 +827,7 @@
                         <Asset>1742000202</Asset> <!-- Joseph Christians, Talking Sense Into People 1742000202-1742000203 -->
                       </Item>
                       <Item>
-                        <Asset>1742000204</Asset> <!-- Pirate Captain's Black Sail 1742000204-1742000205 -->
+                        <Asset>1742000204</Asset> <!-- Gary Gaslight 1742000204-1742000205 -->
                       </Item>
                       <Item>
                         <Asset>1742000206</Asset> <!-- Oliver Thorlof, The Happiest Cool Postman 1742000206-1742000207 -->
@@ -1231,7 +1227,7 @@
                         <Asset>1742000202</Asset> <!-- Joseph Christians, Talking Sense Into People 1742000202-1742000203 -->
                       </Item>
                       <Item>
-                        <Asset>1742000204</Asset> <!-- Pirate Captain's Black Sail 1742000204-1742000205 -->
+                        <Asset>1742000204</Asset> <!-- Gary Gaslight 1742000204-1742000205 -->
                       </Item>
                       <Item>
                         <Asset>1742000206</Asset> <!-- Oliver Thorlof, The Happiest Cool Postman 1742000206-1742000207 -->
@@ -9933,8 +9929,8 @@
       <Values>
         <Standard>
           <GUID>1742000204</GUID> <!-- GUID 0 -->
-          <Name>Joseph Christians, Talking Sense Into People</Name>
-          <IconFilename>data/graphics/icons/icon_joseph_christians_talking_sense_into_people.png</IconFilename>
+          <Name>Gary Gaslight</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_205.png</IconFilename>
           <InfoDescription>1742000205</InfoDescription> <!-- GUID 1 -->
         </Standard>
         <Text>
