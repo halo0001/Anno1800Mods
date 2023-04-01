@@ -96,9 +96,6 @@
       <ItemLink>1742000134</ItemLink> <!-- Rupert Flanders, Homeschooling 1742000134-1742000135 -->
     </Item>
     <Item>
-      <ItemLink>1742000178</ItemLink> <!-- Flippy, Flippin awesome 1742000178-1742000179 -->
-    </Item>
-    <Item>
       <ItemLink>1742000195</ItemLink> <!-- Doctor Edward Davy, A Healthy Lifestyle 1742000195-1742000196 -->
     </Item>
   </ModOp>
@@ -312,6 +309,9 @@
     <Item>
       <ItemLink>1742000130</ItemLink> <!-- Enrico Salizani 1742000130-1742000131 -->
     </Item>
+    <Item>
+      <ItemLink>1742000178</ItemLink> <!-- Salazar Sarini 1742000178-1742000179 -->
+    </Item>
   </ModOp>
 
   <!-- LEGENDARY - SA -->
@@ -491,7 +491,7 @@
       <ItemLink>1742000170</ItemLink> <!-- Georgina Ravenscroft, Inventor of modern sand collecting 1742000170-1742000171 -->
     </Item>
     <Item>
-      <ItemLink>1742000178</ItemLink> <!-- Flippy, Flippin awesome 1742000178-1742000179 -->
+      <ItemLink>1742000178</ItemLink> <!-- Salazar Sarini 1742000178-1742000179 -->
     </Item>
     <Item>
       <ItemLink>1742000195</ItemLink> <!-- Doctor Edward Davy, A Healthy Lifestyle 1742000195-1742000196 -->
@@ -801,7 +801,7 @@
                         <Asset>1742000176</Asset> <!-- Wanda Wiggum 1742000176-1742000177 -->
                       </Item>
                       <Item>
-                        <Asset>1742000178</Asset> <!-- Flippy, Flippin awesome 1742000178-1742000179 -->
+                        <Asset>1742000178</Asset> <!-- Salazar Sarini 1742000178-1742000179 -->
                       </Item>
                       <Item>
                         <Asset>1742000180</Asset> <!-- Floppy, Herder of animals 1742000180-1742000181 -->
@@ -1201,7 +1201,7 @@
                         <Asset>1742000176</Asset> <!-- Wanda Wiggum 1742000176-1742000177 -->
                       </Item>
                       <Item>
-                        <Asset>1742000178</Asset> <!-- Flippy, Flippin awesome 1742000178-1742000179 -->
+                        <Asset>1742000178</Asset> <!-- Salazar Sarini 1742000178-1742000179 -->
                       </Item>
                       <Item>
                         <Asset>1742000180</Asset> <!-- Floppy, Herder of animals 1742000180-1742000181 -->
