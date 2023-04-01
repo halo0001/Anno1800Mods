@@ -1,11 +1,10 @@
 <ModOps>
-<!-- ############## BUILDING SPECIALISTS ################-->
 	<!-- Magnetist UNCOMMON -->
 	<ModOp Type="merge" GUID='191375' Path="/Values">
 		<FactoryUpgrade>
 			<AdditionalOutput>
 				<Item>
-					<Product>112706</Product>
+					<Product>840</Product> <!-- Helium -->
 					<AdditionalOutputCycle>24</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
@@ -53,7 +52,7 @@
 		<FactoryUpgrade>
 			<AdditionalOutput>
 				<Item>
-					<Product>1010217</Product>
+					<Product>1010217</Product> <!-- Canned Food -->
 					<AdditionalOutputCycle>3</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
@@ -65,60 +64,41 @@
 		<FactoryUpgrade>
 			<AdditionalOutput>
 				<Item>
-					<Product>1010257</Product>
+					<Product>1010257</Product> <!-- Rum -->
 					<AdditionalOutputCycle>4</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
 			</AdditionalOutput>
 		</FactoryUpgrade>
 	</ModOp>
-	<!-- Costumer RARE -->
-	<ModOp Type="merge" GUID='191348' Path="/Values">
-		<Item>
-			<MaxStackSize>1</MaxStackSize>
-			<Rarity>Rare</Rarity>
-			<ItemType>Specialist</ItemType>
-			<ExclusiveGroup>Cotton</ExclusiveGroup>
-			<TradePrice>93300</TradePrice>
-			<TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
-		</Item>
-	</ModOp>	
 	<!-- Franke Craftsman EPIC -->
 	<ModOp Type="merge" GUID='192039' Path="/Values">
-		<Item>
-			<MaxStackSize>1</MaxStackSize>
-			<Rarity>Epic</Rarity>
-			<ItemType>Specialist</ItemType>
-			<ExclusiveGroup>Cotton</ExclusiveGroup>
-			<TradePrice>375000</TradePrice>
-			<TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
-		</Item>
 		<FactoryUpgrade>
 			<AdditionalOutput>
 				<Item>
-					<Product>120043</Product>
+					<Product>120043</Product> <!-- Ponchos -->
 					<AdditionalOutputCycle>6</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
 				<Item>
-					<Product>120037</Product>
+					<Product>120037</Product> <!-- Bowler hats -->
 					<AdditionalOutputCycle>8</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
 				<Item>
-					<Product>1010250</Product>
+					<Product>1010250</Product> <!-- Jewellery -->
 					<AdditionalOutputCycle>12</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
 			</AdditionalOutput>
 			<ReplaceInputs>
 				<Item>
-					<OldInput>1010209</OldInput>
-					<NewInput>1010256</NewInput>
+					<OldInput>1010209</OldInput> <!-- Furs -->
+					<NewInput>1010256</NewInput> <!-- Pearls -->
 				</Item>
 				<Item>
-					<OldInput>1010240</OldInput>
-					<NewInput>120036</NewInput>
+					<OldInput>1010240</OldInput> <!-- Cotton Fabric -->
+					<NewInput>120036</NewInput> <!-- Alpaca Wool -->
 				</Item>
 			</ReplaceInputs>
 		</FactoryUpgrade>
@@ -128,7 +108,7 @@
 		<FactoryUpgrade>
 			<AdditionalOutput>
 				<Item>
-					<Product>1010255</Product>
+					<Product>1010255</Product> <!-- Caoutchouc -->
 					<AdditionalOutputCycle>4</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
@@ -148,16 +128,60 @@
 		<FactoryUpgrade>
 			<AdditionalOutput>
 				<Item>
-					<Product>1010224</Product>
+					<Product>1010224</Product> <!-- Steam motors -->
 					<AdditionalOutputCycle>6</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
 				<Item>
-					<Product>1010223</Product>
-					<AdditionalOutputCycle>9</AdditionalOutputCycle>
+					<Product>1010223</Product> <!-- Advanced Weapons -->
+					<AdditionalOutputCycle>8</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
 			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Micaela Mining Engineer -->
+	<ModOp GUID="190760" Path="/Values" Type="Add">
+		<ItemEffect>
+			<EffectTargets>
+				<Item>
+					<GUID>1010304</GUID> <!-- Coal Mine -->
+				</Item>
+			</EffectTargets>
+		</ItemEffect>
+		<FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>112706</Product> <!-- Arctic Gas -->
+					<AdditionalOutputCycle>12</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Illustrious Gemologist -->
+	<ModOp GUID="190625" Path="/Values" Type="Add">
+		<ItemEffect>
+			<EffectTargets>
+				<Item>
+					<GUID>6083</GUID> <!-- Sewing Machine Factory -->
+				</Item>
+			</EffectTargets>
+		</ItemEffect>
+		<FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>5400</Product> <!-- Pigments -->
+					<AdditionalOutputCycle>4</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+				<Item>
+					<OldInput>838</OldInput>  <!-- Aluminium Profiles -->
+					<NewInput>5398</NewInput> <!-- Minerals -->
+				</Item>
+			</ReplaceInputs>
 		</FactoryUpgrade>
 	</ModOp>
 	<!-- Cola Mola Wola Machine LEGENDARY -->
@@ -172,22 +196,6 @@
 				</Item>
 			</AdditionalOutput>
 		</FactoryUpgrade>
-	</ModOp>
-	<!-- Biniams Schleusentor EPIC -->
-	<ModOp Type="merge" GUID='125053' Path="/Values">
-		<IrrigationUpgrade>
-			<PipeCapacityUpgrade>
-				<Value>100</Value>
-			</PipeCapacityUpgrade>
-		</IrrigationUpgrade>    
-	</ModOp>
-	<!-- Fortschrittliches Schleusentor RARE -->
-	<ModOp Type="merge" GUID='125052' Path="/Values">
-		<IrrigationUpgrade>
-			<PipeCapacityUpgrade>
-				<Value>50</Value>
-			</PipeCapacityUpgrade>
-		</IrrigationUpgrade>    
 	</ModOp>
 	<!-- Items affecting Sand Mine also affect Salt Works -->
 	<!-- Driller -->
@@ -208,16 +216,26 @@
 			<GUID>114440</GUID>
 		</Item>
 	</ModOp>
-	<!-- Grigor the Geologist -->
-	<ModOp GUID="191590" Path="/Values/ItemEffect/EffectTargets" Type="Add">
-		<Item>
-			<GUID>114440</GUID>
-		</Item>
-	</ModOp>
 	<!-- Steven MacLeod, Geological Surveyor -->
 	<ModOp GUID="191591" Path="/Values/ItemEffect/EffectTargets" Type="Add">
 		<Item>
 			<GUID>114440</GUID>
 		</Item>
+	</ModOp>
+	<!-- Biniams Schleusentor EPIC -->
+	<ModOp Type="merge" GUID='125053' Path="/Values">
+		<IrrigationUpgrade>
+			<PipeCapacityUpgrade>
+				<Value>100</Value>
+			</PipeCapacityUpgrade>
+		</IrrigationUpgrade>    
+	</ModOp>
+	<!-- Fortschrittliches Schleusentor RARE -->
+	<ModOp Type="merge" GUID='125052' Path="/Values">
+		<IrrigationUpgrade>
+			<PipeCapacityUpgrade>
+				<Value>50</Value>
+			</PipeCapacityUpgrade>
+		</IrrigationUpgrade>    
 	</ModOp>
 </ModOps>

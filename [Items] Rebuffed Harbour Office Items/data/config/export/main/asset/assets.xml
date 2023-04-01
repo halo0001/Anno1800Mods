@@ -1,0 +1,42 @@
+<ModOps>
+	<!-- Grigor the Geologist -->
+	<ModOp GUID="191590" Path="/Values" Type="Add">
+		<Item>
+			<Allocation>HarborOffice</Allocation>
+			<MaxStackSize>1</MaxStackSize>
+			<Rarity>Epic</Rarity>
+			<ItemType>Specialist</ItemType>
+			<TradePrice>250000</TradePrice>
+			<TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+		</Item>
+		<ItemEffect>
+			<EffectTargets>
+			  <Item>
+				<GUID>1010560</GUID>
+			  </Item>
+			  <Item>
+				<GUID>1010310</GUID>
+			  </Item>
+			</EffectTargets>
+		</ItemEffect>
+		<FactoryUpgrade>
+			<AdditionalOutput>
+			  <Item>
+				<Product>1010201</Product>
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			  <Item>
+				<Product>1010228</Product>
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			  <Item>
+				<Product>1010232</Product>
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+</ModOps>
