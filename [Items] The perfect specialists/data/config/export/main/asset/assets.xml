@@ -9873,14 +9873,14 @@
           </AdditionalOutput>
           <InputAmountUpgrade>
             <Item>
-              <Product>1010222</Product> <!-- Dynamite -->
+              <Product>1414</Product> <!-- Industrial Lubricant -->
               <Amount>1</Amount>
             </Item>
           </InputAmountUpgrade>
           <ReplaceInputs>
             <Item>
-              <OldInput>1591</OldInput>
-              <NewInput>1010222</NewInput> <!-- Dynamite -->
+              <OldInput>1591</OldInput> <!-- Mineral Resource -->
+              <NewInput>1414</NewInput> <!-- Industrial Lubricant -->
             </Item>
           </ReplaceInputs>
         </FactoryUpgrade>
