@@ -1232,18 +1232,18 @@
     </Text>
   </ModOp>
   <!-- END ALL OW AND NW POST OFFICES AND POST BOXES -->
-  <!-- START Birdy Bird, Fastest Air Messages -->
+  <!-- START Carl Auer von Welsbach -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000210</GUID>
-      <Text>Birdy Bird, Schnellste Luftpost</Text>
+      <Text>Carl Auer von Welsbach, Erfinder des Osmiumfadens</Text>
     </Text>
     <Text>
       <GUID>1742000211</GUID>
-      <Text>Die Taube des Postboten Oliver. Bringt jeden Brief von Fenster zu Fenster, ohne zu zögern. Es war Postbote Oliver, der diese Taube zur perfekten Brieftaube trainierte. Wenn die Leute Birdy vorbeifliegen sehen, winken sie und werfen Körner auf den Boden, die Birdy fressen soll.</Text>
+      <Text>Die Extraktion von Osmium zur Herstellung von stabileren Glühfäden war ein entscheidender Schritt zum modernem Licht.</Text>
     </Text>
   </ModOp>
-  <!-- END Birdy Bird, Fastest Air Messages -->
+  <!-- END Carl Auer von Welsbach -->
   <!-- START Raveena Bhargava, The Airship Architect -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>

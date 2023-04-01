@@ -10197,16 +10197,15 @@
     </Asset>
   </ModOp>
   <!-- END Cecce Celeste, Postman Manager -->
-
-  <!-- START Birdy Bird, Fastest Air Messages 1742000210-1742000211 -->
+  <!-- START Carl Auer von Welsbach 1742000210-1742000211 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
-      <Template>TownhallItem</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>1742000210</GUID> <!-- GUID 0 -->
-          <Name>Birdy Bird, Fastest Air Messages</Name>
-          <IconFilename>data/graphics/icons/icon_birdy_bird_fastest_air_messages.png</IconFilename>
+          <Name>Carl Auer von Welsbach</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normal_dressed_206.png</IconFilename>
           <InfoDescription>1742000211</InfoDescription> <!-- GUID 1 -->
         </Standard>
         <Text>
@@ -10219,7 +10218,7 @@
           </LocaText>
         </Text>
         <Locked>
-          <DLCDependency>24962</DLCDependency> <!-- Empire Of The Skies -->
+          <DLCDependency>24963</DLCDependency> <!-- New World Rising -->
         </Locked>
         <Item>
           <MaxStackSize>1</MaxStackSize>
@@ -10228,14 +10227,43 @@
           <TradePrice>1190000</TradePrice>
           <TradePriceOnlineCurrency>1190000</TradePriceOnlineCurrency>
         </Item>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>190762</GUID> <!-- All residences -->
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <ExpeditionAttribute>
+        <FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>50</Value>
+				<Percental>1</Percental>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010208</Product> <!-- Light Bulbs -->
+					<AdditionalOutputCycle>4</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>5390</Product> <!-- Motor -->
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>1010224</Product> <!-- Steam Motors -->
+					<AdditionalOutputCycle>8</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+				<Item>
+				<OldInput>1010226</OldInput> <!-- Coal -->
+				<NewInput>5398</NewInput> <!-- Minerals -->
+				</Item>
+			</ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+			<EffectTargets>
+				<Item>
+				<GUID>1010321</GUID> <!-- Filament Factory -->
+				</Item>
+			</EffectTargets>
+		</ItemEffect>
+		<ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
             <Item>
@@ -10258,27 +10286,13 @@
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1742000211</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
-        <ResidenceUpgrade>
-          <AdditionalHappiness>10</AdditionalHappiness>
-          <GoodConsumptionUpgrade>
-            <Item>
-              <ProvidedNeed>535</ProvidedNeed> <!-- Local Mail -->
-              <AmountInPercent>-25</AmountInPercent>
-            </Item>
-            <Item>
-              <ProvidedNeed>536</ProvidedNeed> <!-- Regional Mail -->
-              <AmountInPercent>-50</AmountInPercent>
-            </Item>
-            <Item>
-              <ProvidedNeed>2524</ProvidedNeed> <!-- Overseas Mail -->
-              <AmountInPercent>-75</AmountInPercent>
-            </Item>
-          </GoodConsumptionUpgrade>
-        </ResidenceUpgrade>
+        <IndustrializableUpgrade>
+			<ProvideIndustrialization>1</ProvideIndustrialization>
+		</IndustrializableUpgrade>
       </Values>
     </Asset>
   </ModOp>
-  <!-- END Birdy Bird, Fastest Air Messages -->
+  <!-- END Carl Auer von Welsbach -->
   <!-- START Raveena Bhargava, The Airship Architect 1742000212-1742000213 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
