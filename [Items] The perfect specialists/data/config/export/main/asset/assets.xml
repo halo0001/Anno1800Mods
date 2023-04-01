@@ -85,9 +85,6 @@
     <Item>
       <ItemLink>1742000162</ItemLink> <!-- Lena Brown, Fertiliser from the woods 1742000162-1742000163 -->
     </Item>
-    <Item>
-      <ItemLink>1742000180</ItemLink> <!-- Floppy, Herder of animals 1742000180-1742000181 -->
-    </Item>
   </ModOp>
 
   <!-- LEGENDARY - EU - Public Buildings & City Institutions -->
@@ -395,6 +392,9 @@
     </Item>
     <Item>
       <ItemLink>1742000415</ItemLink> <!-- Frotz Wogmann, Inventor Of Synthetic Rubber 1742000415-1742000416 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000180</ItemLink> <!-- Darius Diederich 1742000180-1742000181 -->
     </Item>
   </ModOp>
 
@@ -804,7 +804,7 @@
                         <Asset>1742000178</Asset> <!-- Salazar Sarini 1742000178-1742000179 -->
                       </Item>
                       <Item>
-                        <Asset>1742000180</Asset> <!-- Floppy, Herder of animals 1742000180-1742000181 -->
+                        <Asset>1742000180</Asset> <!-- Darius Diederich 1742000180-1742000181 -->
                       </Item>
                       <Item>
                         <Asset>1742000182</Asset> <!-- Kulwa Mto Wa Bluu, Less damage more speed & cargo 1742000182-1742000183 -->
@@ -1204,7 +1204,7 @@
                         <Asset>1742000178</Asset> <!-- Salazar Sarini 1742000178-1742000179 -->
                       </Item>
                       <Item>
-                        <Asset>1742000180</Asset> <!-- Floppy, Herder of animals 1742000180-1742000181 -->
+                        <Asset>1742000180</Asset> <!-- Darius Diederich 1742000180-1742000181 -->
                       </Item>
                       <Item>
                         <Asset>1742000182</Asset> <!-- Kulwa Mto Wa Bluu, Less damage more speed & cargo 1742000182-1742000183 -->
