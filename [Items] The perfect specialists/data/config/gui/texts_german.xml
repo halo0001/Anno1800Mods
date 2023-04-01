@@ -772,11 +772,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000130</GUID>
-      <Text>Maya die schwarze Katze</Text>
+      <Text>Enrico Salizani, Enbesanischer Schreiner</Text>
     </Text>
     <Text>
       <GUID>1742000131</GUID>
-      <Text>Niemand hat je eine fröhlichere und liebenswertere Katze gesehen. Sie verwöhnt die Hotelgäste mit ihrer herzlichen Ausstrahlung und begrüßt alle neuen und heimkehrenden Gäste mit ihrem wohligen Schnurren.</Text>
+      <Text>Auch enbesanisches Holz eignet sich hervorragend zur Telefonherstellung.</Text>
     </Text>
   </ModOp>
   <!-- END Maya The Cat, Purring to happiness -->
@@ -1044,42 +1044,42 @@
     </Text>
   </ModOp>
   <!-- END Lou Mazigh, Perfect trading routes -->
-  <!-- START Flappy, The best Arctic friend -->
+  <!-- START Wanda Wiggum -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000176</GUID>
-      <Text>Flappy, der beste arktische Freund</Text>
+      <Text>Wanda Wiggum, pikante Würzerin</Text>
     </Text>
     <Text>
       <GUID>1742000177</GUID>
-      <Text>Flappy ist der beste Freund von Carsten Green, der Flappy schon als Welpe zähmte. Flappy wurde von seinen Eltern allein im Wald zurückgelassen, wo Carsten ihn fand. Flappy ist jetzt immer an der Seite von Carsten, wenn sie durch die Wälder wandern. Flappy hellt die Stimmung der Arktisbewohner auf.</Text>
+      <Text>Wanda hat auf ihren Reisen gelernt, wie scharfe Gewürze die Gerichte der Alten Welt aufpeppen können!</Text>
     </Text>
   </ModOp>
-  <!-- END Flappy, The best Arctic friend -->
-  <!-- START Flippy, Flippin awesome -->
+  <!-- END Wanda Wiggum -->
+  <!-- START Salazar Sarini -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000178</GUID>
-      <Text>Flippy, flippig und genial</Text>
+      <Text>Salazar Sarini, Seifenimporteur</Text>
     </Text>
     <Text>
       <GUID>1742000179</GUID>
-      <Text>Wir alle kennen Hunde, die einfach verdammt toll sind. Flippy ist einer dieser Hunde. Er spielt gerne mit Spielzeug, das quietscht, aber wenn er ein Quietschen hört, ist er so erschrocken, dass er einen Meter in die Luft springt.</Text>
+      <Text>Seife aus Bienenwachs hergestellt wurde ergibt noch viel weichere Haut!</Text>
     </Text>
   </ModOp>
-  <!-- END Flippy, Flippin awesome -->
-  <!-- START Floppy, Herder of animals -->
+  <!-- END Salazar Sarini -->
+  <!-- START Darius Diederich -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000180</GUID>
-      <Text>Floppy, Hütehund der Tiere</Text>
+      <Text>Darius Diederich, Dosenverzinker</Text>
     </Text>
     <Text>
       <GUID>1742000181</GUID>
-      <Text>Floppy ist ein Hütehund der 4. Generation. Die Familie von Floppy war immer in der Familie Van der Mark und half der Familie van der Mark, ihr Tierzuchtimperium zu vergrößern. Ohne Floppy und ihre Familie wäre der Betrieb nicht so erfolgreich.</Text>
+      <Text>Verzinkte Dosen ermöglichen noch höhere Haltbarkeit des Inhalts.</Text>
     </Text>
   </ModOp>
-  <!-- END Floppy, Herder of animals -->
+  <!-- END Darius Diederich -->
   <!-- START Kulwa Mto Wa Bluu, Less damage more speed & cargo -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
@@ -1092,18 +1092,18 @@
     </Text>
   </ModOp>
   <!-- END Kulwa Mto Wa Bluu, Less damage more speed & cargo -->
-  <!-- START Torpedo Of Doom -->
+  <!-- START Daynamo Kyrallo -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000184</GUID>
-      <Text>Torpedo des Verderbens</Text>
+      <Text>Daynamo Kyrallo, dynamischer Kanonier</Text>
     </Text>
     <Text>
       <GUID>1742000185</GUID>
-      <Text>Der ultimative Torpedo, den kein Schiff überleben wird.</Text>
+      <Text>Explosive Geschosse in Kanonen erhöhen die Feuerkraft signifikant.</Text>
     </Text>
   </ModOp>
-  <!-- END Torpedo Of Doom -->
+  <!-- END Daynamo Kyrallo -->
   <!-- START Ultra Rapid Canister shot -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>

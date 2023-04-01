@@ -4277,19 +4277,25 @@
           <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
         </Item>
         <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>-50</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>193864</GUID> <!-- Power Plants (All) -->
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <ExpeditionAttribute>
+		  <ProductivityUpgrade>
+		  	<Value>200</Value>
+		  	<Percental>1</Percental>
+		  </ProductivityUpgrade>
+		  <ReplaceInputs>
+		  	<Item>
+		  	<OldInput>112706</OldInput>
+		  	<NewInput>1010226</NewInput>
+		  	</Item>
+		  </ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		  <EffectTargets>
+		  	<Item>
+		  	<GUID>117547</GUID>
+		  	</Item>
+		  </EffectTargets>
+		</ItemEffect>
+		<ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
             <Item>
@@ -4313,30 +4319,27 @@
           <FluffText>1742000071</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
         <BuildingUpgrade>
-          <WorkforceAmountUpgrade>
-            <Value>-50</Value>
-            <Percental>1</Percental>
-          </WorkforceAmountUpgrade>
-          <PublicServiceFullSatisfactionDistance>
-            <Value>40</Value>
-            <Percental>1</Percental>
-          </PublicServiceFullSatisfactionDistance>
-          <PublicServiceNoSatisfactionDistance>
-            <Value>40</Value>
-            <Percental>1</Percental>
-          </PublicServiceNoSatisfactionDistance>
-        </BuildingUpgrade>
-        <CultureUpgrade>
+			<MaintenanceUpgrade>
+				<Value>100</Value>
+				<Percental>1</Percental>
+			</MaintenanceUpgrade>
+			<ReplacingWorkforce>1010115</ReplacingWorkforce>
+			<WorkforceAmountUpgrade>
+				<Value>300</Value>
+				<Percental>1</Percental>
+			</WorkforceAmountUpgrade>
+		</BuildingUpgrade>
+		<CultureUpgrade>
           <AttractivenessUpgrade>
-            <Value>20</Value>
+            <Value>-300</Value>
           </AttractivenessUpgrade>
         </CultureUpgrade>
         <IncidentInfectableUpgrade>
           <IncidentFireIncreaseUpgrade>
-            <Value>-10</Value>
+            <Value>20</Value>
           </IncidentFireIncreaseUpgrade>
           <IncidentExplosionIncreaseUpgrade>
-            <Value>-10</Value>
+            <Value>20</Value>
           </IncidentExplosionIncreaseUpgrade>
         </IncidentInfectableUpgrade>
       </Values>
@@ -5353,15 +5356,18 @@
           <TradePrice>1250000</TradePrice>
           <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
         </Item>
+        <IndustrializableUpgrade>
+          <ProvideIndustrialization>1</ProvideIndustrialization>
+        </IndustrializableUpgrade>
         <FactoryUpgrade>
           <ProductivityUpgrade>
-            <Value>666</Value>
+            <Value>300</Value>
             <Percental>1</Percental>
           </ProductivityUpgrade>
           <AdditionalOutput>
             <Item>
               <Product>1010227</Product> <!-- Iron -->
-              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
           </AdditionalOutput>
@@ -6108,15 +6114,29 @@
           </ProductivityUpgrade>
           <AdditionalOutput>
             <Item>
-              <Product>118724</Product> <!-- Ceramics -->
+              <Product>1010205</Product> <!-- Bricks -->
               <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010218</Product> <!-- Steel Beams -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010202</Product> <!-- Reinforced Concrete -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
           </AdditionalOutput>
           <ReplaceInputs>
             <Item>
-              <OldInput>114367</OldInput> <!-- Teff -->
-              <NewInput>1010228</NewInput> <!-- Quartz sand -->
+              <OldInput>1010201</OldInput> <!-- Clay -->
+              <NewInput>1010231</NewInput> <!-- Cement -->
+            </Item>
+            <Item>
+              <OldInput>114367</OldInput> <!-- Tef -->
+              <NewInput>1010192</NewInput> <!-- Grain -->
             </Item>
           </ReplaceInputs>
         </FactoryUpgrade>
@@ -6343,11 +6363,21 @@
               <AdditionalOutputCycle>6</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
+            <Item>
+              <Product>135233</Product> <!-- Violins -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>135232</Product> <!-- Billiard Tables -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
           </AdditionalOutput>
           <ReplaceInputs>
             <Item>
               <OldInput>1010201</OldInput> <!-- Clay -->
-              <NewInput>114356</NewInput> <!-- Wanza Timber -->
+              <NewInput>135087</NewInput> <!-- Cherry Wood -->
             </Item>
           </ReplaceInputs>
         </FactoryUpgrade>
@@ -6581,22 +6611,33 @@
           </ProductivityUpgrade>
           <AdditionalOutput>
             <Item>
-              <Product>1010242</Product> <!-- Wood Veneers -->
+              <Product>1010246</Product> <!-- Pocket Watches -->
               <AdditionalOutputCycle>6</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
+            <Item>
+              <Product>117698</Product> <!-- Illuminated Script -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010250</Product> <!-- Jewellery -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            
           </AdditionalOutput>
           <ReplaceInputs>
             <Item>
-              <OldInput>1010241</OldInput> <!-- Glass -->
-              <NewInput>114356</NewInput> <!-- Wanza Timber -->
+              <OldInput>114368</OldInput> <!-- Indigo -->
+              <NewInput>1010249</NewInput> <!-- Gold -->
             </Item>
           </ReplaceInputs>
         </FactoryUpgrade>
         <ItemEffect>
           <EffectTargets>
             <Item>
-              <GUID>114464</GUID> <!-- Lanternsmith -->
+              <GUID>114469</GUID> <!-- Tapestry Looms -->
             </Item>
           </EffectTargets>
         </ItemEffect>
@@ -6726,15 +6767,15 @@
     </Asset>
   </ModOp>
   <!-- END Catherina Hendrika, The first journalist -->
-  <!-- START Maya The Cat, Purring to happiness 1742000130-1742000131 -->
+  <!-- START Enrico Salizani 1742000130-1742000131 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
-      <Template>TownhallItem</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>1742000130</GUID> <!-- GUID 0 -->
-          <Name>Maya The Cat, Purring to happiness</Name>
-          <IconFilename>data/graphics/icons/icon_maya_the_cat_purring_to_happiness.png</IconFilename>
+          <Name>Enrico Salizani</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_108.png</IconFilename>
           <InfoDescription>1742000131</InfoDescription> <!-- GUID 1 -->
         </Standard>
         <Text>
@@ -6753,45 +6794,43 @@
           <TradePrice>1250000</TradePrice>
           <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
         </Item>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>194016</GUID> <!-- All Tourist Lodgings -->
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <PopulationUpgrade>
-          <ResidentsUpgrade>
-            <Value>30</Value>
-            <Percental>1</Percental>
-          </ResidentsUpgrade>
-          <InputBenefitModifier>
-            <Item>
-              <Product>1010250</Product> <!-- Jewellery -->
-              <AdditionalSupply>30</AdditionalSupply>
-            </Item>
-            <Item>
-              <Product>133181</Product> <!-- Shampoo -->
-              <AdditionalSupply>30</AdditionalSupply>
-            </Item>
-            <Item>
-              <Product>1010247</Product> <!-- Fur Coats -->
-              <AdditionalSupply>30</AdditionalSupply>
-            </Item>
-            <Item>
-              <Product>133532</Product> <!-- Souvenirs -->
-              <AdditionalSupply>30</AdditionalSupply>
-            </Item>
-            <Item>
-              <Product>601485</Product> <!-- Zoo -->
-              <AdditionalSupply>30</AdditionalSupply>
-            </Item>
-            <Item>
-              <Product>133573</Product> <!-- Variety Theatre -->
-              <AdditionalSupply>30</AdditionalSupply>
-            </Item>
-          </InputBenefitModifier>
-        </PopulationUpgrade>
+        <FactoryUpgrade>
+			<ProductivityUpgrade>
+			<Value>50</Value>
+			<Percental>1</Percental>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+			<Item>
+				<Product>114414</Product>
+				<AdditionalOutputCycle>4</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			<Item>
+				<Product>114430</Product>
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			<Item>
+				<Product>114428</Product>
+				<AdditionalOutputCycle>8</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+			<Item>
+				<OldInput>1010242</OldInput>
+				<NewInput>114356</NewInput>
+			</Item>
+			</ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+			<EffectTargets>
+			<Item>
+				<GUID>118735</GUID>
+			</Item>
+			</EffectTargets>
+		</ItemEffect>
+        <PopulationUpgrade />
         <ItemAction />
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
@@ -6824,26 +6863,7 @@
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1742000131</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
-        <ResidenceUpgrade>
-          <GoodConsumptionUpgrade>
-            <Item>
-              <ProvidedNeed>1010250</ProvidedNeed> <!-- Jewellery -->
-              <AmountInPercent>-50</AmountInPercent>
-            </Item>
-            <Item>
-              <ProvidedNeed>133181</ProvidedNeed> <!-- Shampoo -->
-              <AmountInPercent>-50</AmountInPercent>
-            </Item>
-            <Item>
-              <ProvidedNeed>1010247</ProvidedNeed> <!-- Fur Coats -->
-              <AmountInPercent>-50</AmountInPercent>
-            </Item>
-            <Item>
-              <ProvidedNeed>133532</ProvidedNeed> <!-- Souvenirs -->
-              <AmountInPercent>-50</AmountInPercent>
-            </Item>
-          </GoodConsumptionUpgrade>
-        </ResidenceUpgrade>
+        <ResidenceUpgrade />
       </Values>
     </Asset>
   </ModOp>
@@ -6883,15 +6903,25 @@
           </ProductivityUpgrade>
           <AdditionalOutput>
             <Item>
-              <Product>1010250</Product> <!-- Jewellery -->
+              <Product>117698</Product> <!-- Illuminated Script -->
               <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>5389</Product> <!-- Costumes -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>5391</Product> <!-- Scooter -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
           </AdditionalOutput>
           <ReplaceInputs>
             <Item>
               <OldInput>114368</OldInput> <!-- Indigo Dye -->
-              <NewInput>1010256</NewInput> <!-- Pearls -->
+              <NewInput>5400</NewInput> <!-- Pigments -->
             </Item>
           </ReplaceInputs>
         </FactoryUpgrade>
@@ -7348,7 +7378,7 @@
           <ReplaceInputs>
             <Item>
               <OldInput>135150</OldInput> <!-- Celluloid -->
-              <NewInput>120008</NewInput> <!-- Wood -->
+              <NewInput>135087</NewInput> <!-- Cherry Wood -->
             </Item>
             <Item>
               <OldInput>135129</OldInput> <!-- Lacquer -->
@@ -8088,23 +8118,24 @@
           <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
         </Item>
         <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>150</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-          <AdditionalOutput>
-            <Item>
-              <Product>1010215</Product> <!-- Goulash -->
-              <AdditionalOutputCycle>4</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Product>1010217</Product> <!-- Canned food -->
-              <AdditionalOutputCycle>6</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-          </AdditionalOutput>
-        </FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+				<Percental>1</Percental>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+			  <Item>
+				<Product>25131</Product> <!-- Atole -->
+				<AdditionalOutputCycle>3</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+			  <Item>
+				<OldInput>114369</OldInput> <!-- Spices -->
+				<NewInput>1010198</NewInput> <!-- Red Peppers -->
+			  </Item>
+			</ReplaceInputs>
+		</FactoryUpgrade>
         <ItemEffect>
           <EffectTargets>
             <Item>
@@ -8820,16 +8851,15 @@
     </Asset>
   </ModOp>
   <!-- END Lou Mazigh, Perfect trading routes -->
-  <!-- START Flappy, The best Arctic friend 1742000176-1742000177 -->
+  <!-- START Wanda Wiggum 1742000176-1742000177 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>1742000176</GUID> <!-- GUID 0 -->
-          <!-- Nukilik Takirak, The strongest hunter -->
-          <Name>Flappy, The best Arctic friend</Name>
-          <IconFilename>data/graphics/icons/icon_flappy_the_best_arctic_friend.png</IconFilename>
+          <Name>Wanda Wiggum</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_821.png</IconFilename>
           <InfoDescription>1742000177</InfoDescription> <!-- GUID 1 -->
           <Version>dlc03</Version>
         </Standard>
@@ -8854,27 +8884,41 @@
           <TradePriceOnlineCurrency>1200000</TradePriceOnlineCurrency>
         </Item>
         <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>50</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-          <NeededAreaPercentUpgrade>
-            <Value>-15</Value>
-          </NeededAreaPercentUpgrade>
-        </FactoryUpgrade>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>116034</GUID>
-            </Item>
-            <Item>
-              <GUID>112667</GUID>
-            </Item>
-            <Item>
-              <GUID>112673</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
+		<ProductivityUpgrade>
+			<Value>30</Value>
+			<Percental>1</Percental>
+		</ProductivityUpgrade>
+		<AdditionalOutput>
+			<Item>
+				<Product>25506</Product> <!-- Hot Sauce -->
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			<Item>
+				<Product>5381</Product> <!-- Jalea -->
+				<AdditionalOutputCycle>8</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			<Item>
+				<Product>114410</Product> <!-- Seafood Stew -->
+				<AdditionalOutputCycle>12</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+		</AdditionalOutput>
+		<ReplaceInputs>
+			<Item>
+			<OldInput>1010198</OldInput> <!-- Red Peppers -->
+			<NewInput>114369</NewInput> <!-- Spices -->
+			</Item>
+		</ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		<EffectTargets>
+			<Item>
+			<GUID>1010293</GUID> <!-- Artisanal Kitchen -->
+			</Item>
+		</EffectTargets>
+		</ItemEffect>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
@@ -8898,29 +8942,20 @@
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1742000177</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
-        <BuildingUpgrade>
-          <WorkforceAmountUpgrade>
-            <Value>-50</Value>
-            <Percental>1</Percental>
-          </WorkforceAmountUpgrade>
-          <MaintenanceUpgrade>
-            <Value>-50</Value>
-            <Percental>1</Percental>
-          </MaintenanceUpgrade>
-        </BuildingUpgrade>
+        <BuildingUpgrade />
       </Values>
     </Asset>
   </ModOp>
   <!-- END Flappy, The best Arctic friend -->
-  <!-- START Flippy, Flippin awesome 1742000178-1742000179 -->
+  <!-- START Salazar Sarini 1742000178-1742000179 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
-      <Template>TownhallItem</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>1742000178</GUID> <!-- GUID 0 -->
-          <Name>Flippy, Flippin awesome</Name>
-          <IconFilename>data/graphics/icons/icon_flippy_flippin_awesome_dog.png</IconFilename>
+          <Name>Salazar Sarini, Seifenimporteur</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_101.png</IconFilename>
           <InfoDescription>1742000179</InfoDescription> <!-- GUID 1 -->
         </Standard>
         <Text>
@@ -8936,17 +8971,46 @@
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
           <ItemType>Specialist</ItemType>
-          <Allocation>TownHall</Allocation>
+          <Allocation>GuildHouse</Allocation>
           <TradePrice>1280000</TradePrice>
           <TradePriceOnlineCurrency>1280000</TradePriceOnlineCurrency>
         </Item>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>190762</GUID> <!-- All residences -->
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
+        <FactoryUpgrade>
+			<ProductivityUpgrade>
+			<Value>40</Value>
+			<Percental>1</Percental>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+			<Item>
+				<Product>114390</Product> <!-- Hibiscus Tea -->
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			<Item>
+				<Product>114404</Product> <!-- Tapestries -->
+				<AdditionalOutputCycle>8</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			<Item>
+				<Product>114431</Product> <!-- Telephones -->
+				<AdditionalOutputCycle>12</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+			<Item>
+				<OldInput>1010234</OldInput> <!-- Tallow -->
+				<NewInput>114370</NewInput> <!-- Beeswax -->
+			</Item>
+			</ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+			<EffectTargets>
+			<Item>
+				<GUID>1010281</GUID> <!-- Soap Factory -->
+			</Item>
+			</EffectTargets>
+		</ItemEffect>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
@@ -8974,24 +9038,13 @@
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1742000179</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
-        <ResidenceUpgrade>
-          <GoodConsumptionUpgrade>
-            <Item>
-              <ProvidedNeed>135231</ProvidedNeed> <!-- Toys -->
-              <AmountInPercent>-50</AmountInPercent>
-            </Item>
-            <Item>
-              <ProvidedNeed>135229</ProvidedNeed> <!-- Biscuits -->
-              <AmountInPercent>-50</AmountInPercent>
-            </Item>
-          </GoodConsumptionUpgrade>
-          <AdditionalHappiness>25</AdditionalHappiness>
-        </ResidenceUpgrade>
+        <ResidenceUpgrade />
         <CultureUpgrade>
-          <AttractivenessUpgrade>
-            <Value>20</Value>
-          </AttractivenessUpgrade>
-        </CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>-100</Value>
+				<Percental>1</Percental>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
         <IncidentInfectableUpgrade>
           <IncidentRiotIncreaseUpgrade>
             <Value>-10</Value>
@@ -9000,22 +9053,22 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END Flippy, Flippin awesome -->
-  <!-- START Floppy, Herder of animals 1742000180-1742000181 -->
+  <!-- END Salazar Sarini -->
+  <!-- START Darius Diederich 1742000180-1742000181 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>1742000180</GUID> <!-- GUID 0 -->
-          <Name>Floppy, Herder of animals</Name>
-          <IconFilename>data/graphics/icons/icon_floppy_herder_of_animals.png</IconFilename>
+          <Name>Darius Diederich</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_torcedor_511.png</IconFilename>
           <InfoDescription>1742000181</InfoDescription> <!-- GUID 1 -->
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Floppy, Herder of animals</Text>
+              <Text>Darius Diederich</Text>
               <Status>Exported</Status>
               <ExportCount>1</ExportCount>
             </English>
@@ -9023,30 +9076,53 @@
         </Text>
         <Item>
           <MaxStackSize>1</MaxStackSize>
-          <Rarity>Epic</Rarity>
+          <Rarity>Legendary</Rarity>
           <ItemType>Specialist</ItemType>
           <Allocation>GuildHouse</Allocation>
-          <TradePrice>860000</TradePrice>
-          <TradePriceOnlineCurrency>86000</TradePriceOnlineCurrency>
+          <TradePrice>1860000</TradePrice>
+          <TradePriceOnlineCurrency>186000</TradePriceOnlineCurrency>
         </Item>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>190872</GUID> <!-- All animal Farms -->
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
         <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>25</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>20</Value>
+				<Percental>1</Percental>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010217</Product> <!-- Canned Food -->
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>1010213</Product> <!-- Bread -->
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>1010238</Product> <!-- Sausages -->
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+				<Item>
+					<OldInput>1010227</OldInput> <!-- Iron -->
+					<NewInput>1010229</NewInput> <!-- Zinc -->
+				</Item>
+			</ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+			<EffectTargets>
+				<Item>
+				<GUID>1010295</GUID> <!-- Cannery -->
+				</Item>
+			</EffectTargets>
+		</ItemEffect>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
             <Item>
-              <Attribute>PerkFemale</Attribute>
+              <Attribute>PerkMale</Attribute>
               <Amount>1</Amount>
             </Item>
             <Item>
@@ -9059,29 +9135,16 @@
             </Item>
             <Item>
               <Attribute>Hunting</Attribute>
-              <Amount>20</Amount>
+              <Amount>40</Amount>
             </Item>
           </ExpeditionAttributes>
           <ItemDifficulties>Average</ItemDifficulties>
           <FluffText>1742000181</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
-        <ModuleOwnerUpgrade>
-          <ModuleLimitPercent>-25</ModuleLimitPercent>
-        </ModuleOwnerUpgrade>
-        <BuildingUpgrade>
-          <WorkforceAmountUpgrade>
-            <Value>-25</Value>
-            <Percental>1</Percental>
-          </WorkforceAmountUpgrade>
-          <MaintenanceUpgrade>
-            <Value>100</Value>
-            <Percental>1</Percental>
-          </MaintenanceUpgrade>
-        </BuildingUpgrade>
       </Values>
     </Asset>
   </ModOp>
-  <!-- END  Floppy, Herder of animals  -->
+  <!-- END Darius Diederich -->
   <!-- START Kulwa Mto Wa Bluu, Less damage more speed & cargo 1742000182-1742000183 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
@@ -9166,116 +9229,87 @@
     </Asset>
   </ModOp>
   <!-- END  Kulwa Mto Wa Bluu, Less damage more speed & cargo  -->
-  <!-- START Torpedo Of Doom 1742000184-1742000185 + 1742000192 -->
+  <!-- START Daynamo Kyrallo 1742000180-1742000181 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
-      <Template>ExplodingProjectile</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
-          <GUID>1742000192</GUID>
-          <Name>Torpedo Projectile Legendary</Name>
-        </Standard>
-        <Projectile>
-          <ShotHeight>0.5</ShotHeight>
-          <ProjectileSpeed>4.5</ProjectileSpeed>
-          <DamageType>Torpedo</DamageType>
-        </Projectile>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/graphics/effects/military/projectiles/projectile_torpedo_02.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Exploder>
-          <InnerDamageRadius>3</InnerDamageRadius>
-          <InnerDamage>5000</InnerDamage>
-          <DebrisForceY>0</DebrisForceY>
-          <DebrisCount>0</DebrisCount>
-          <OuterDamageRadius>5</OuterDamageRadius>
-          <MinimumDamage>2500</MinimumDamage>
-          <HitSuccessNotification>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-          </HitSuccessNotification>
-          <HitFailNotification>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-          </HitFailNotification>
-        </Exploder>
-        <SoundEmitter>
-          <ProjectileSounds>
-            <ProjectileLaunch>
-              <Item>
-                <Sound>235861</Sound>
-              </Item>
-            </ProjectileLaunch>
-            <ProjectileImpact>
-              <Item>
-                <Sound>235860</Sound>
-              </Item>
-            </ProjectileImpact>
-          </ProjectileSounds>
-        </SoundEmitter>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>ItemSpecialAction</Template>
-      <Values>
-        <Standard>
-          <GUID>1742000184</GUID> <!-- GUID 0 -->
-          <Name>Torpedo Of Doom</Name>
-          <IconFilename>data/graphics/icons/icon_torpedo_of_doom.png</IconFilename>
-          <InfoDescription>1742000185</InfoDescription> <!-- GUID 1 -->
+          <GUID>1742000192</GUID> <!-- GUID 0 -->
+          <Name>Darius Diederich</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_202.png</IconFilename>
+          <InfoDescription>1742000184</InfoDescription> <!-- GUID 1 -->
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Torpedo Of Doom</Text>
+              <Text>Daynamo Kyrallo</Text>
               <Status>Exported</Status>
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
         </Text>
-        <SpecialAction>
-          <UseEffectAsset>1</UseEffectAsset>
-          <MouseEffect>140112</MouseEffect>
-          <Projectile>1742000192</Projectile>
-        </SpecialAction>
-        <ItemAction>
-          <ActionTarget>501575</ActionTarget>
-          <ActionDistance>200</ActionDistance>
-          <IsDestroyedAfterCooldown>1</IsDestroyedAfterCooldown>
-          <Charges>5</Charges>
-          <ActionDuration>800</ActionDuration>
-          <ActiveBuff>193240</ActiveBuff>
-          <ActionDescription>22097</ActionDescription>
-          <CanEndItemAction>0</CanEndItemAction>
-          <StopMovementOnInteraction>0</StopMovementOnInteraction>
-        </ItemAction>
         <Item>
-          <MaxStackSize>10</MaxStackSize>
+          <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
-          <Allocation>Warship</Allocation>
-          <TradePrice>1150000</TradePrice>
-          <HasAction>1</HasAction>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1860000</TradePrice>
+          <TradePriceOnlineCurrency>186000</TradePriceOnlineCurrency>
         </Item>
+        <FactoryUpgrade>
+		<ProductivityUpgrade>
+			<Value>50</Value>
+			<Percental>1</Percental>
+		</ProductivityUpgrade>
+		<AdditionalOutput>
+			<Item>
+			<Product>1010223</Product> <!-- Advanced Weapons -->
+			<AdditionalOutputCycle>4</AdditionalOutputCycle>
+			<Amount>1</Amount>
+			</Item>
+		</AdditionalOutput>
+		<ReplaceInputs>
+			<Item>
+			<OldInput>1010219</OldInput> <!-- Steel -->
+			<NewInput>1010222</NewInput> <!-- Dynamite -->
+			</Item>
+		</ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		<EffectTargets>
+			<Item>
+			<GUID>1010299</GUID> <!-- Weapon Factory -->
+			</Item>
+		</EffectTargets>
+		</ItemEffect>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
             <Item>
-              <Attribute>Might</Attribute>
-              <Amount>30</Amount>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkZoologist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>Hunting</Attribute>
+              <Amount>40</Amount>
             </Item>
           </ExpeditionAttributes>
-          <ItemDifficulties>Hard</ItemDifficulties>
-          <FluffText>1742000183</FluffText> <!-- GUID 1 -->
+          <ItemDifficulties>Average</ItemDifficulties>
+          <FluffText>1742000185</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
       </Values>
     </Asset>
   </ModOp>
-  <!-- END Torpedo Of Doom  -->
+  <!-- END Daynamo Kyrallo -->
   <!-- START Ultra Rapid Canister shot 1742000186-1742000187 + 1742000193 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
