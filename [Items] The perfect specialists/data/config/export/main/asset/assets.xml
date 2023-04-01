@@ -197,9 +197,6 @@
       <ItemLink>1742000034</ItemLink> <!-- Jumoke Okoro, The Enbesian light 1742000034-1742000035 -->
     </Item>
     <Item>
-      <ItemLink>1742000176</ItemLink> <!-- Flappy, The best Arctic friend 1742000176-1742000177 -->
-    </Item>
-    <Item>
       <ItemLink>1742000206</ItemLink> <!-- Oliver Thorlof, The Happiest Cool Postman 1742000206-1742000207 -->
     </Item>
     <Item>
@@ -366,6 +363,9 @@
     </Item>
     <Item>
       <ItemLink>1742000231</ItemLink> <!-- Josephine Grey, Fertiliser Everywhere 1742000231-1742000232 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000176</ItemLink> <!-- Wanda Wiggum 1742000176-1742000177 -->
     </Item>
   </ModOp>
 
@@ -798,7 +798,7 @@
                         <Asset>1742000174</Asset> <!-- Lou Mazigh, Perfect trading routes 1742000174-1742000175 -->
                       </Item>
                       <Item>
-                        <Asset>1742000176</Asset> <!-- Flappy, The best Arctic friend 1742000176-1742000177 -->
+                        <Asset>1742000176</Asset> <!-- Wanda Wiggum 1742000176-1742000177 -->
                       </Item>
                       <Item>
                         <Asset>1742000178</Asset> <!-- Flippy, Flippin awesome 1742000178-1742000179 -->
@@ -1198,7 +1198,7 @@
                         <Asset>1742000174</Asset> <!-- Lou Mazigh, Perfect trading routes 1742000174-1742000175 -->
                       </Item>
                       <Item>
-                        <Asset>1742000176</Asset> <!-- Flappy, The best Arctic friend 1742000176-1742000177 -->
+                        <Asset>1742000176</Asset> <!-- Wanda Wiggum 1742000176-1742000177 -->
                       </Item>
                       <Item>
                         <Asset>1742000178</Asset> <!-- Flippy, Flippin awesome 1742000178-1742000179 -->
