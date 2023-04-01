@@ -1188,18 +1188,18 @@
     </Text>
   </ModOp>
   <!-- END Joseph Christians, Talking Sense Into People -->
-  <!-- START Pirate Captain's Black Sail -->
+  <!-- START Gary Gaslight -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000204</GUID>
-      <Text>Schwarzes Segel des Piratenkapitäns</Text>
+      <Text>Gary Gaslight, Heizer mit Gas</Text>
     </Text>
     <Text>
       <GUID>1742000205</GUID>
-      <Text>Mit diesem legendären schwarzen Segel kann jedes Schiff einen segelnden Gegner überholen.</Text>
+      <Text> Text. </Text>
     </Text>
   </ModOp>
-  <!-- END Pirate Captain's Black Sail -->
+  <!-- END Gary Gaslight -->
   <!-- START Oliver Thorlof, The Happiest Cool Postman -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>

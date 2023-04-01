@@ -9936,61 +9936,92 @@
     </Asset>
   </ModOp>
   <!-- END Joseph Christians, Talking Sense Into People -->
-  <!-- START Pirate Captain's Black Sail 1742000204-1742000205 -->
+  <!-- START Gary Gaslight 1742000204-1742000205 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
-      <Template>VehicleItem</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>1742000204</GUID> <!-- GUID 0 -->
-          <Name>Pirate Captain's Black Sail</Name>
-          <IconFilename>data/graphics/icons/icon_pirate_captains_black_sail.png</IconFilename>
+          <Name>Joseph Christians, Talking Sense Into People</Name>
+          <IconFilename>data/graphics/icons/icon_joseph_christians_talking_sense_into_people.png</IconFilename>
           <InfoDescription>1742000205</InfoDescription> <!-- GUID 1 -->
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Pirate Captain's Black Sail</Text>
+              <Text>Item Template</Text>
               <Status>Exported</Status>
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
         </Text>
+        <Locked>
+          <DLCDependency>410042</DLCDependency> <!-- The Passage -->
+        </Locked>
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
-          <Allocation>SailShip</Allocation>
-          <TradePrice>900000</TradePrice>
+          <ItemType>Specialist</ItemType>
+		  <Allocation>Lodge</Allocation>
+          <TradePrice>1630000</TradePrice>
+          <TradePriceOnlineCurrency>1630000</TradePriceOnlineCurrency>
         </Item>
-        <VehicleUpgrade>
-          <ForwardSpeedUpgrade>
-            <Value>35</Value>
-            <Percental>1</Percental>
-          </ForwardSpeedUpgrade>
-          <IgnoreWeightFactorUpgrade>
-            <Value>80</Value>
-            <Percental>1</Percental>
-          </IgnoreWeightFactorUpgrade>
-          <IgnoreDamageFactorUpgrade>
-            <Value>80</Value>
-            <Percental>1</Percental>
-          </IgnoreDamageFactorUpgrade>
-        </VehicleUpgrade>
+        <FactoryUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1414</Product> <!-- Industrial Lubricant -->
+					<AdditionalOutputCycle>4</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+				<Item>
+				<OldInput>1010226</OldInput> <!-- Coal -->
+				<NewInput>112706</NewInput> <!-- Arctic Gas -->
+				</Item>
+			</ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+			<EffectTargets>
+				<Item>
+					<GUID>114751</GUID> <!-- Heater -->
+				</Item>
+			</EffectTargets>
+		</ItemEffect>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
             <Item>
-              <Attribute>Navigation</Attribute>
-              <Amount>60</Amount>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>10</Amount>
             </Item>
           </ExpeditionAttributes>
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1742000205</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
+        <HeaterUpgrade>
+			<HeatRangeUpgrade>
+				<Value>100</Value>
+				<Percental>1</Percental>
+			</HeatRangeUpgrade>
+		</HeaterUpgrade>
       </Values>
     </Asset>
   </ModOp>
-  <!-- END Pirate Captain's Black Sail  -->
+  <!-- END Gary Gaslight -->
   <!-- START Oliver Thorlof, The Happiest Cool Postman  1742000206-1742000207 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
