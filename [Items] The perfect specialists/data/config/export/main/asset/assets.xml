@@ -9229,7 +9229,7 @@
     </Asset>
   </ModOp>
   <!-- END  Kulwa Mto Wa Bluu, Less damage more speed & cargo  -->
-  <!-- START Daynamo Kyrallo 1742000180-1742000181 -->
+  <!-- START Daynamo Kyrallo 1742000184-1742000185 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
       <Template>GuildhouseItem</Template>
@@ -9310,7 +9310,7 @@
     </Asset>
   </ModOp>
   <!-- END Daynamo Kyrallo -->
-  <!-- START Brahmia 1742000178-1742000179 -->
+  <!-- START Brahmia 1742000186-1742000187 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
       <Template>GuildhouseItem</Template>
@@ -9401,7 +9401,7 @@
     </Asset>
   </ModOp>
   <!-- END Brahmia -->
-  <!-- START Franka Franja 1742000188-1742000189 + 1742000194-->
+  <!-- START Franka Franja 1742000188-1742000189 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
       <Template>GuildhouseItem</Template>
@@ -9493,121 +9493,21 @@
     </Asset>
   </ModOp>
   <!-- END Franka Franja -->
-  <!-- START Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
+  <!-- START Rinus Borges 1742000190-1742000191 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
-      <Template>Seamine</Template>
-      <Values>
-        <Standard>
-          <GUID>1742000194</GUID>
-          <Name>Sea Mine Legendary</Name>
-          <IconFilename>data/graphics/icons/icon_sea_mine_of_death.png</IconFilename>
-        </Standard>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/dm/graphics/quest/quest_objects/naval_mines/dm_naval_mine_02.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Mesh />
-        <Seamine>
-          <TriggerRadius>8</TriggerRadius>
-        </Seamine>
-        <Exploder>
-          <ExplodeOnLethalDamage>1</ExplodeOnLethalDamage>
-          <InnerDamageRadius>8</InnerDamageRadius>
-          <InnerDamage>2500</InnerDamage>
-          <OuterDamageRadius>8</OuterDamageRadius>
-          <HitSuccessNotification>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-          </HitSuccessNotification>
-          <HitFailNotification>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-          </HitFailNotification>
-        </Exploder>
-        <Projectile>
-          <ProjectileSpeed>2</ProjectileSpeed>
-        </Projectile>
-        <Selection>
-          <GUIType>Generic</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-          </OnSelection>
-        </Selection>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>ItemSpecialAction</Template>
-      <Values>
-        <Standard>
-          <GUID>1742000188</GUID> <!-- GUID 0 -->
-          <Name>Sea Mine Of Death</Name>
-          <IconFilename>data/graphics/icons/icon_sea_mine_of_death.png</IconFilename>
-          <InfoDescription>1742000189</InfoDescription> <!-- GUID 1 -->
-        </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Sea Mine Of Death</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-        </Text>
-        <SpecialAction>
-          <MouseEffect>140088</MouseEffect>
-          <Projectile>1742000194</Projectile>
-          <Mine>1742000194</Mine>
-        </SpecialAction>
-        <ItemAction>
-          <ItemAction>PLACE_MINE</ItemAction>
-          <ActionTarget>2001747</ActionTarget>
-          <ActionDistance>10</ActionDistance>
-          <IsDestroyedAfterCooldown>1</IsDestroyedAfterCooldown>
-          <Charges>10</Charges>
-          <ActiveBuff>112200</ActiveBuff>
-          <ActionDescription>22097</ActionDescription>
-          <CanEndItemAction>0</CanEndItemAction>
-          <StopMovementOnInteraction>0</StopMovementOnInteraction>
-        </ItemAction>
-        <Item>
-          <MaxStackSize>10</MaxStackSize>
-          <Rarity>Legendary</Rarity>
-          <Allocation>Warship</Allocation>
-          <TradePrice>1150000</TradePrice>
-          <HasAction>1</HasAction>
-        </Item>
-        <ExpeditionAttribute>
-          <BaseMorale>0</BaseMorale>
-          <ExpeditionAttributes>
-            <Item>
-              <Attribute>Might</Attribute>
-              <Amount>50</Amount>
-            </Item>
-          </ExpeditionAttributes>
-          <ItemDifficulties>Hard</ItemDifficulties>
-          <FluffText>1742000189</FluffText> <!-- GUID 1 -->
-        </ExpeditionAttribute>
-      </Values>
-    </Asset>
-  </ModOp>
-  <!-- END Sea Mine Of Death  -->
-  <!-- START Auto-Controllable-Pitch Propeller 1742000190-1742000191 -->
-  <ModOp GUID="191388" Type="addNextSibling">
-    <Asset>
-      <Template>VehicleItem</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>1742000190</GUID> <!-- GUID 0 -->
-          <Name>Auto-Controllable-Pitch Propeller</Name>
-          <IconFilename>data/graphics/icons/icon_auto_controllable_pitch_propeller.png</IconFilename>
+          <Name>Brahmia</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_416.png</IconFilename>
           <InfoDescription>1742000191</InfoDescription> <!-- GUID 1 -->
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Auto-Controllable-Pitch Propeller</Text>
+              <Text>Item Template</Text>
               <Status>Exported</Status>
               <ExportCount>1</ExportCount>
             </English>
@@ -9616,38 +9516,79 @@
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
-          <Allocation>SteamShip</Allocation>
-          <TradePrice>1050000</TradePrice>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1280000</TradePrice>
+          <TradePriceOnlineCurrency>1280000</TradePriceOnlineCurrency>
         </Item>
-        <VehicleUpgrade>
-          <ForwardSpeedUpgrade>
-            <Value>35</Value>
-            <Percental>1</Percental>
-          </ForwardSpeedUpgrade>
-          <IgnoreWeightFactorUpgrade>
-            <Value>80</Value>
-            <Percental>1</Percental>
-          </IgnoreWeightFactorUpgrade>
-          <IgnoreDamageFactorUpgrade>
-            <Value>80</Value>
-            <Percental>1</Percental>
-          </IgnoreDamageFactorUpgrade>
-        </VehicleUpgrade>
+        <FactoryUpgrade>
+		<ProductivityUpgrade>
+			<Value>30</Value>
+			<Percental>1</Percental>
+		</ProductivityUpgrade>
+		<AdditionalOutput>
+			<Item>
+				<Product>5381</Product> <!-- Jalea -->
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			<Item>
+				<Product>114358</Product> <!-- Salt -->
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+			<Item>
+				<Product>118728</Product> <!-- Lobster -->
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			</Item>
+		</AdditionalOutput>
+		<ReplaceInputs>
+			<Item>
+				<OldInput>118728</OldInput> <!-- Lobster -->
+				<NewInput>5380</NewInput> <!-- Calamares -->
+			</Item>
+		</ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+		<EffectTargets>
+			<Item>
+				<GUID>114471</GUID> <!-- Wat Kitchen -->
+			</Item>
+		</EffectTargets>
+		</ItemEffect>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
             <Item>
-              <Attribute>Navigation</Attribute>
-              <Amount>50</Amount>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>60</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkZoologist</Attribute>
+              <Amount>1</Amount>
             </Item>
           </ExpeditionAttributes>
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1742000191</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
+        <ResidenceUpgrade />
       </Values>
     </Asset>
   </ModOp>
-  <!-- END Auto-Controllable-Pitch Propeller  -->
+  <!-- END Rinus Borges -->
   <!-- START Doctor Edward Davy, A Healthy Lifestyle 1742000195-1742000196 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>

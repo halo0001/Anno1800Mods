@@ -1128,18 +1128,18 @@
     </Text>
   </ModOp>
   <!-- END Franka Franja -->
-  <!-- START Auto-Controllable-Pitch Propeller -->
+  <!-- START Rinus Borges -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000190</GUID>
-      <Text>Auto-Controlable-Pitch Propeller</Text>
+      <Text>Rinus Borges, Retter der Bouillabaisse</Text>
     </Text>
     <Text>
       <GUID>1742000191</GUID>
-      <Text>Der ultimative legendäre Propeller für jedes Dampfschiff.</Text>
+      <Text>Statt lokalen Zutaten lassen sich auch Meeresfrüchte von anderen Kontinenten hinzufügen.</Text>
     </Text>
   </ModOp>
-  <!-- END Auto-Controllable-Pitch Propeller -->
+  <!-- END Rinus Borges -->
   <!-- START Doctor Edward Davy, A Healthy Lifestyle -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
