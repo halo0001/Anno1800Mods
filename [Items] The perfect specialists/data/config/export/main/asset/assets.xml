@@ -9310,87 +9310,97 @@
     </Asset>
   </ModOp>
   <!-- END Daynamo Kyrallo -->
-  <!-- START Ultra Rapid Canister shot 1742000186-1742000187 + 1742000193 -->
+  <!-- START Brahmia 1742000178-1742000179 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
-      <Template>VehicleBuff</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
-          <GUID>1742000193</GUID>
-          <Name>Canister Shots Legendary</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_big_berta_2.png</IconFilename>
-        </Standard>
-        <AttackerUpgrade>
-          <BaseDamageUpgrade>
-            <Value>-30</Value>
-            <Percental>1</Percental>
-          </BaseDamageUpgrade>
-          <ReloadTimeUpgrade>
-            <Value>-50</Value>
-            <Percental>1</Percental>
-          </ReloadTimeUpgrade>
-          <UseProjectile>102217</UseProjectile>
-          <AttackSpeedUpgrade>300</AttackSpeedUpgrade>
-        </AttackerUpgrade>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>ItemSpecialAction</Template>
-      <Values>
-        <Standard>
-          <GUID>1742000186</GUID> <!-- GUID 0 -->
-          <Name>Ultra Rapid Canister shot</Name>
-          <IconFilename>data/graphics/icons/icon_ultra_rapid_canister_shot.png</IconFilename>
-          <InfoDescription>1742000187</InfoDescription> <!-- GUID 1 -->
+          <GUID>1742000193</GUID> <!-- GUID 0 -->
+          <Name>Brahmia</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_bartender_813.png</IconFilename>
+          <InfoDescription>1742000186</InfoDescription> <!-- GUID 1 -->
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Ultra Rapid Canister shot</Text>
+              <Text>Item Template</Text>
               <Status>Exported</Status>
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
         </Text>
-        <SpecialAction>
-          <MouseEffect>140112</MouseEffect>
-        </SpecialAction>
-        <ItemAction>
-          <ItemAction>NOACTION</ItemAction>
-          <ActionScope>Self</ActionScope>
-          <IsDestroyedAfterCooldown>1</IsDestroyedAfterCooldown>
-          <Charges>5</Charges>
-          <ActionDuration>120000</ActionDuration>
-          <ActiveBuff>1742000193</ActiveBuff>
-          <CanEndItemAction>0</CanEndItemAction>
-          <StopMovementOnInteraction>0</StopMovementOnInteraction>
-        </ItemAction>
         <Item>
-          <MaxStackSize>10</MaxStackSize>
+          <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
-          <Allocation>Warship</Allocation>
-          <TradePrice>1150000</TradePrice>
-          <HasAction>1</HasAction>
-          <ExclusiveGroup>AutoAttackProjectile</ExclusiveGroup>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1280000</TradePrice>
+          <TradePriceOnlineCurrency>1280000</TradePriceOnlineCurrency>
         </Item>
+        <FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>40</Value>
+				<Percental>1</Percental>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>114371</Product> <!-- Goat Milk -->
+					<AdditionalOutputCycle>4</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>114359</Product> <!-- Dried Meat -->
+					<AdditionalOutputCycle>4</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+				<Item>
+				<OldInput>114408</OldInput> <!-- Spiced Flour -->
+				<NewInput>1010215</NewInput> <!-- Goulash -->
+				</Item>
+			</ReplaceInputs>
+		</FactoryUpgrade>
+		<ItemEffect>
+			<EffectTargets>
+				<Item>
+				<GUID>114471</GUID> <!-- Wat Kitchen -->
+				</Item>
+			</EffectTargets>
+		</ItemEffect>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
             <Item>
-              <Attribute>Might</Attribute>
-              <Amount>25</Amount>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>60</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkZoologist</Attribute>
+              <Amount>1</Amount>
             </Item>
           </ExpeditionAttributes>
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1742000187</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
+        <ResidenceUpgrade />
       </Values>
     </Asset>
   </ModOp>
-  <!-- END Ultra Rapid Canister shot  -->
+  <!-- END Brahmia -->
   <!-- START Sea Mine Of Death 1742000188-1742000189 + 1742000194 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>

@@ -1104,18 +1104,18 @@
     </Text>
   </ModOp>
   <!-- END Daynamo Kyrallo -->
-  <!-- START Ultra Rapid Canister shot -->
+  <!-- START Brahmia -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000186</GUID>
-      <Text>Ultraschneller Kanisterschuss</Text>
+      <Text>Brahmia, Enbesanische Suppenköchin</Text>
     </Text>
     <Text>
       <GUID>1742000187</GUID>
-      <Text>Die ultimative granulare Kriegsführung. Bomben fliegen schneller als je zuvor.</Text>
+      <Text>Brahmia bringt aus der Alten Welt ein deftiges Rezept mit, das dich hervorragend mit traditionellem Eintopf kombinieren lässt.</Text>
     </Text>
   </ModOp>
-  <!-- END Ultra Rapid Canister shot -->
+  <!-- END Brahmia -->
   <!-- START Sea Mine Of Death -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
