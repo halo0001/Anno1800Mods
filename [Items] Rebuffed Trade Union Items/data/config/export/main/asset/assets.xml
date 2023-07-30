@@ -230,6 +230,28 @@
 			</ReplaceInputs>
 		</FactoryUpgrade>
 	</ModOp>
+	<!-- Pedro, Captain of the "Panama" -->
+	<ModOp GUID="8356" Path="/Values" Type="Add">
+		<FactoryUpgrade>
+			<AdditionalOutput>
+			  <Item>
+				<Product>5380</Product>  <!-- Calamari -->
+				<AdditionalOutputCycle>4</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			  <Item>
+				<Product>120042</Product>  <!-- Fish Oil -->
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			  <Item>
+				<Product>112699</Product>  <!-- Whale Oil -->
+				<AdditionalOutputCycle>8</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
 	<!-- Cola Mola Wola Machine LEGENDARY -->
 	<ModOp Type="merge" GUID='116185' Path="/Values">
 		<FactoryUpgrade>
