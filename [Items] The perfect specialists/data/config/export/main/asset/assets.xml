@@ -375,6 +375,9 @@
       <ItemLink>1742000415</ItemLink> <!-- Frotz Wogmann, Inventor Of Synthetic Rubber 1742000415-1742000416 -->
     </Item>
     <Item>
+      <ItemLink>1742001427</ItemLink> <!-- Gras Goole, Cooling Specialist 1742001427-1742001428 -->
+    </Item>
+    <Item>
       <ItemLink>1742000180</ItemLink> <!-- Darius Diederich 1742000180-1742000181 -->
     </Item>
     <Item>
@@ -886,6 +889,9 @@
                       <Item>
                         <Asset>1742000415</Asset> <!-- Frotz Wogmann, Inventor Of Synthetic Rubber 1742000415-1742000416 -->
                       </Item>
+                      <Item>
+                        <Asset>1742001427</Asset> <!-- Gras Goole, Cooling Specialist 1742001427-1742001428 -->
+                      </Item>
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -1285,6 +1291,9 @@
                       </Item>
                       <Item>
                         <Asset>1742000415</Asset> <!-- Frotz Wogmann, Inventor Of Synthetic Rubber 1742000415-1742000416 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742001427</Asset> <!-- Gras Goole, Cooling Specialist 1742001427-1742001428 -->
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -10238,7 +10247,7 @@
 			<ReplaceInputs>
 				<Item>
 				<OldInput>1010226</OldInput> <!-- Coal -->
-				<NewInput>5398</NewInput> <!-- Minerals -->
+				<NewInput>1010230</NewInput> <!-- Copper -->
 				</Item>
 			</ReplaceInputs>
 		</FactoryUpgrade>
@@ -10895,7 +10904,7 @@
           </ProductivityUpgrade>
           <ReplaceInputs>
             <Item>
-              <OldInput>135130</OldInput> <!-- Ethanol -->
+              <OldInput>5386</OldInput> <!-- Orchid -->
               <NewInput>114364</NewInput> <!--Hibiscus Petals -->
             </Item>
           </ReplaceInputs>
@@ -11605,7 +11614,95 @@
     </Asset>
   </ModOp>
   <!-- END Frotz Wogmann, Inventor Of Synthetic Rubber -->
-
+  <!-- START Gras Goole, Cooling Specialist 1742001427-1742001428 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001427</GUID> <!-- GUID 0 -->
+          <Name>Gras Goole, Cooling Specialist</Name>
+          <IconFilename>data/graphics/icons/icon_frotz_wogmann.png</IconFilename>
+          <InfoDescription>1742001428</InfoDescription> <!-- GUID 1 -->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1950000</TradePrice>
+          <TradePriceOnlineCurrency>1950000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>6629</GUID> <!-- Laboratory: Fire Extinguisher -->
+            </Item>
+            <Item>
+              <GUID>6631</GUID> <!-- Laboratory: Medicine -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+			  <Item>
+				<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+				<AdditionalOutputCycle>1</AdditionalOutputCycle>
+				<Amount>2</Amount>
+			  </Item>
+		  </AdditionalOutput>
+		  <ReplaceInputs>
+			<Item>
+				<OldInput>1010255</OldInput> <!-- Caoutchouc -->
+				<NewInput>840</NewInput> <!-- Helium -->
+			</Item>
+			<Item>
+				<OldInput>135130</OldInput> <!-- Ethanol -->
+				<NewInput>840</NewInput> <!-- Helium -->
+			</Item>
+		  </ReplaceInputs>
+        </FactoryUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742001427</FluffText> <!-- GUID 1 -->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Gras Goole, Cooling Specialist -->
+  
   <!-- START LIST OF ALL EXTRA POOLS -->
 
   <!-- START All DEPOTS ADD -->

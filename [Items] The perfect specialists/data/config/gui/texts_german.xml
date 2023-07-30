@@ -1440,6 +1440,18 @@
     </Text>
   </ModOp>
   <!-- END Frotz Wogmann, Inventor Of Synthetic Rubber -->
+  <!-- START Gras Goole, Cooling Specialist -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1742001427</GUID>
+      <Text>Gras Goole, Kühlmittelspezialist</Text>
+    </Text>
+    <Text>
+      <GUID>1742001428</GUID>
+      <Text>Gras nutzt Helium zur verbesserten Kühlung von Medizin. Die Technik kann aber auch zum Füllen von Feuerlöschern verwendet werden.</Text>
+    </Text>
+  </ModOp>
+  <!-- END Gras Goole, Cooling Specialist -->
   <!-- START ALL GLASSMAKERS -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
