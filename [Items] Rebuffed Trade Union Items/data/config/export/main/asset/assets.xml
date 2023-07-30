@@ -161,6 +161,38 @@
 	</ModOp>
 	<!-- Illustrious Gemologist -->
 	<ModOp GUID="190625" Path="/Values" Type="Add">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+			  <Value>50</Value>
+			  <Percental>1</Percental>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+			  <Item>
+				<Product>5400</Product>  <!-- Pigments -->
+				<AdditionalOutputCycle>4</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			  <Item>
+				<Product>135129</Product>  <!-- Lacquer -->
+				<AdditionalOutputCycle>6</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			  <Item>
+				<Product>1010246</Product>  <!-- Pocket Watches -->
+				<AdditionalOutputCycle>8</AdditionalOutputCycle>
+				<Amount>1</Amount>
+			  </Item>
+			</AdditionalOutput>
+			<ReplaceInputs>
+				<Item>
+					<OldInput>1010256</OldInput>  <!-- Pearls -->
+					<NewInput>5398</NewInput> <!-- Minerals -->
+				</Item>
+			</ReplaceInputs>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Francois Strindberg -->
+	<ModOp GUID="190627" Path="/Values" Type="Add">
 		<ItemEffect>
 			<EffectTargets>
 				<Item>
@@ -171,15 +203,29 @@
 		<FactoryUpgrade>
 			<AdditionalOutput>
 				<Item>
-					<Product>5400</Product> <!-- Pigments -->
-					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Product>120030</Product> <!-- Spectacles -->
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>1010245</Product> <!-- Penny Farthings -->
+					<AdditionalOutputCycle>8</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+				<Item>
+					<Product>1010225</Product> <!-- Steam Carriages	 -->
+					<AdditionalOutputCycle>12</AdditionalOutputCycle>
 					<Amount>1</Amount>
 				</Item>
 			</AdditionalOutput>
 			<ReplaceInputs>
 				<Item>
 					<OldInput>120008</OldInput>  <!-- Wood -->
-					<NewInput>5398</NewInput> <!-- Minerals -->
+					<NewInput>1010204</NewInput> <!-- Brass -->
+				</Item>
+				<Item>
+					<OldInput>838</OldInput>  <!-- Aluminium Profiles -->
+					<NewInput>1010219</NewInput> <!-- Steel -->
 				</Item>
 			</ReplaceInputs>
 		</FactoryUpgrade>

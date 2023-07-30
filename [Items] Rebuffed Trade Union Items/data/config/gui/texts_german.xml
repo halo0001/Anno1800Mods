@@ -1,0 +1,14 @@
+<ModOps>
+  <!-- START François Strindberg  -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>190627</GUID>
+      <Text>Francois Strindberg, Nähmaschinenexperte</Text>
+    </Text>
+    <Text>
+      <GUID>12524</GUID>
+      <Text>Die Vereinfachung der Nähmschinenproduktion in der Neuen Welt war seine spezielle Aufgabe.</Text>
+    </Text>
+  </ModOp>
+  <!-- END François Strindberg  -->
+</ModOps>
