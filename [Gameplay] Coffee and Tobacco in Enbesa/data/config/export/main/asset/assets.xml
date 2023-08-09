@@ -1,5 +1,4 @@
 <ModOps>
-  <ImyaTweaks Title="Toggle a switch to turn on your desired version of this mod." Description="Only select one version. Otherwise you might get funny results in your game." Icon="data/ui/2kimages/main/3dicons/achievement/icon_achievement_africa_gold.png" />
   <!-- #Fruchtbarkeiten Enbesa - always [on] -->
   <Group>
     <!-- Erlaubte Fruchtbarkeiten in Enbesa -->
@@ -75,43 +74,7 @@
 
   <!-- #Produkt Kaffee ersetzen und Kaffeefarm in Enbesa - always [on] -->
   <Group>
-    <ModOp GUID="120032" Type="replace" Path="/Values/Standard/IconFilename">
-      <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
-    </ModOp>
-
-    <ModOp GUID="120032" Type="replace" Path="/Values/Product/AssociatedRegion">
-      <AssociatedRegion>Colony01;Arctic;Africa</AssociatedRegion>
-    </ModOp>
-
-    <ModOp GUID="120032" Type="replace" Path="/Values/Product/ProductionRegions">
-      <ProductionRegions>
-        <Item>
-          <RegionType>Colony01</RegionType>
-        </Item>
-        <Item>
-          <RegionType>Africa</RegionType>
-          <RequiredDLCs>
-            <Item>
-              <RequiredDLC>410071</RequiredDLC>
-            </Item>
-          </RequiredDLCs>
-        </Item>
-        <Item>
-          <RegionType>Moderate</RegionType>
-          <RequiredDLCs>
-            <Item>
-              <RequiredDLC>410071</RequiredDLC>
-            </Item>
-          </RequiredDLCs>
-        </Item>
-      </ProductionRegions>
-    </ModOp>
-
-    <!-- Kaffee Icon ersetzen Neue Welt kaffeeroesterei -->
-    <ModOp GUID="101252" Type="replace" Path="/Values/Standard/IconFilename">
-      <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
-    </ModOp>
-
+    
     <!-- Produkt Kaffeebohnen Enbesa -->
     <ModOp GUID="120031" Type="replace" Path="/Values/Product/AssociatedRegion">
       <AssociatedRegion>Colony01;Africa</AssociatedRegion>
@@ -129,8 +92,7 @@
     </ModOp>
 
     <ModOp Type="add" GUID="502076,502072" Path="/Values/ProductList/List">
-      <!--ADD
-      TO PRODUCT-LIST-->
+      <!--ADD TO PRODUCT-LIST-->
       <Item>
         <Product>120031</Product>
       </Item>
@@ -223,7 +185,7 @@
                 <StorageAmount>2</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>90</CycleTime>
+            <CycleTime>60</CycleTime>
             <IsMainFactory>0</IsMainFactory>
           </FactoryBase>
           <ModuleOwner>
@@ -324,7 +286,6 @@
     </ModOp>
 
     <!-- Kaffeefelder in Enbesa -->
-
     <ModOp GUID="114488" Type="addNextSibling">
       <!-- Kaffeefeld -->
       <Asset>
@@ -614,7 +575,7 @@
     </ModOp>
   </Group>
 
-  <!-- #Tabakfarm in Enbesa - always [on] -->
+  <!-- #Tabakfarm in Enbesa -->
   <Group>
     <ModOp GUID="1010252" Type="replace" Path="/Values/Product/AssociatedRegion">
       <AssociatedRegion>Colony01;Africa</AssociatedRegion>
@@ -1094,91 +1055,25 @@
     </ModOp>
   </Group>
 
-  <!-- #Creative Unlock -->
-  <ModOp Type="addNextSibling" GUID="130248">
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>1999000099</GUID>
-          <Name>MOD Trigger Creative</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Values>
-              <ConditionPropsNegatable />
-              <Condition />
-              <ConditionIsCreativeMode />
-            </Values>
-            <Template>ConditionIsCreativeMode</Template>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>1010252</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1999000102</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>190946</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>190947</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>190948</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>120031</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1999000100</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1999000101</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1999000103</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>190934</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>190935</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>190936</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-  </ModOp>
+  <!-- Kaffeefarm Enbesa in diversen Baumenüs ergänzen -->
+    <ModOp Type="addNextSibling" GUID="114554" Condition="!@114554/ConstructionCategory/BuildingList/Item[Building='1999000103']"
+        Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
+        <Item>
+            <Building>1999000100</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1999000103']"
+        Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
+        <Item>
+            <Building>1999000100</Building>
+        </Item>
+    </ModOp>
 
-  <!-- #Include version include files -->
-  <Include File="fullversion.include.xml" ModOpID="IncludeFullVersion" />
-  <ImyaExpose Path="*" ModOpID="IncludeFullVersion" ExposeID="Full Version" Kind="SkipToggle" Description="Toggles the Full version of this mod. Coffee Roasters in both NW and Enbesa require packaging material (Cotton/Linen Cloth) for the coffee to be shipped."></ImyaExpose>
-
-  <Include File="lightversion.include.xml" ModOpID="IncludeLightVersion" />
-  <ImyaExpose Path="*" ModOpID="IncludeLightVersion" ExposeID="Light Version" Kind="SkipToggle" InitState="True" Description="Toggles the Light version of this mod. Only the new Coffee Roaster in Enbesa requires packaging material (Linen Cloth) for the coffee to be shipped."></ImyaExpose>
-
-  <Include File="superlightversion.include.xml" ModOpID="IncludeSuperLightVersion" />
-  <ImyaExpose Path="*" ModOpID="IncludeSuperLightVersion" ExposeID="Super Light Version" Kind="SkipToggle" Description="Toggles the SuperLight version of this mod. Coffee Roaster do NOT require packaging material."></ImyaExpose>
-
-  <Include File="farmsonlyversion.include.xml" ModOpID="IncludeFarmsVersion" />
-  <ImyaExpose Path="*" ModOpID="IncludeFarmsVersion" ExposeID="Farms Only Version" Kind="SkipToggle" Description="Toggles the Farms only version of this mod. Only Coffee and Tobacco Farms will be availible in Enbesa."></ImyaExpose>
-
+    <!-- Tonpfeifenproduktionskette ersetzen -->
+    <ModOp Type="replace" GUID="114619" Condition="!@114619/ProductionChain/Tier1/Item[Building = '1999000102']"
+        Path="/Values/ProductionChain/Tier1/Item[Building = '1010330']">
+        <Item>
+            <Building>1999000102</Building>
+        </Item>
+    </ModOp>
 </ModOps>
