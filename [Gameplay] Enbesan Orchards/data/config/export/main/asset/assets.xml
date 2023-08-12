@@ -40,6 +40,78 @@
                         <Asset>1404420012</Asset>
                         <!-- Zitrusfrüchte Production Chain -->
                       </Item>
+                      <Item>
+                        <Asset>133095</Asset>
+                        <!-- Kokosöl -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420014</Asset>
+                        <!-- Kokusnussplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420016</Asset>
+                        <!-- Kokosöl Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>133093</Asset>
+                        <!-- Zimt -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420018</Asset>
+                        <!-- Zimtplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420020</Asset>
+                        <!-- Zimt Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>134616</Asset>
+                        <!-- Kampfer -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420022</Asset>
+                        <!-- Kampferplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420024</Asset>
+                        <!-- Kampfer Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>133183</Asset>
+                        <!-- Konfitüre -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420040</Asset>
+                        <!-- Kirschplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420042</Asset>
+                        <!-- Konfitüre Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>135087</Asset>
+                        <!-- Kirschholz -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420060</Asset>
+                        <!-- Kirschholzplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420062</Asset>
+                        <!-- Kirschholz Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>135086</Asset>
+                        <!-- Harz -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420064</Asset>
+                        <!-- Harzplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420066</Asset>
+                        <!-- Harz Production Chain -->
+                      </Item>
                     </UnhideAssets>
                     <UnlockAssets>
                       <Item>
@@ -54,6 +126,78 @@
                         <Asset>1404420012</Asset>
                         <!-- Zitrusfrüchte Production Chain -->
                       </Item>
+                      <Item>
+                        <Asset>133095</Asset>
+                        <!-- Kokosöl -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420014</Asset>
+                        <!-- Kokusnussplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420016</Asset>
+                        <!-- Kokosöl Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>133093</Asset>
+                        <!-- Zimt -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420018</Asset>
+                        <!-- Zimtplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420020</Asset>
+                        <!-- Zimt Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>134616</Asset>
+                        <!-- Kampfer -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420022</Asset>
+                        <!-- Kampferplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420024</Asset>
+                        <!-- Kampfer Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>133183</Asset>
+                        <!-- Konfitüre -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420040</Asset>
+                        <!-- Kirschplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420042</Asset>
+                        <!-- Konfitüre Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>135087</Asset>
+                        <!-- Kirschholz -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420060</Asset>
+                        <!-- Kirschholzplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420062</Asset>
+                        <!-- Kirschholz Production Chain -->
+                      </Item>
+                      <Item>
+                        <Asset>135086</Asset>
+                        <!-- Harz -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420064</Asset>
+                        <!-- Harzplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420066</Asset>
+                        <!-- Harz Production Chain -->
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -66,9 +210,9 @@
     </Asset>
   </ModOp>
   
-  <!-- #Zitrusfarm in Enbesa -->
+  <!-- #Produkte in Enbesa -->
   <Group>
-    <!-- Produkt Zitrusfrüchte Enbesa -->
+    <!-- Produkte in Enbesa -->
     <ModOp GUID="133097" Type="replace" Path="/Values/Product/AssociatedRegion">
       <AssociatedRegion>Colony01;Africa</AssociatedRegion>
     </ModOp>
@@ -88,6 +232,10 @@
         <Product>133097</Product>
       </Item>
     </ModOp>
+  </Group>
+    
+  <!-- #Plantagen in Enbesa -->
+  <Group>    
     <!-- Zitrusplantage in Enbesa -->
     <ModOp Type="addNextSibling" GUID="101251">
       <Asset>
@@ -266,7 +414,11 @@
       <Item>
         <Factory>1404420010</Factory>
       </Item>
-    </ModOp>
+    </ModOp>  
+  </Group>
+    
+  <!-- #Felder in Enbesa -->
+  <Group>
     <!-- Citrus Field in Enbesa -->
     <ModOp GUID="114488" Type="addNextSibling">
       <!-- Citrus Field -->
@@ -414,17 +566,20 @@
         </Values>
       </Asset>
     </ModOp>
-    </Group>
-  <!-- Zitrusplantagen Enbesa in diversen Baumenüs ergänzen -->
-  <ModOp Type="addNextSibling" GUID="114553" Condition="!@114553/ConstructionCategory/BuildingList/Item[Building='1404420012']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
-    <Item>
-      <Building>1404420010</Building>
-    </Item>
-  </ModOp>
-  <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1404420012']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
-    <Item>
-      <Building>1404420010</Building>
-    </Item>
-  </ModOp>
+  </Group>
   
+  <!-- Baumenüs -->
+  <Group>
+    <!-- Zitrusplantagen Enbesa in diversen Baumenüs ergänzen -->
+    <ModOp Type="addNextSibling" GUID="114553" Condition="!@114553/ConstructionCategory/BuildingList/Item[Building='1404420012']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420010</Building>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1404420012']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420010</Building>
+      </Item>
+    </ModOp>
+  </Group>
 </ModOps>

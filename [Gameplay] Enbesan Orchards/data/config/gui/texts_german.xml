@@ -55,7 +55,7 @@
 		</Text>
 		<Text>
 			<GUID>1404420040</GUID>
-			<Text>Obstgarten: Kirschen</Text>
+			<Text>Kirschplantage</Text>
 		</Text>
 		<Text>
 			<GUID>1404420041</GUID>
@@ -63,18 +63,18 @@
 		</Text>
 		<Text>
 			<GUID>1404420060</GUID>
-			<Text>Obstgarten: Kirschholz</Text>
+			<Text>Kirschholzplantage</Text>
 		</Text>
 		<Text>
 			<GUID>1404420061</GUID>
 			<Text>Produziert Waren.</Text>
 		</Text>
 		<Text>
-			<GUID>1404420062</GUID>
-			<Text>Obstgarten: Harz</Text>
+			<GUID>1404420064</GUID>
+			<Text>Harzplantage</Text>
 		</Text>
 		<Text>
-			<GUID>1404420063</GUID>
+			<GUID>1404420065</GUID>
 			<Text>Produziert Waren.</Text>
 		</Text>
 	</ModOp>
