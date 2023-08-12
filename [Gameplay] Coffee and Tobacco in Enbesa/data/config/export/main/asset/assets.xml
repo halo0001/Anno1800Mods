@@ -12,37 +12,28 @@
         <!-- Kaffee-Fruchtbarkeit -->
       </Item>
     </ModOp>
-
     <!-- Generiere Fruchtbarkeiten Enbesa -->
-    <ModOp Type="add"
-      GUID="120206,123908,120211,120213,120219,123904,120225,120218,120230,120231,120236,120238"
-      Path="/Values/FertilitySet/Fertilities">
+    <ModOp Type="add" GUID="120206,123908,120211,120213,120219,123904,120225,120218,120230,120231,120236,120238" Path="/Values/FertilitySet/Fertilities">
       <Item>
         <Fertility>1010577</Fertility>
       </Item>
     </ModOp>
-
-    <ModOp Type="add"
-      GUID="120214,123908,120208,120210,120220,123904,120222,120224,123902,120231,120233,120235"
-      Path="/Values/FertilitySet/Fertilities">
+    <ModOp Type="add" GUID="120214,123908,120208,120210,120220,123904,120222,120224,123902,120231,120233,120235" Path="/Values/FertilitySet/Fertilities">
       <Item>
         <Fertility>120039</Fertility>
       </Item>
     </ModOp>
-
     <!-- Fruchtbarkeitsitems funktionieren in Enbesa -->
     <ModOp GUID="190946,190947,190948" Type="add" Path="/Values/ItemEffect/EffectTargets">
       <Item>
         <GUID>1999000100</GUID>
       </Item>
     </ModOp>
-
     <ModOp GUID="190934,190935,190936" Type="add" Path="/Values/ItemEffect/EffectTargets">
       <Item>
         <GUID>1999000102</GUID>
       </Item>
     </ModOp>
-
     <!-- add to some pools -->
     <ModOp GUID="127457" Type="add" Path="/Values/RewardPool/ItemsPool">
       <Item>
@@ -52,7 +43,6 @@
         <ItemLink>190934</ItemLink>
       </Item>
     </ModOp>
-
     <ModOp GUID="127458" Type="add" Path="/Values/RewardPool/ItemsPool">
       <Item>
         <ItemLink>190947</ItemLink>
@@ -61,7 +51,6 @@
         <ItemLink>190935</ItemLink>
       </Item>
     </ModOp>
-
     <ModOp GUID="127459" Type="add" Path="/Values/RewardPool/ItemsPool">
       <Item>
         <ItemLink>190948</ItemLink>
@@ -71,15 +60,12 @@
       </Item>
     </ModOp>
   </Group>
-
   <!-- #Produkt Kaffee ersetzen und Kaffeefarm in Enbesa -->
   <Group>
-    
     <!-- Produkt Kaffeebohnen Enbesa -->
     <ModOp GUID="120031" Type="replace" Path="/Values/Product/AssociatedRegion">
       <AssociatedRegion>Colony01;Africa</AssociatedRegion>
     </ModOp>
-
     <ModOp GUID="120031" Type="replace" Path="/Values/Product/ProductionRegions">
       <ProductionRegions>
         <Item>
@@ -90,14 +76,12 @@
         </Item>
       </ProductionRegions>
     </ModOp>
-
     <ModOp Type="add" GUID="502076,502072" Path="/Values/ProductList/List">
       <!--ADD TO PRODUCT-LIST-->
       <Item>
         <Product>120031</Product>
       </Item>
     </ModOp>
-
     <!-- Kaffeeplantage in Enbesa -->
     <ModOp Type="addNextSibling" GUID="101251">
       <Asset>
@@ -273,8 +257,7 @@
         </Values>
       </Asset>
     </ModOp>
-    <ModOp Type="add" GUID="193959,125109,193955,368,190011,193856,6000018,190865"
-      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="193959,125109,193955,368,190011,193856,6000018,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1999000100</GUID>
       </Item>
@@ -284,7 +267,6 @@
         <Factory>1999000100</Factory>
       </Item>
     </ModOp>
-
     <!-- Kaffeefelder in Enbesa -->
     <ModOp GUID="114488" Type="addNextSibling">
       <!-- Kaffeefeld -->
@@ -420,10 +402,8 @@
         </Values>
       </Asset>
     </ModOp>
-
     <!-- Farmen bekommen Traktor + Fertiliser Vehicles -->
-    <ModOp Type="add" GUID="142872"
-      Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+    <ModOp Type="add" GUID="142872" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
       <Item>
         <Building>1999000100</Building>
         <PersonSpawners>
@@ -442,7 +422,6 @@
         </VehicleSpawners>
       </Item>
     </ModOp>
-
     <!-- Trigger Kaffee in Enbesa -->
     <ModOp Type="addNextSibling" GUID="130248">
       <Asset>
@@ -508,7 +487,6 @@
         </Values>
       </Asset>
     </ModOp>
-
     <ModOp Type="addNextSibling" GUID="130248">
       <Asset>
         <Template>Trigger</Template>
@@ -574,13 +552,11 @@
       </Asset>
     </ModOp>
   </Group>
-
   <!-- #Tabakfarm in Enbesa -->
   <Group>
     <ModOp GUID="1010252" Type="replace" Path="/Values/Product/AssociatedRegion">
       <AssociatedRegion>Colony01;Africa</AssociatedRegion>
     </ModOp>
-
     <ModOp GUID="1010252" Type="replace" Path="/Values/Product/ProductionRegions">
       <ProductionRegions>
         <Item>
@@ -591,7 +567,6 @@
         </Item>
       </ProductionRegions>
     </ModOp>
-
     <ModOp Type="add" GUID="502076,502072" Path="/Values/ProductList/List">
       <!--ADD
     TO PRODUCT-LIST-->
@@ -599,7 +574,6 @@
         <Product>1010252</Product>
       </Item>
     </ModOp>
-
     <ModOp GUID="101252" Type="addNextSibling">
       <Asset>
         <Template>FarmBuilding</Template>
@@ -765,20 +739,16 @@
         </Values>
       </Asset>
     </ModOp>
-
-    <ModOp Type="add" GUID="125109,193955,368,190011,191472,6000018,193856,190865"
-      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="125109,193955,368,190011,191472,6000018,193856,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1999000102</GUID>
       </Item>
     </ModOp>
-
     <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
       <Item>
         <Factory>1999000102</Factory>
       </Item>
     </ModOp>
-
     <!-- Tabakfeld in Enbesa -->
     <ModOp Type="addNextSibling" GUID="114488">
       <!-- Tabakfeld -->
@@ -917,10 +887,8 @@
         </Values>
       </Asset>
     </ModOp>
-
     <!-- Farmen bekommen Traktor + Fertiliser Vehicles -->
-    <ModOp Type="add" GUID="142872"
-      Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+    <ModOp Type="add" GUID="142872" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
       <Item>
         <Building>1999000102</Building>
         <PersonSpawners>
@@ -939,7 +907,6 @@
         </VehicleSpawners>
       </Item>
     </ModOp>
-
     <!-- Trigger Tabak in Enbesa -->
     <ModOp Type="addNextSibling" GUID="130248">
       <Asset>
@@ -1054,26 +1021,21 @@
       </Asset>
     </ModOp>
   </Group>
-
   <!-- Kaffeefarm Enbesa in diversen Baumenüs ergänzen -->
-    <ModOp Type="addNextSibling" GUID="114554" Condition="!@114554/ConstructionCategory/BuildingList/Item[Building='1999000103']"
-        Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
-        <Item>
-            <Building>1999000100</Building>
-        </Item>
-    </ModOp>
-    <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1999000103']"
-        Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
-        <Item>
-            <Building>1999000100</Building>
-        </Item>
-    </ModOp>
-
-    <!-- Tonpfeifenproduktionskette ersetzen -->
-    <ModOp Type="replace" GUID="114619" Condition="!@114619/ProductionChain/Tier1/Item[Building = '1999000102']"
-        Path="/Values/ProductionChain/Tier1/Item[Building = '1010330']">
-        <Item>
-            <Building>1999000102</Building>
-        </Item>
-    </ModOp>
+  <ModOp Type="addNextSibling" GUID="114554" Condition="!@114554/ConstructionCategory/BuildingList/Item[Building='1999000103']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
+    <Item>
+      <Building>1999000100</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1999000103']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
+    <Item>
+      <Building>1999000100</Building>
+    </Item>
+  </ModOp>
+  <!-- Tonpfeifenproduktionskette ersetzen -->
+  <ModOp Type="replace" GUID="114619" Condition="!@114619/ProductionChain/Tier1/Item[Building = '1999000102']" Path="/Values/ProductionChain/Tier1/Item[Building = '1010330']">
+    <Item>
+      <Building>1999000102</Building>
+    </Item>
+  </ModOp>
 </ModOps>

@@ -1,44 +1,44 @@
-  <ModOps>
-    <!-- Reset Trigger 1404429999, downwards-->
-    <ModOp Type="addnextSibling" GUID="130248">
-      <Asset>
-        <Template>Trigger</Template>
-        <Values>
-          <Standard>
-            <GUID>1404429996</GUID>
-            <Name>MOD Trigger</Name>
-          </Standard>
-          <Trigger>
-            <TriggerCondition>
-              <Template>ConditionAlwaysTrue</Template> 
-              <Values>
-                <Condition/>
-              </Values> 
-            </TriggerCondition>
-            <TriggerActions>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionRegisterTrigger</Template>
-                  <Values>
-                    <Action />
-                    <ActionRegisterTrigger>
-                      <TriggerAsset>1404430000</TriggerAsset>
-                    </ActionRegisterTrigger>
-                    <ActionRegisterTrigger>
-                      <TriggerAsset>1404430001</TriggerAsset>
-                    </ActionRegisterTrigger>
-                    <ActionRegisterTrigger>
-                      <TriggerAsset>1404419003</TriggerAsset>
-                    </ActionRegisterTrigger>
-                  </Values>
-                </TriggerAction>
-              </Item>
-            </TriggerActions>
-          </Trigger>
-          <TriggerSetup/>
-        </Values>
-      </Asset>
-    </ModOp>
+<ModOps>
+  <!-- Reset Trigger 1404429999, downwards-->
+  <ModOp Type="addnextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1404429996</GUID>
+          <Name>MOD Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionAlwaysTrue</Template>
+            <Values>
+              <Condition />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>1404430000</TriggerAsset>
+                  </ActionRegisterTrigger>
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>1404430001</TriggerAsset>
+                  </ActionRegisterTrigger>
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>1404419003</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
   <!-- Main Mod Unlock Trigger (1404429995) -->
   <ModOp Type="addnextSibling" GUID="130248">
     <Asset>
@@ -56,7 +56,7 @@
             </Values> -->
             <Template>ConditionPlayerCounter</Template>
             <Values>
-              <Condition/>
+              <Condition />
               <ConditionPlayerCounter>
                 <Context>133890</Context>
                 <!-- Touristenhafen -->
@@ -69,7 +69,7 @@
               <TriggerAction>
                 <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Action/>
+                  <Action />
                   <ActionUnlockAsset>
                     <UnhideAssets>
                       <!-- Cherries -->
@@ -80,7 +80,6 @@
                       <Item>
                         <Asset>1404420032</Asset>
                       </Item>
-                  
                       <!-- Jam Manufactory -->
                       <Item>
                         <Asset>1404420042</Asset>
@@ -93,7 +92,6 @@
                       <Item>
                         <Asset>1404420046</Asset>
                       </Item>
-
                       <!-- Highlife Orchards - for easier testing -->
                       <!-- <Item>
                         <Asset>135088</Asset>
@@ -101,12 +99,10 @@
                       <Item>
                         <Asset>135085</Asset>
                       </Item> -->
-                      
                       <!-- OW Orchard Category -->
                       <Item>
                         <Asset>1404419500</Asset>
                       </Item>
-
                     </UnhideAssets>
                     <UnlockAssets>
                       <!-- Cherries -->
@@ -117,7 +113,6 @@
                       <Item>
                         <Asset>1404420032</Asset>
                       </Item>
-
                       <!-- Jam Manufactory -->
                       <Item>
                         <Asset>1404420042</Asset>
@@ -130,20 +125,17 @@
                       <Item>
                         <Asset>1404420046</Asset>
                       </Item>
-
                       <!-- OW Orchard Category -->
                       <Item>
                         <Asset>1404419500</Asset>
                       </Item>
-
-                       <!-- Highlife Orchards - for easier testing -->
-                       <!-- <Item>
+                      <!-- Highlife Orchards - for easier testing -->
+                      <!-- <Item>
                         <Asset>135088</Asset>
                       </Item>
                       <Item>
                         <Asset>135085</Asset>
                       </Item> -->
-                      
                     </UnlockAssets>
                     <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
                   </ActionUnlockAsset>
@@ -152,18 +144,15 @@
             </Item>
           </TriggerActions>
         </Trigger>
-        <TriggerSetup/>
+        <TriggerSetup />
       </Values>
     </Asset>
   </ModOp>
-
-    <!--
+  <!--
  ###################################################################################################
  ########################################### Products ##############################################
  ###################################################################################################
   -->
-  
-
   <!-- Cherries 1404420030 -->
   <ModOp GUID="114341" Type="addNextSibling">
     <Asset>
@@ -185,7 +174,7 @@
           </LocaText>
           <LineID>35148</LineID>
         </Text>
-        <Locked/>
+        <Locked />
         <Product>
           <StorageLevel>Building</StorageLevel>
           <ProductCategory>11702</ProductCategory>
@@ -228,7 +217,7 @@
           </LocaText>
           <LineID>35148</LineID>
         </Text>
-        <Locked/>
+        <Locked />
         <Product>
           <StorageLevel>Building</StorageLevel>
           <ProductCategory>11702</ProductCategory>
@@ -248,7 +237,6 @@
       </Values>
     </Asset>
   </ModOp>
-
   <!--ADD NEW ITEMS TO STORAGE-LIST-->
   <ModOp Type="add" GUID="120055" Path="/Values/ProductStorageList/ProductList">
     <Item>
@@ -258,7 +246,7 @@
       <Product>1404420032</Product>
     </Item>
   </ModOp>
-      <!--ADD TO PRODUCT-LIST-->
+  <!--ADD TO PRODUCT-LIST-->
   <ModOp Type="add" GUID="502037,502017,502004" Path="/Values/ProductList/List">
     <Item>
       <Product>1404420030</Product>
@@ -267,13 +255,11 @@
       <Product>1404420032</Product>
     </Item>
   </ModOp>
-
-    <!--
+  <!--
  ###################################################################################################
  ###################################### OW Orchards & Jam ##########################################
  ###################################################################################################
   -->
-
   <!-- Cherry Orchard 1404420040 -->
   <ModOp GUID="133496" Type="replace" Path="/">
     <Asset>
@@ -289,7 +275,7 @@
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
         </Building>
-        <Blocking/>
+        <Blocking />
         <Cost>
           <Costs>
             <Item>
@@ -316,7 +302,7 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
+        <Mesh />
         <Selection>
           <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
           <Colors>
@@ -333,7 +319,7 @@
           </LocaText>
           <LineID>5316</LineID>
         </Text>
-        <Constructable/>
+        <Constructable />
         <Locked>
           <DLCDependency>410084</DLCDependency>
           <!-- Reisezeit -->
@@ -381,10 +367,10 @@
           </BuildingRepaired>
           <MaterialType>Wood</MaterialType>
         </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
         <FactoryBase>
           <FactoryOutputs>
             <Item>
@@ -417,8 +403,8 @@
         <!--<Motorizable>
           <MotorizableType>Tractor</MotorizableType> 
         </Motorizable> -->
-		<Motorizable/>
-        <LogisticNode/>
+        <Motorizable />
+        <LogisticNode />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
           <Murmur>Tourist_OrchardNewWorld</Murmur>
@@ -440,9 +426,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        <Industrializable />
+        <StreetActivation />
+        <LogisticNode />
         <Culture>
           <CultureType>Landscaping</CultureType>
         </Culture>
@@ -455,188 +441,187 @@
       <GUID>133496</GUID>
     </Item>
   </ModOp>
-
-    <!-- Cherry Wood Orchard 1404420040 -->
-    <ModOp GUID="135088" Type="replace" Path="/">
-      <Asset>
-        <Template>FarmBuilding</Template>
-        <Values>
-          <Standard>
-            <GUID>135088</GUID>
-            <Name>TreePlanter_Moderate_CherryWood</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_cherry_wood.png</IconFilename>
-            <InfoDescription>132783</InfoDescription>
-          </Standard>
-          <Building>
-            <BuildModeRandomRotation>90</BuildModeRandomRotation>
-            <AssociatedRegions>Moderate</AssociatedRegions>
-          </Building>
-          <Blocking/>
-          <Cost>
-            <Costs>
+  <!-- Cherry Wood Orchard 1404420040 -->
+  <ModOp GUID="135088" Type="replace" Path="/">
+    <Asset>
+      <Template>FarmBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>135088</GUID>
+          <Name>TreePlanter_Moderate_CherryWood</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_cherry_wood.png</IconFilename>
+          <InfoDescription>132783</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <!-- Münzen -->
+              <Amount>550</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <!-- Bretter -->
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <!-- Ziegelsteine -->
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc09/graphics/buildings/production/tree_planter/tree_planter_cherry_wood.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Orchard: Cherry Wood</Text>
+              <Status>Exported</Status>
+              <ExportCount>2</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>52150</LineID>
+        </Text>
+        <Constructable />
+        <Locked>
+          <DLCDependency>410085</DLCDependency>
+          <!-- High Life -->
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>214800</Sound>
+            </Item>
+            <Item>
+              <Sound>279525</Sound>
+            </Item>
+          </ActiveSounds>
+          <ConstructionSounds>
+            <BuildMoveSuccess>
               <Item>
-                <Ingredient>1010017</Ingredient>
-                <!-- Münzen -->
-                <Amount>550</Amount>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>FarmBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                    <Entry>
+                      <TemplateName>FreeAreaRecipeBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Sound>214783</Sound>
               </Item>
+            </BuildMoveSuccess>
+          </ConstructionSounds>
+          <IncidentSounds>
+            <InfectedFire>
               <Item>
-                <Ingredient>1010196</Ingredient>
-                <!-- Bretter -->
-                <Amount>10</Amount>
+                <Sound>214659</Sound>
               </Item>
-              <Item>
-                <Ingredient>1010205</Ingredient>
-                <!-- Ziegelsteine -->
-                <Amount>10</Amount>
-              </Item>
-            </Costs>
-          </Cost>
-          <Object>
-            <Variations>
-              <Item>
-                <Filename>data/dlc09/graphics/buildings/production/tree_planter/tree_planter_cherry_wood.cfg</Filename>
-              </Item>
-            </Variations>
-          </Object>
-          <Mesh/>
-          <Selection>
-            <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
-            <Colors>
-              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-            </Colors>
-          </Selection>
-          <Text>
-            <LocaText>
-              <English>
-                <Text>Orchard: Cherry Wood</Text>
-                <Status>Exported</Status>
-                <ExportCount>2</ExportCount>
-              </English>
-            </LocaText>
-            <LineID>52150</LineID>
-          </Text>
-          <Constructable/>
-          <Locked>
-            <DLCDependency>410085</DLCDependency>
-            <!-- High Life -->
-          </Locked>
-          <SoundEmitter>
-            <ActiveSounds>
-              <Item>
-                <Sound>214800</Sound>
-              </Item>
-              <Item>
-                <Sound>279525</Sound>
-              </Item>
-            </ActiveSounds>
-            <ConstructionSounds>
-              <BuildMoveSuccess>
-                <Item>
-                  <VectorElement>
-                    <InheritedIndex>0</InheritedIndex>
-                    <InheritanceMapV2>
-                      <Entry>
-                        <TemplateName>FarmBuilding</TemplateName>
-                        <Index>0</Index>
-                      </Entry>
-                      <Entry>
-                        <TemplateName>FreeAreaRecipeBuilding</TemplateName>
-                        <Index>0</Index>
-                      </Entry>
-                    </InheritanceMapV2>
-                  </VectorElement>
-                  <Sound>214783</Sound>
-                </Item>
-              </BuildMoveSuccess>
-            </ConstructionSounds>
-            <IncidentSounds>
-              <InfectedFire>
-                <Item>
-                  <Sound>214659</Sound>
-                </Item>
-              </InfectedFire>
-            </IncidentSounds>
-            <BuildingRepaired>
-              <Item>
-                <Sound>203866</Sound>
-              </Item>
-            </BuildingRepaired>
-            <MaterialType>Wood</MaterialType>
-          </SoundEmitter>
-          <FeedbackController/>
-          <Infolayer/>
-          <UpgradeList/>
-          <Factory7/>
-          <FactoryBase>
-            <FactoryOutputs>
-              <Item>
-                <Product>135087</Product>
-                <!-- Cherry Wood -->
-                <Amount>1</Amount>
-                <StorageAmount>10</StorageAmount>
-              </Item>
-            </FactoryOutputs>
-            <CycleTime>60</CycleTime>
-            <IsMainFactory>1</IsMainFactory>
-          </FactoryBase>
-          <ModuleOwner>
-            <ModuleLimits>
-              <Main>
-                <Limit>200</Limit>
-              </Main>
-            </ModuleLimits>
-            <ConstructionOptions>
-              <Item>
-                <ModuleGUID>1404420007</ModuleGUID>
-                <!-- Cherry Wood Field -->
-              </Item>
-            </ConstructionOptions>
-            <!--<AdditionalModule>269837</AdditionalModule>-->
-            <!-- Traktorscheune -->
-            <ModuleBuildRadius>0</ModuleBuildRadius>
-            <FarmType>PlantFarm</FarmType>
-          </ModuleOwner>
-          <!--<Motorizable>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+          <MaterialType>Wood</MaterialType>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>135087</Product>
+              <!-- Cherry Wood -->
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>200</Limit>
+            </Main>
+          </ModuleLimits>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>1404420007</ModuleGUID>
+              <!-- Cherry Wood Field -->
+            </Item>
+          </ConstructionOptions>
+          <!--<AdditionalModule>269837</AdditionalModule>-->
+          <!-- Traktorscheune -->
+          <ModuleBuildRadius>0</ModuleBuildRadius>
+          <FarmType>PlantFarm</FarmType>
+        </ModuleOwner>
+        <!--<Motorizable>
             <MotorizableType>Tractor</MotorizableType> 
           </Motorizable> -->
-         <Motorizable/>
-          <LogisticNode/>
-          <AmbientMoodProvider>
-            <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
-            <Murmur>Tourist_OrchardNewWorld</Murmur>
-            <DynamicEnvironmentType>None</DynamicEnvironmentType>
-          </AmbientMoodProvider>
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <!-- Münzen -->
-                <Amount>40</Amount>
-                <InactiveAmount>25</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010052</Product>
-                <!-- Bauern-Arbeitskaft -->
-                <Amount>35</Amount>
-                <InactiveAmount>17.5</InactiveAmount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <Industrializable/>
-          <StreetActivation/>
-          <LogisticNode/>
-          <Culture>
-            <CultureType>Landscaping</CultureType>
-          </Culture>
-        </Values>
-      </Asset>
-    </ModOp>
-    <!-- Add Cherry Wood Orchard to Building Effect Categories -->
-    <ModOp Type="add" GUID="193879,190611,190011,191471,6000018,193856,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
-      <Item>
-        <GUID>135088</GUID>
-      </Item>
-    </ModOp>
+        <Motorizable />
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+          <Murmur>Tourist_OrchardNewWorld</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <!-- Münzen -->
+              <Amount>40</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010052</Product>
+              <!-- Bauern-Arbeitskaft -->
+              <Amount>35</Amount>
+              <InactiveAmount>17.5</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable />
+        <StreetActivation />
+        <LogisticNode />
+        <Culture>
+          <CultureType>Landscaping</CultureType>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Add Cherry Wood Orchard to Building Effect Categories -->
+  <ModOp Type="add" GUID="193879,190611,190011,191471,6000018,193856,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>135088</GUID>
+    </Item>
+  </ModOp>
   <!-- Add Cherry Orchard to Building Menu -->
   <!-- <ModOp Type="addNextSibling" GUID="25000189" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010358']">
     <Item>
@@ -664,7 +649,7 @@
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
         </Building>
-        <Blocking/>
+        <Blocking />
         <Cost>
           <Costs>
             <Item>
@@ -691,7 +676,7 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
+        <Mesh />
         <Selection>
           <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
           <Colors>
@@ -708,7 +693,7 @@
           </LocaText>
           <LineID>5316</LineID>
         </Text>
-        <Constructable/>
+        <Constructable />
         <Locked>
           <DLCDependency>410084</DLCDependency>
           <!-- Reisezeit -->
@@ -727,10 +712,10 @@
             </InfectedFire>
           </IncidentSounds>
         </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -739,7 +724,7 @@
               <Amount>2</Amount>
               <StorageAmount>10</StorageAmount>
             </Item>
-		      	<Item>
+            <Item>
               <Product>1010239</Product>
               <!-- Zucker -->
               <Amount>1</Amount>
@@ -757,8 +742,8 @@
           <CycleTime>60</CycleTime>
           <IsMainFactory>1</IsMainFactory>
         </FactoryBase>
-        <LogisticNode/>
-        <AmbientMoodProvider/>
+        <LogisticNode />
+        <AmbientMoodProvider />
         <Maintenance>
           <Maintenances>
             <Item>
@@ -775,9 +760,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        <Industrializable />
+        <StreetActivation />
+        <LogisticNode />
       </Values>
     </Asset>
   </ModOp>
@@ -795,7 +780,7 @@
         <ProductionChain>
           <Building>1404420042</Building>
           <Tier1>
-			      <Item>
+            <Item>
               <Building>133496</Building>
               <!-- Cherry Orchard -->
             </Item>
@@ -846,7 +831,6 @@
       <Building>1404420044</Building>
     </Item>
   </ModOp>
-
   <!-- Apple Orchard 1404420046-->
   <ModOp GUID="100451" Type="addNextSibling">
     <Asset>
@@ -862,7 +846,7 @@
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
         </Building>
-        <Blocking/>
+        <Blocking />
         <Cost>
           <Costs>
             <Item>
@@ -884,7 +868,7 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
+        <Mesh />
         <Selection>
           <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
           <Colors>
@@ -901,7 +885,7 @@
           </LocaText>
           <LineID>5316</LineID>
         </Text>
-        <Constructable/>
+        <Constructable />
         <Locked>
           <DLCDependency>410084</DLCDependency>
           <!-- Reisezeit -->
@@ -949,10 +933,10 @@
           </BuildingRepaired>
           <MaterialType>Wood</MaterialType>
         </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
         <FactoryBase>
           <FactoryOutputs>
             <Item>
@@ -985,8 +969,8 @@
         <!--<Motorizable>
           <MotorizableType>Tractor</MotorizableType>
         </Motorizable>-->
-        <Motorizable/>
-		<LogisticNode/>
+        <Motorizable />
+        <LogisticNode />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
           <Murmur>Tourist_OrchardNewWorld</Murmur>
@@ -1008,9 +992,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        <Industrializable />
+        <StreetActivation />
+        <LogisticNode />
       </Values>
     </Asset>
   </ModOp>
@@ -1032,7 +1016,6 @@
       <Building>1404420046</Building>
     </Item>
   </ModOp> -->
-
   <!-- Resin Orchard 135085-->
   <ModOp GUID="135085" Type="replace" Path="/">
     <Asset>
@@ -1048,7 +1031,7 @@
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
         </Building>
-        <Blocking/>
+        <Blocking />
         <Cost>
           <Costs>
             <Item>
@@ -1070,7 +1053,7 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
+        <Mesh />
         <Selection>
           <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
           <Colors>
@@ -1087,7 +1070,7 @@
           </LocaText>
           <LineID>52151</LineID>
         </Text>
-        <Constructable/>
+        <Constructable />
         <Locked>
           <DLCDependency>410085</DLCDependency>
           <!-- High Life -->
@@ -1135,10 +1118,10 @@
           </BuildingRepaired>
           <MaterialType>Wood</MaterialType>
         </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
         <FactoryBase>
           <FactoryOutputs>
             <Item>
@@ -1171,8 +1154,8 @@
         <!--<Motorizable>
           <MotorizableType>Tractor</MotorizableType>
         </Motorizable>-->
-        <Motorizable/>
-		  <LogisticNode/>
+        <Motorizable />
+        <LogisticNode />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
           <Murmur>Tourist_OrchardNewWorld</Murmur>
@@ -1194,9 +1177,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        <Industrializable />
+        <StreetActivation />
+        <LogisticNode />
         <Culture>
           <CultureType>Landscaping</CultureType>
         </Culture>
@@ -1209,9 +1192,7 @@
       <GUID>135085</GUID>
     </Item>
   </ModOp>
-
-
-<!-- 
+  <!-- 
  ###################################################################################################
  ###########################################   NW Orchards #########################################
  ###################################################################################################
@@ -1237,7 +1218,7 @@
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Colony01</AssociatedRegions>
         </Building>
-        <Blocking/>
+        <Blocking />
         <Cost>
           <Costs>
             <Item>
@@ -1264,7 +1245,7 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
+        <Mesh />
         <Selection>
           <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
           <Colors>
@@ -1281,7 +1262,7 @@
           </LocaText>
           <LineID>5316</LineID>
         </Text>
-        <Constructable/>
+        <Constructable />
         <Locked>
           <DLCDependency>410084</DLCDependency>
           <!-- Reisezeit -->
@@ -1300,10 +1281,10 @@
             </InfectedFire>
           </IncidentSounds>
         </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
         <FactoryBase>
           <FactoryOutputs>
             <Item>
@@ -1336,8 +1317,8 @@
         <!-- <Motorizable>
           <MotorizableType>Tractor</MotorizableType>
         </Motorizable> -->
-        <LogisticNode/>
-        <AmbientMoodProvider/>
+        <LogisticNode />
+        <AmbientMoodProvider />
         <Maintenance>
           <Maintenances>
             <Item>
@@ -1354,9 +1335,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        <Industrializable />
+        <StreetActivation />
+        <LogisticNode />
       </Values>
     </Asset>
   </ModOp>
@@ -1366,7 +1347,7 @@
       <GUID>134614</GUID>
     </Item>
   </ModOp>
-    <!-- Camphor Construction Menu -->
+  <!-- Camphor Construction Menu -->
   <!-- <ModOp Type="addNextSibling" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010333']">
     <Item>
       <Building>1404420022</Building>
@@ -1394,7 +1375,7 @@
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Colony01</AssociatedRegions>
         </Building>
-        <Blocking/>
+        <Blocking />
         <Cost>
           <Costs>
             <Item>
@@ -1421,7 +1402,7 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
+        <Mesh />
         <Selection>
           <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
           <Colors>
@@ -1438,7 +1419,7 @@
           </LocaText>
           <LineID>5316</LineID>
         </Text>
-        <Constructable/>
+        <Constructable />
         <Locked>
           <DLCDependency>410084</DLCDependency>
           <!-- Reisezeit -->
@@ -1457,10 +1438,10 @@
             </InfectedFire>
           </IncidentSounds>
         </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
         <FactoryBase>
           <FactoryOutputs>
             <Item>
@@ -1493,8 +1474,8 @@
         <!-- <Motorizable>
           <MotorizableType>Tractor</MotorizableType>
         </Motorizable> -->
-        <LogisticNode/>
-        <AmbientMoodProvider/>
+        <LogisticNode />
+        <AmbientMoodProvider />
         <Maintenance>
           <Maintenances>
             <Item>
@@ -1511,9 +1492,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        <Industrializable />
+        <StreetActivation />
+        <LogisticNode />
       </Values>
     </Asset>
   </ModOp>
@@ -1551,7 +1532,7 @@
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Colony01</AssociatedRegions>
         </Building>
-        <Blocking/>
+        <Blocking />
         <Cost>
           <Costs>
             <Item>
@@ -1578,7 +1559,7 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
+        <Mesh />
         <Selection>
           <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
           <Colors>
@@ -1595,7 +1576,7 @@
           </LocaText>
           <LineID>5316</LineID>
         </Text>
-        <Constructable/>
+        <Constructable />
         <Locked>
           <DLCDependency>410084</DLCDependency>
           <!-- Reisezeit -->
@@ -1614,10 +1595,10 @@
             </InfectedFire>
           </IncidentSounds>
         </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
         <FactoryBase>
           <FactoryOutputs>
             <Item>
@@ -1650,8 +1631,8 @@
         <!-- <Motorizable>
           <MotorizableType>Tractor</MotorizableType>
         </Motorizable> -->
-        <LogisticNode/>
-        <AmbientMoodProvider/>
+        <LogisticNode />
+        <AmbientMoodProvider />
         <Maintenance>
           <Maintenances>
             <Item>
@@ -1668,9 +1649,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        <Industrializable />
+        <StreetActivation />
+        <LogisticNode />
       </Values>
     </Asset>
   </ModOp>
@@ -1708,7 +1689,7 @@
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Colony01</AssociatedRegions>
         </Building>
-        <Blocking/>
+        <Blocking />
         <Cost>
           <Costs>
             <Item>
@@ -1735,7 +1716,7 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
+        <Mesh />
         <Selection>
           <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
           <Colors>
@@ -1752,7 +1733,7 @@
           </LocaText>
           <LineID>5316</LineID>
         </Text>
-        <Constructable/>
+        <Constructable />
         <Locked>
           <DLCDependency>410084</DLCDependency>
           <!-- Reisezeit -->
@@ -1771,10 +1752,10 @@
             </InfectedFire>
           </IncidentSounds>
         </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
         <FactoryBase>
           <FactoryOutputs>
             <Item>
@@ -1807,8 +1788,8 @@
         <!-- <Motorizable>
           <MotorizableType>Tractor</MotorizableType>
         </Motorizable> -->
-        <LogisticNode/>
-        <AmbientMoodProvider/>
+        <LogisticNode />
+        <AmbientMoodProvider />
         <Maintenance>
           <Maintenances>
             <Item>
@@ -1825,9 +1806,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        <Industrializable />
+        <StreetActivation />
+        <LogisticNode />
       </Values>
     </Asset>
   </ModOp>
@@ -1849,50 +1830,49 @@
       <Building>1404420014</Building>
     </Item>
   </ModOp> -->
-
   <!-- Construction Menu Categories -->
-<!-- Buildmenu Orchards North 1404419500-->
-<ModOp Type="addNextSibling" GUID='501412'>
-  <Asset>
+  <!-- Buildmenu Orchards North 1404419500-->
+  <ModOp Type="addNextSibling" GUID="501412">
+    <Asset>
       <Template>ConstructionCategory</Template>
       <Values>
-          <Standard>
-              <GUID>1404419500</GUID>
-              <Name>Orchards OW</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/icon_plantation.png</IconFilename>
-              <InfoDescription>1404419501</InfoDescription>
-          </Standard>
-          <ConstructionCategory>
-              <BuildingList>
-                  <Item>
-                      <Building>133496</Building>
-                  </Item>
-                  <Item>
-                      <Building>1404420046</Building>
-                  </Item>
-                  <Item>
-                    <Building>135085</Building>
-                </Item>
-                <Item>
-                  <Building>135088</Building>
-              </Item>
-              </BuildingList>
-              <CategoryDescription>1404419502</CategoryDescription>
-          </ConstructionCategory>
-          <Text>
-              <LocaText>
-                  <English>
-                      <Text>Engineers</Text>
-                      <Status>Exported</Status>
-                      <ExportCount>1</ExportCount>
-                  </English>
-              </LocaText>
-              <LineID />
-          </Text>
-          <Locked />
+        <Standard>
+          <GUID>1404419500</GUID>
+          <Name>Orchards OW</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_plantation.png</IconFilename>
+          <InfoDescription>1404419501</InfoDescription>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>133496</Building>
+            </Item>
+            <Item>
+              <Building>1404420046</Building>
+            </Item>
+            <Item>
+              <Building>135085</Building>
+            </Item>
+            <Item>
+              <Building>135088</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>1404419502</CategoryDescription>
+        </ConstructionCategory>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Engineers</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID />
+        </Text>
+        <Locked />
       </Values>
-  </Asset>
-</ModOp>
+    </Asset>
+  </ModOp>
   <!-- Add OW Orchards to Building Menu Tourists-->
   <ModOp Type="replace" GUID="132779" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133496']">
     <Item>
@@ -1911,8 +1891,8 @@
       <Building>1404419500</Building>
     </Item>
   </ModOp>
-<!-- Buildmenu Orchards South 1404419502-->
-<!-- <ModOp Type="addNextSibling" GUID='501412'>
+  <!-- Buildmenu Orchards South 1404419502-->
+  <!-- <ModOp Type="addNextSibling" GUID='501412'>
   <Asset>
       <Template>ConstructionCategory</Template>
       <Values>
@@ -1971,8 +1951,6 @@
       <Building>1404419504</Building>
     </Item>
   </ModOp> -->
-
-
   <!--
  ###################################################################################################
  ########################################### Farm Fields ###########################################
@@ -1984,7 +1962,6 @@
     1404420004 : Cherry
     1404420005 : Apple
   -->
-
   <!-- Citrus Field 1404420000 -->
   <ModOp GUID="1010273" Type="addNextSibling">
     <Asset>
@@ -2058,8 +2035,8 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
-        <Selection/>
+        <Mesh />
+        <Selection />
         <Text>
           <LocaText>
             <English>
@@ -2070,20 +2047,20 @@
           </LocaText>
           <LineID>5243</LineID>
         </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter/>
-        <FeedbackController/>
-        <Infolayer/>
-        <BuildingModule/>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
           <Murmur>Tourist_OrchardNewWorld</Murmur>
           <DynamicEnvironmentType>None</DynamicEnvironmentType>
         </AmbientMoodProvider>
-        <ModuleIrrigation/>
+        <ModuleIrrigation />
       </Values>
-    </Asset>    
+    </Asset>
   </ModOp>
   <!-- Coconut Field 1404420001 -->
   <ModOp GUID="1010273" Type="addNextSibling">
@@ -2158,8 +2135,8 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
-        <Selection/>
+        <Mesh />
+        <Selection />
         <Text>
           <LocaText>
             <English>
@@ -2170,20 +2147,20 @@
           </LocaText>
           <LineID>5243</LineID>
         </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter/>
-        <FeedbackController/>
-        <Infolayer/>
-        <BuildingModule/>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
           <Murmur>Tourist_OrchardNewWorld</Murmur>
           <DynamicEnvironmentType>None</DynamicEnvironmentType>
         </AmbientMoodProvider>
-        <ModuleIrrigation/>
+        <ModuleIrrigation />
       </Values>
-    </Asset>    
+    </Asset>
   </ModOp>
   <!-- Cinnamon Field 1404420002 -->
   <ModOp GUID="1010273" Type="addNextSibling">
@@ -2258,8 +2235,8 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
-        <Selection/>
+        <Mesh />
+        <Selection />
         <Text>
           <LocaText>
             <English>
@@ -2270,20 +2247,20 @@
           </LocaText>
           <LineID>5243</LineID>
         </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter/>
-        <FeedbackController/>
-        <Infolayer/>
-        <BuildingModule/>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
           <Murmur>Tourist_OrchardNewWorld</Murmur>
           <DynamicEnvironmentType>None</DynamicEnvironmentType>
         </AmbientMoodProvider>
-        <ModuleIrrigation/>
+        <ModuleIrrigation />
       </Values>
-    </Asset>    
+    </Asset>
   </ModOp>
   <!-- Camphor Field 1404420003 -->
   <ModOp GUID="1010273" Type="addNextSibling">
@@ -2358,8 +2335,8 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
-        <Selection/>
+        <Mesh />
+        <Selection />
         <Text>
           <LocaText>
             <English>
@@ -2370,20 +2347,20 @@
           </LocaText>
           <LineID>5243</LineID>
         </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter/>
-        <FeedbackController/>
-        <Infolayer/>
-        <BuildingModule/>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
           <Murmur>Tourist_OrchardNewWorld</Murmur>
           <DynamicEnvironmentType>None</DynamicEnvironmentType>
         </AmbientMoodProvider>
-        <ModuleIrrigation/>
+        <ModuleIrrigation />
       </Values>
-    </Asset>    
+    </Asset>
   </ModOp>
   <!-- Cherry Field 1404420004 -->
   <ModOp GUID="1010273" Type="addNextSibling">
@@ -2438,25 +2415,25 @@
             <Item>
               <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_01.cfg</Filename>
             </Item>
-		      	<Item>
+            <Item>
               <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_02.cfg</Filename>
             </Item>
-		      	<Item>
+            <Item>
               <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_03.cfg</Filename>
             </Item>
-		      	<Item>
+            <Item>
               <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_04.cfg</Filename>
             </Item>
-		      	<Item>
+            <Item>
               <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_05.cfg</Filename>
             </Item>
-			      <Item>
+            <Item>
               <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_06.cfg</Filename>
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
-        <Selection/>
+        <Mesh />
+        <Selection />
         <Text>
           <LocaText>
             <English>
@@ -2467,18 +2444,18 @@
           </LocaText>
           <LineID>5243</LineID>
         </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter/>
-        <FeedbackController/>
-        <Infolayer/>
-        <BuildingModule/>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
           <Murmur>Tourist_OrchardNewWorld</Murmur>
           <DynamicEnvironmentType>None</DynamicEnvironmentType>
         </AmbientMoodProvider>
-        <ModuleIrrigation/>
+        <ModuleIrrigation />
       </Values>
     </Asset>
   </ModOp>
@@ -2535,28 +2512,28 @@
             <Item>
               <Filename>data/modgraphics/models/apple_farm_field/apple_farm_field_01.cfg</Filename>
             </Item>
-			      <Item>
+            <Item>
               <Filename>data/modgraphics/models/apple_farm_field/apple_farm_field_02.cfg</Filename>
             </Item>
-		      	<Item>
+            <Item>
               <Filename>data/modgraphics/models/apple_farm_field/apple_farm_field_03.cfg</Filename>
             </Item>
-		      	<Item>
+            <Item>
               <Filename>data/modgraphics/models/apple_farm_field/apple_farm_field_04.cfg</Filename>
             </Item>
-	      		<Item>
+            <Item>
               <Filename>data/modgraphics/models/apple_farm_field/apple_farm_field_05.cfg</Filename>
             </Item>
-	      		<Item>
+            <Item>
               <Filename>data/modgraphics/models/apple_farm_field/apple_farm_field_06.cfg</Filename>
             </Item>
-		      	<Item>
+            <Item>
               <Filename>data/modgraphics/models/apple_farm_field/apple_farm_field_07.cfg</Filename>
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
-        <Selection/>
+        <Mesh />
+        <Selection />
         <Text>
           <LocaText>
             <English>
@@ -2567,17 +2544,17 @@
           </LocaText>
           <LineID>5243</LineID>
         </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter/>
-        <FeedbackController/>
-        <Infolayer/>
-        <BuildingModule/>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
         <AmbientMoodProvider>
           <AmbientMood>PotatoField</AmbientMood>
           <DynamicEnvironmentType>None</DynamicEnvironmentType>
         </AmbientMoodProvider>
-        <ModuleIrrigation/>
+        <ModuleIrrigation />
       </Values>
     </Asset>
   </ModOp>
@@ -2651,8 +2628,8 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
-        <Selection/>
+        <Mesh />
+        <Selection />
         <Text>
           <LocaText>
             <English>
@@ -2663,21 +2640,20 @@
           </LocaText>
           <LineID>5243</LineID>
         </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter/>
-        <FeedbackController/>
-        <Infolayer/>
-        <BuildingModule/>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
         <AmbientMoodProvider>
           <AmbientMood>PotatoField</AmbientMood>
           <DynamicEnvironmentType>None</DynamicEnvironmentType>
         </AmbientMoodProvider>
-        <ModuleIrrigation/>
+        <ModuleIrrigation />
       </Values>
     </Asset>
   </ModOp>
-
   <!-- Cherry Wood Farm Field 1404420007 -->
   <ModOp GUID="1010273" Type="addNextSibling">
     <Asset>
@@ -2748,8 +2724,8 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
-        <Selection/>
+        <Mesh />
+        <Selection />
         <Text>
           <LocaText>
             <English>
@@ -2760,30 +2736,26 @@
           </LocaText>
           <LineID>5243</LineID>
         </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter/>
-        <FeedbackController/>
-        <Infolayer/>
-        <BuildingModule/>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
           <Murmur>Tourist_OrchardNewWorld</Murmur>
           <DynamicEnvironmentType>None</DynamicEnvironmentType>
         </AmbientMoodProvider>
-        <ModuleIrrigation/>
+        <ModuleIrrigation />
       </Values>
     </Asset>
   </ModOp>
-
-
   <!--
  ###################################################################################################
  ########################################### Apple Pie Recipe ######################################
  ###################################################################################################
   -->
-  
-  
   <!--Apple Pie Recipe 1404419000-->
   <ModOp GUID="132757" Type="addNextSibling">
     <Asset>
@@ -2798,7 +2770,7 @@
         <Text>
           <LocaText>
             <English>
-              <Text>Donut Fourr&#xE9;</Text>
+              <Text>Donut Fourré</Text>
               <Status>Exported</Status>
               <ExportCount>2</ExportCount>
             </English>
@@ -2826,11 +2798,10 @@
             </Item>
           </RecipeIngredientUIData>
         </Recipe>
-        <Locked/>
+        <Locked />
       </Values>
     </Asset>
   </ModOp>
-
   <!-- Apple Pie Recipe Unlock Trigger 1404419003-->
   <ModOp Type="addnextSibling" GUID="134786">
     <Asset>
@@ -2844,7 +2815,7 @@
           <TriggerCondition>
             <Template>ConditionAlwaysTrue</Template>
             <Values>
-              <Condition/>
+              <Condition />
             </Values>
           </TriggerCondition>
           <TriggerActions>
@@ -2852,7 +2823,7 @@
               <TriggerAction>
                 <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Action/>
+                  <Action />
                   <ActionUnlockAsset>
                     <UnhideAssets>
                       <!-- Apple Pie Recipe -->
@@ -2872,11 +2843,10 @@
             </Item>
           </TriggerActions>
         </Trigger>
-        <TriggerSetup/>
+        <TriggerSetup />
       </Values>
     </Asset>
   </ModOp>
-
   <!-- Cafe: Apple Pie 1404419005 -->
   <ModOp GUID="132753" Type="addNextSibling">
     <Asset>
@@ -2895,7 +2865,7 @@
           <!-- Lokal -->
           <SkipUnlockMessage>1</SkipUnlockMessage>
         </Building>
-        <Blocking/>
+        <Blocking />
         <Object>
           <Variations>
             <Item>
@@ -2976,19 +2946,19 @@
             </Item>
           </Costs>
         </Cost>
-        <Mesh/>
-        <Selection/>
+        <Mesh />
+        <Selection />
         <Text>
           <LocaText>
             <English>
-              <Text>Cafe: Donut Fourr&#xE9;</Text>
+              <Text>Cafe: Donut Fourré</Text>
               <Status>Exported</Status>
               <ExportCount>2</ExportCount>
             </English>
           </LocaText>
           <LineID>49824</LineID>
         </Text>
-        <Constructable/>
+        <Constructable />
         <Locked>
           <DLCDependency>410084</DLCDependency>
           <!-- Reisezeit -->
@@ -3025,7 +2995,7 @@
           <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
           <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
         </FactoryBase>
-        <LogisticNode/>
+        <LogisticNode />
         <Maintenance>
           <Maintenances>
             <Item>
@@ -3043,18 +3013,18 @@
         <Industrializable>
           <BoostedByIndustrialization>0</BoostedByIndustrialization>
         </Industrializable>
-        <IncidentInfectable/>
-        <Electrifiable/>
+        <IncidentInfectable />
+        <Electrifiable />
         <AmbientMoodProvider>
           <Murmur>Tourist_Cafe</Murmur>
         </AmbientMoodProvider>
-        <Attackable/>
-        <UpgradeList/>
-        <Pausable/>
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
         <FeedbackController>
           <NightBehavior>HideNone</NightBehavior>
         </FeedbackController>
-        <Infolayer/>
+        <Infolayer />
         <BuffFactory>
           <ProductionBuffs>
             <Item>
@@ -3087,12 +3057,11 @@
           <BusNeed>132755</BusNeed>
           <!-- Café -->
         </BusActivation>
-        <Culture/>
-        <Nameable/>
+        <Culture />
+        <Nameable />
       </Values>
     </Asset>
   </ModOp>
-
   <!-- Apple Pie Buff 1404419006-->
   <ModOp GUID="132759" Type="addNextSibling">
     <Asset>
@@ -3123,9 +3092,9 @@
           </LocaText>
           <LineID>49905</LineID>
         </Text>
-        <BuildingUpgrade/>
-        <Buff/>
-        <PopulationUpgrade/>
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
         <ResidenceUpgrade>
           <AdditionalHappiness>3</AdditionalHappiness>
           <GoodConsumptionUpgrade>
@@ -3146,12 +3115,12 @@
             </Item>
           </GoodConsumptionUpgrade>
         </ResidenceUpgrade>
-        <IncidentInfectableUpgrade/>
-        <CultureUpgrade/>
-        <InfluenceSourceUpgrade/>
-        <WarehouseUpgrade/>
-        <DistributionUpgrade/>
-        <ItemContainerUpgrade/>
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
       </Values>
     </Asset>
   </ModOp>
@@ -3185,9 +3154,9 @@
           </LocaText>
           <LineID>49905</LineID>
         </Text>
-        <BuildingUpgrade/>
-        <Buff/>
-        <PopulationUpgrade/>
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
         <ResidenceUpgrade>
           <AdditionalHappiness>3</AdditionalHappiness>
           <GoodConsumptionUpgrade>
@@ -3208,26 +3177,23 @@
             </Item>
           </GoodConsumptionUpgrade>
         </ResidenceUpgrade>
-        <IncidentInfectableUpgrade/>
-        <CultureUpgrade/>
-        <InfluenceSourceUpgrade/>
-        <WarehouseUpgrade/>
-        <DistributionUpgrade/>
-        <ItemContainerUpgrade/>
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
       </Values>
     </Asset>
   </ModOp>
-
   <!-- Add Apple Pie to Recipe List -->
   <ModOp GUID="133556" Type="add" Path="/Values/RecipeList/Recipes">
-      <Item>
-        <Recipe>1404419000</Recipe>
-        <!-- Apple Pie -->
-      </Item>
+    <Item>
+      <Recipe>1404419000</Recipe>
+      <!-- Apple Pie -->
+    </Item>
   </ModOp>
-
-
-    <!--
+  <!--
  ###################################################################################################
  ########################################### Specialists  ##########################################
  ###################################################################################################
@@ -3255,13 +3221,13 @@
           </LocaText>
           <LineID>26667</LineID>
         </Text>
-        <Locked/>
-        <Buff/>
+        <Locked />
+        <Buff />
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Epic</Rarity>
           <ItemType>Specialist</ItemType>
-          <Allocation/>
+          <Allocation />
           <TradePrice>178200</TradePrice>
           <TradePriceOnlineCurrency>78200</TradePriceOnlineCurrency>
         </Item>
@@ -3270,7 +3236,7 @@
             <Value>50</Value>
             <Percental>1</Percental>
           </ProductivityUpgrade>
-          <AdditionalOutput/>
+          <AdditionalOutput />
         </FactoryUpgrade>
         <ItemEffect>
           <EffectTargets>
@@ -3315,27 +3281,27 @@
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1404420051</FluffText>
         </ExpeditionAttribute>
-        <ResidenceUpgrade/>
-        <PopulationUpgrade/>
-        <IndustrializableUpgrade/>
-        <HeaterUpgrade/>
-        <PowerplantUpgrade/>
-        <IrrigationUpgrade/>
-        <VehicleUpgrade/>
-        <TradeShipUpgrade/>
-        <AttackerUpgrade/>
-        <AttackableUpgrade/>
-        <ModuleOwnerUpgrade/>
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <VehicleUpgrade />
+        <TradeShipUpgrade />
+        <AttackerUpgrade />
+        <AttackableUpgrade />
+        <ModuleOwnerUpgrade />
         <BuildingUpgrade>
           <MaintenanceUpgrade>
             <Value>-10</Value>
             <Percental>1</Percental>
           </MaintenanceUpgrade>
         </BuildingUpgrade>
-        <CultureUpgrade/>
-        <CraftableItem/>
-        <IncidentInfluencerUpgrade/>
-        <IncidentInfectableUpgrade/>
+        <CultureUpgrade />
+        <CraftableItem />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
       </Values>
     </Asset>
   </ModOp>
@@ -3368,13 +3334,13 @@
           </LocaText>
           <LineID>26667</LineID>
         </Text>
-        <Locked/>
-        <Buff/>
+        <Locked />
+        <Buff />
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Epic</Rarity>
           <ItemType>Specialist</ItemType>
-          <Allocation/>
+          <Allocation />
           <TradePrice>178200</TradePrice>
           <TradePriceOnlineCurrency>78200</TradePriceOnlineCurrency>
         </Item>
@@ -3383,7 +3349,7 @@
             <Value>50</Value>
             <Percental>1</Percental>
           </ProductivityUpgrade>
-          <AdditionalOutput/>
+          <AdditionalOutput />
         </FactoryUpgrade>
         <ItemEffect>
           <EffectTargets>
@@ -3407,17 +3373,17 @@
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1404420053</FluffText>
         </ExpeditionAttribute>
-        <ResidenceUpgrade/>
-        <PopulationUpgrade/>
-        <IndustrializableUpgrade/>
-        <HeaterUpgrade/>
-        <PowerplantUpgrade/>
-        <IrrigationUpgrade/>
-        <VehicleUpgrade/>
-        <TradeShipUpgrade/>
-        <AttackerUpgrade/>
-        <AttackableUpgrade/>
-        <ModuleOwnerUpgrade/>
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <VehicleUpgrade />
+        <TradeShipUpgrade />
+        <AttackerUpgrade />
+        <AttackableUpgrade />
+        <ModuleOwnerUpgrade />
         <BuildingUpgrade>
           <MaintenanceUpgrade>
             <Value>15</Value>
@@ -3428,10 +3394,10 @@
             <Percental>1</Percental>
           </WorkforceAmountUpgrade>
         </BuildingUpgrade>
-        <CultureUpgrade/>
-        <CraftableItem/>
-        <IncidentInfluencerUpgrade/>
-        <IncidentInfectableUpgrade/>
+        <CultureUpgrade />
+        <CraftableItem />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
       </Values>
     </Asset>
   </ModOp>
@@ -3441,8 +3407,7 @@
       <ItemLink>1404420052</ItemLink>
     </Item>
   </ModOp>
-
-<!-- Clara the Cherry Picker 1404420054-->
+  <!-- Clara the Cherry Picker 1404420054-->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
       <Template>GuildhouseItem</Template>
@@ -3465,13 +3430,13 @@
           </LocaText>
           <LineID>26667</LineID>
         </Text>
-        <Locked/>
-        <Buff/>
+        <Locked />
+        <Buff />
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
           <ItemType>Specialist</ItemType>
-          <Allocation/>
+          <Allocation />
           <TradePrice>801200</TradePrice>
           <TradePriceOnlineCurrency>801200</TradePriceOnlineCurrency>
         </Item>
@@ -3480,7 +3445,7 @@
             <Value>200</Value>
             <Percental>1</Percental>
           </ProductivityUpgrade>
-          <AdditionalOutput/>
+          <AdditionalOutput />
         </FactoryUpgrade>
         <ItemEffect>
           <EffectTargets>
@@ -3504,16 +3469,16 @@
           <ItemDifficulties>Hard</ItemDifficulties>
           <FluffText>1404420055</FluffText>
         </ExpeditionAttribute>
-        <ResidenceUpgrade/>
-        <PopulationUpgrade/>
-        <IndustrializableUpgrade/>
-        <HeaterUpgrade/>
-        <PowerplantUpgrade/>
-        <IrrigationUpgrade/>
-        <VehicleUpgrade/>
-        <TradeShipUpgrade/>
-        <AttackerUpgrade/>
-        <AttackableUpgrade/>
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <VehicleUpgrade />
+        <TradeShipUpgrade />
+        <AttackerUpgrade />
+        <AttackableUpgrade />
         <ModuleOwnerUpgrade>
           <ModuleLimitPercent>50</ModuleLimitPercent>
         </ModuleOwnerUpgrade>
@@ -3527,10 +3492,10 @@
             <Percental>1</Percental>
           </WorkforceAmountUpgrade>
         </BuildingUpgrade>
-        <CultureUpgrade/>
-        <CraftableItem/>
-        <IncidentInfluencerUpgrade/>
-        <IncidentInfectableUpgrade/>
+        <CultureUpgrade />
+        <CraftableItem />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
       </Values>
     </Asset>
   </ModOp>
@@ -3553,7 +3518,7 @@
           <TriggerCondition>
             <Template>ConditionPlayerCounter</Template>
             <Values>
-              <Condition/>
+              <Condition />
               <ConditionPlayerCounter>
                 <Context>133890</Context>
                 <!-- Touristenhafen -->
@@ -3566,7 +3531,7 @@
               <TriggerAction>
                 <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Action/>
+                  <Action />
                   <ActionUnlockAsset>
                     <UnhideAssets>
                       <Item>
@@ -3597,10 +3562,8 @@
             </Item>
           </TriggerActions>
         </Trigger>
-        <TriggerSetup/>
+        <TriggerSetup />
       </Values>
     </Asset>
   </ModOp>
-
-
-  </ModOps>
+</ModOps>
