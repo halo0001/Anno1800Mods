@@ -1,0 +1,164 @@
+<ModOps>
+	<!-- Products -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404420030</GUID>
+			<Text>Kirschen</Text>
+		</Text>
+		<Text>
+			<GUID>1404420031</GUID>
+			<Text>Im Gegensatz zu Konfitüre wachsen diese sogar auf Bäumen.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1404420032</GUID>
+			<Text>Äpfel</Text>
+		</Text>
+		<Text>
+			<GUID>1404420033</GUID>
+			<Text>One apple a day keeps Mr. Gasparov away, right?</Text>
+		</Text>
+	</ModOp>
+	<!-- Orchards -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404420010</GUID>
+			<Text>Zitrusfruchtplantage</Text>
+		</Text>
+		<Text>
+			<GUID>1404420011</GUID>
+			<Text>Produziert Waren.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420014</GUID>
+			<Text>Kokusnussplantage</Text>
+		</Text>
+		<Text>
+			<GUID>1404420015</GUID>
+			<Text>Produziert Waren.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420018</GUID>
+			<Text>Zimtplantage</Text>
+		</Text>
+		<Text>
+			<GUID>1404420019</GUID>
+			<Text>Produziert Waren.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420022</GUID>
+			<Text>Kampferplantage</Text>
+		</Text>
+		<Text>
+			<GUID>1404420023</GUID>
+			<Text>Produziert Waren.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420040</GUID>
+			<Text>Obstgarten: Kirschen</Text>
+		</Text>
+		<Text>
+			<GUID>1404420041</GUID>
+			<Text>Produziert Waren.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420060</GUID>
+			<Text>Obstgarten: Kirschholz</Text>
+		</Text>
+		<Text>
+			<GUID>1404420061</GUID>
+			<Text>Produziert Waren.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420062</GUID>
+			<Text>Obstgarten: Harz</Text>
+		</Text>
+		<Text>
+			<GUID>1404420063</GUID>
+			<Text>Produziert Waren.</Text>
+		</Text>
+	</ModOp>
+	<!-- Orchard Fields-->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404420000</GUID>
+			<Text>Zitrusfeld</Text>
+		</Text>
+		<Text>
+			<GUID>1404420001</GUID>
+			<Text>Kokusnussfeld</Text>
+		</Text>
+		<Text>
+			<GUID>1404420002</GUID>
+			<Text>Zimtfeld</Text>
+		</Text>
+		<Text>
+			<GUID>1404420003</GUID>
+			<Text>Kampferfeld</Text>
+		</Text>
+		<Text>
+			<GUID>1404420004</GUID>
+			<Text>Kirschfeld</Text>
+		</Text>
+		<Text>
+			<GUID>1404420005</GUID>
+			<Text>Apfelfeld</Text>
+		</Text>
+		<Text>
+			<GUID>1404420006</GUID>
+			<Text>Baumplantage</Text>
+		</Text>
+		<Text>
+			<GUID>1404420007</GUID>
+			<Text>Kirschwald</Text>
+		</Text>
+	</ModOp>
+	<!-- Building Categories -->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404419501</GUID>
+			<Text>Obstgärten</Text>
+		</Text>
+		<Text>
+			<GUID>1404419502</GUID>
+			<Text>Produzieren Obst.</Text>
+		</Text>
+		<!-- South America -->
+		<Text>
+			<GUID>1404419505</GUID>
+			<Text>Obstplantagen (Neue Welt)</Text>
+		</Text>
+		<Text>
+			<GUID>1404419506</GUID>
+			<Text>Produzieren Waren.</Text>
+		</Text>
+	</ModOp>
+	
+	<!-- Specialists -->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404420050</GUID>
+			<Text>John der Baumumarmer</Text>
+		</Text>
+		<Text>
+			<GUID>1404420051</GUID>
+			<Text>Er liebt Bäume. Und sie lieben ihn.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420052</GUID>
+			<Text>Marlene, Mutter der Marmeladen</Text>
+		</Text>
+		<Text>
+			<GUID>1404420053</GUID>
+			<Text>Sie ist weltberühmt für ihre köstliche Konfitüre.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420054</GUID>
+			<Text>Clara die Kirschenpickerin</Text>
+		</Text>
+		<Text>
+			<GUID>1404420055</GUID>
+			<Text>Sie mag auch gerne Rosinen.</Text>
+		</Text>
+	</ModOp>
+</ModOps>
