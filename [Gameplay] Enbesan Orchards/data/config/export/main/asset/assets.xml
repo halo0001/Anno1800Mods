@@ -1,5 +1,71 @@
 <ModOps>
-
+  <!-- Trigger Plantagen in Enbesa -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1404429994</GUID>
+          <Name>MOD Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <Context>133890</Context>
+                <!-- Touristenhafen -->
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>133097</Asset>
+                        <!-- Zitrusfrüchte -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420010</Asset>
+                        <!-- Zitrusfruchtplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420012</Asset>
+                        <!-- Zitrusfrüchte Production Chain -->
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>133097</Asset>
+                        <!-- Zitrusfrüchte -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420010</Asset>
+                        <!-- Zitrusfruchtplantage -->
+                      </Item>
+                      <Item>
+                        <Asset>1404420012</Asset>
+                        <!-- Zitrusfrüchte Production Chain -->
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  
   <!-- #Zitrusfarm in Enbesa -->
   <Group>
     <!-- Produkt Zitrusfrüchte Enbesa -->
@@ -43,7 +109,7 @@
               <Item>
                 <Ingredient>1010017</Ingredient>
                 <!-- Münzen -->
-                <Amount>500</Amount>
+                <Amount>550</Amount>
               </Item>
               <Item>
                 <Ingredient>114356</Ingredient>
@@ -348,110 +414,7 @@
         </Values>
       </Asset>
     </ModOp>
-    <!-- Trigger Zitrusfrüchte in Enbesa -->
-    <ModOp Type="addNextSibling" GUID="130248">
-      <Asset>
-        <Template>Trigger</Template>
-        <Values>
-          <Standard>
-            <GUID>1404429994</GUID>
-            <Name>MOD Trigger</Name>
-          </Standard>
-          <Trigger>
-            <TriggerCondition>
-              <Template>ConditionPlayerCounter</Template>
-              <Values>
-                <Condition />
-                <ConditionPlayerCounter>
-                  <Context>133890</Context>
-                  <!-- Touristenhafen -->
-                  <CounterAmount>1</CounterAmount>
-                </ConditionPlayerCounter>
-              </Values>
-            </TriggerCondition>
-            <TriggerActions>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionUnlockAsset</Template>
-                  <Values>
-                    <Action />
-                    <ActionUnlockAsset>
-                      <UnhideAssets>
-                        <Item>
-                          <Asset>133097</Asset>
-                          <!-- 120031 -->
-                        </Item>
-                        <Item>
-                          <Asset>1404420010</Asset>
-                          <!-- 1999000100 -->
-                        </Item>
-                        <Item>
-                          <Asset>1404420012</Asset>
-                          <!-- Production Chain -->
-                        </Item>
-                      </UnhideAssets>
-                    </ActionUnlockAsset>
-                  </Values>
-                </TriggerAction>
-              </Item>
-            </TriggerActions>
-          </Trigger>
-          <TriggerSetup />
-        </Values>
-      </Asset>
-    </ModOp>
-    <ModOp Type="addNextSibling" GUID="130248">
-      <Asset>
-        <Template>Trigger</Template>
-        <Values>
-          <Standard>
-            <GUID>1404429995</GUID>
-            <Name>MOD Trigger</Name>
-          </Standard>
-          <Trigger>
-            <TriggerCondition>
-              <Template>ConditionPlayerCounter</Template>
-              <Values>
-                <Condition />
-                <ConditionPlayerCounter>
-                  <Context>133890</Context>
-                  <!-- Touristenhafen -->
-                  <CounterAmount>1</CounterAmount>
-                </ConditionPlayerCounter>
-              </Values>
-            </TriggerCondition>
-            <TriggerActions>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionUnlockAsset</Template>
-                  <Values>
-                    <Action />
-                    <ActionUnlockAsset>
-                      <UnlockAssets>
-                        <Item>
-                          <Asset>133097</Asset>
-                          <!-- 120031 -->
-                        </Item>
-                        <Item>
-                          <Asset>1404420010</Asset>
-                          <!-- 1999000100 -->
-                        </Item>
-                        <Item>
-                          <Asset>1404420012</Asset>
-                          <!-- Production Chain -->
-                        </Item>
-                      </UnlockAssets>
-                    </ActionUnlockAsset>
-                  </Values>
-                </TriggerAction>
-              </Item>
-            </TriggerActions>
-          </Trigger>
-          <TriggerSetup />
-        </Values>
-      </Asset>
-    </ModOp>
-  </Group>
+    </Group>
   <!-- Zitrusplantagen Enbesa in diversen Baumenüs ergänzen -->
   <ModOp Type="addNextSibling" GUID="114553" Condition="!@114553/ConstructionCategory/BuildingList/Item[Building='1404420012']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
     <Item>
