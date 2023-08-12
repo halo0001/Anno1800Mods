@@ -30,6 +30,10 @@
 			<Text>Produziert Waren.</Text>
 		</Text>
 		<Text>
+			<GUID>1404420010</GUID>
+			<Text>Zitrusfrüchte</Text>
+		</Text>
+		<Text>
 			<GUID>1404420014</GUID>
 			<Text>Kokusnussplantage</Text>
 		</Text>
@@ -54,19 +58,35 @@
 			<Text>Produziert Waren.</Text>
 		</Text>
 		<Text>
-			<GUID>1404420046</GUID>
-			<Text>Obstgarten: Äpfel</Text>
+			<GUID>1404420040</GUID>
+			<Text>Obstgarten: Kirschen</Text>
 		</Text>
 		<Text>
 			<GUID>1404420041</GUID>
 			<Text>Produziert Waren.</Text>
 		</Text>
 		<Text>
-			<GUID>133496</GUID>
-			<Text>Obstgarten: Kirschen</Text>
+			<GUID>1404420046</GUID>
+			<Text>Obstgarten: Äpfel</Text>
 		</Text>
 		<Text>
 			<GUID>1404420047</GUID>
+			<Text>Produziert Waren.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420060</GUID>
+			<Text>Obstgarten: Kirschholz</Text>
+		</Text>
+		<Text>
+			<GUID>1404420061</GUID>
+			<Text>Produziert Waren.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420062</GUID>
+			<Text>Obstgarten: Harz</Text>
+		</Text>
+		<Text>
+			<GUID>1404420063</GUID>
 			<Text>Produziert Waren.</Text>
 		</Text>
 	</ModOp>

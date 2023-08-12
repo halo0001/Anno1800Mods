@@ -1,5 +1,5 @@
 <ModOps>
-  <!-- #Fruchtbarkeiten Enbesa - always [on] -->
+  <!-- #Fruchtbarkeiten Enbesa -->
   <Group>
     <!-- Erlaubte Fruchtbarkeiten in Enbesa -->
     <ModOp GUID="114327" Type="add" Path="/Values/Region/AllowedFertilities">
@@ -72,7 +72,7 @@
     </ModOp>
   </Group>
 
-  <!-- #Produkt Kaffee ersetzen und Kaffeefarm in Enbesa - always [on] -->
+  <!-- #Produkt Kaffee ersetzen und Kaffeefarm in Enbesa -->
   <Group>
     
     <!-- Produkt Kaffeebohnen Enbesa -->
