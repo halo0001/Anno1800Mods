@@ -212,7 +212,7 @@
   
   <!-- #Produkte in Enbesa -->
   <Group>
-    <!-- Produkte in Enbesa -->
+    <!-- Zitrusfrüchte in Enbesa -->
     <ModOp GUID="133097" Type="replace" Path="/Values/Product/AssociatedRegion">
       <AssociatedRegion>Colony01;Africa</AssociatedRegion>
     </ModOp>
@@ -232,10 +232,136 @@
         <Product>133097</Product>
       </Item>
     </ModOp>
+  
+    <!-- Kokosöl in Enbesa -->
+    <ModOp GUID="133095" Type="replace" Path="/Values/Product/AssociatedRegion">
+      <AssociatedRegion>Colony01;Africa</AssociatedRegion>
+    </ModOp>
+    <ModOp GUID="133095" Type="replace" Path="/Values/Product/ProductionRegions">
+      <ProductionRegions>
+        <Item>
+          <RegionType>Colony01</RegionType>
+        </Item>
+        <Item>
+          <RegionType>Africa</RegionType>
+        </Item>
+      </ProductionRegions>
+    </ModOp>
+    <ModOp Type="add" GUID="502076,502071" Path="/Values/ProductList/List">
+      <!--ADD TO PRODUCT-LIST-->
+      <Item>
+        <Product>133095</Product>
+      </Item>
+    </ModOp>
+  
+    <!-- Zimt in Enbesa -->
+    <ModOp GUID="133093" Type="replace" Path="/Values/Product/AssociatedRegion">
+      <AssociatedRegion>Colony01;Africa</AssociatedRegion>
+    </ModOp>
+    <ModOp GUID="133093" Type="replace" Path="/Values/Product/ProductionRegions">
+      <ProductionRegions>
+        <Item>
+          <RegionType>Colony01</RegionType>
+        </Item>
+        <Item>
+          <RegionType>Africa</RegionType>
+        </Item>
+      </ProductionRegions>
+    </ModOp>
+    <ModOp Type="add" GUID="502076,502071" Path="/Values/ProductList/List">
+      <!--ADD TO PRODUCT-LIST-->
+      <Item>
+        <Product>133093</Product>
+      </Item>
+    </ModOp>
+  
+    <!-- Kampfer in Enbesa -->
+    <ModOp GUID="134616" Type="replace" Path="/Values/Product/AssociatedRegion">
+      <AssociatedRegion>Colony01;Africa</AssociatedRegion>
+    </ModOp>
+    <ModOp GUID="134616" Type="replace" Path="/Values/Product/ProductionRegions">
+      <ProductionRegions>
+        <Item>
+          <RegionType>Colony01</RegionType>
+        </Item>
+        <Item>
+          <RegionType>Africa</RegionType>
+        </Item>
+      </ProductionRegions>
+    </ModOp>
+    <ModOp Type="add" GUID="502076,502071" Path="/Values/ProductList/List">
+      <!--ADD TO PRODUCT-LIST-->
+      <Item>
+        <Product>134616</Product>
+      </Item>
+    </ModOp>
+  
+    <!-- Konfitüre in Enbesa -->
+    <ModOp GUID="133183" Type="replace" Path="/Values/Product/AssociatedRegion">
+      <AssociatedRegion>Moderate;Africa</AssociatedRegion>
+    </ModOp>
+    <ModOp GUID="133183" Type="replace" Path="/Values/Product/ProductionRegions">
+      <ProductionRegions>
+        <Item>
+          <RegionType>Moderate</RegionType>
+        </Item>
+        <Item>
+          <RegionType>Africa</RegionType>
+        </Item>
+      </ProductionRegions>
+    </ModOp>
+    <ModOp Type="add" GUID="502076,502071" Path="/Values/ProductList/List">
+      <!--ADD TO PRODUCT-LIST-->
+      <Item>
+        <Product>133183</Product>
+      </Item>
+    </ModOp>
+  
+    <!-- Kirschholz in Enbesa -->
+    <ModOp GUID="135087" Type="replace" Path="/Values/Product/AssociatedRegion">
+      <AssociatedRegion>Moderate;Africa</AssociatedRegion>
+    </ModOp>
+    <ModOp GUID="135087" Type="replace" Path="/Values/Product/ProductionRegions">
+      <ProductionRegions>
+        <Item>
+          <RegionType>Moderate</RegionType>
+        </Item>
+        <Item>
+          <RegionType>Africa</RegionType>
+        </Item>
+      </ProductionRegions>
+    </ModOp>
+    <ModOp Type="add" GUID="502076,502071" Path="/Values/ProductList/List">
+      <!--ADD TO PRODUCT-LIST-->
+      <Item>
+        <Product>135087</Product>
+      </Item>
+    </ModOp>
+  
+    <!-- Harz in der Arktis -->
+    <ModOp GUID="135086" Type="replace" Path="/Values/Product/AssociatedRegion">
+      <AssociatedRegion>Moderate;Arctic</AssociatedRegion>
+    </ModOp>
+    <ModOp GUID="135086" Type="replace" Path="/Values/Product/ProductionRegions">
+      <ProductionRegions>
+        <Item>
+          <RegionType>Moderate</RegionType>
+        </Item>
+        <Item>
+          <RegionType>Arctic</RegionType>
+        </Item>
+      </ProductionRegions>
+    </ModOp>
+    <ModOp Type="add" GUID="502039,502024" Path="/Values/ProductList/List">
+      <!--ADD TO PRODUCT-LIST-->
+      <Item>
+        <Product>135086</Product>
+      </Item>
+    </ModOp>
   </Group>
     
   <!-- #Plantagen in Enbesa -->
-  <Group>    
+  <Group>
     <!-- Zitrusplantage in Enbesa -->
     <ModOp Type="addNextSibling" GUID="101251">
       <Asset>
@@ -405,7 +531,7 @@
         </Values>
       </Asset>
     </ModOp>
-    <ModOp Type="add" GUID="193959,125109,193955,368,190011,193856,6000018,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="125109,193955,368,190011,193856,6000018,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1404420010</GUID>
       </Item>
@@ -413,6 +539,1245 @@
     <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
       <Item>
         <Factory>1404420010</Factory>
+      </Item>
+    </ModOp>  
+  
+    <!-- Kokosplantage in Enbesa -->
+    <ModOp Type="addNextSibling" GUID="101251">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420014</GUID>
+            <Name>TreePlanter_Colony01_Coconut_Butter</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_coconut.png</IconFilename>
+            <InfoDescription>1404420015</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!-- Münzen -->
+                <Amount>550</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!-- Wanza-Bretter -->
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114402</Ingredient>
+                <!-- Lehmziegel -->
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc08/graphics/buildings/production/tree_planter/tree_planter_coconut.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Farm</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5316</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200795</Sound>
+              </Item>
+              <Item>
+                <Sound>200559</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>133095</Product>
+                <!-- Coconut Oil -->
+                <Amount>1</Amount>
+                <StorageAmount>8</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <ModuleOwner>
+            <ModuleBuildRadius>0</ModuleBuildRadius>
+            <ModuleLimits>
+              <Main>
+                <Limit>216</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1404420001</ModuleGUID>
+                <!-- Coconut Field -->
+              </Item>
+            </ConstructionOptions>
+            <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+            <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
+            <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
+            <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
+            <HardFarmsConfig>2</HardFarmsConfig>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <!-- Münzen -->
+                <Amount>100</Amount>
+                <InactiveAmount>50</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>114340</Product>
+                <!-- Hirten-Arbeitskräfte -->
+                <Amount>40</Amount>
+                <InactiveAmount>20</InactiveAmount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityFactor>0.025</DensityFactor>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable />
+          <Culture>
+            <CultureType>Landscaping</CultureType>
+          </Culture>
+          <QuestObject />
+          <Industrializable />
+          <EcoSystemProvider />
+          <MonoCulture />
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="125109,193955,368,190011,193856,6000018,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1404420014</GUID>
+      </Item>
+    </ModOp>
+    <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1404420014</Factory>
+      </Item>
+    </ModOp>  
+  
+    <!-- Zimtplantage in Enbesa -->
+    <ModOp Type="addNextSibling" GUID="101251">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420018</GUID>
+            <Name>TreePlanter_Colony01_Camphora_Cinnamon</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_cinamon.png</IconFilename>
+            <InfoDescription>1404420019</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!-- Münzen -->
+                <Amount>550</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!-- Wanza-Bretter -->
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114402</Ingredient>
+                <!-- Lehmziegel -->
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc08/graphics/buildings/production/tree_planter/tree_planter_comfort.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Farm</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5316</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200795</Sound>
+              </Item>
+              <Item>
+                <Sound>200559</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>133093</Product>
+                <!-- Cinnamon -->
+                <Amount>1</Amount>
+                <StorageAmount>8</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <ModuleOwner>
+            <ModuleBuildRadius>0</ModuleBuildRadius>
+            <ModuleLimits>
+              <Main>
+                <Limit>216</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1404420002</ModuleGUID>
+                <!-- Cinnamon Field -->
+              </Item>
+            </ConstructionOptions>
+            <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+            <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
+            <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
+            <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
+            <HardFarmsConfig>2</HardFarmsConfig>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <!-- Münzen -->
+                <Amount>100</Amount>
+                <InactiveAmount>50</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>114340</Product>
+                <!-- Hirten-Arbeitskräfte -->
+                <Amount>40</Amount>
+                <InactiveAmount>20</InactiveAmount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityFactor>0.025</DensityFactor>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable />
+          <Culture>
+            <CultureType>Landscaping</CultureType>
+          </Culture>
+          <QuestObject />
+          <Industrializable />
+          <EcoSystemProvider />
+          <MonoCulture />
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="125109,193955,368,190011,193856,6000018,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1404420018</GUID>
+      </Item>
+    </ModOp>
+    <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1404420018</Factory>
+      </Item>
+    </ModOp>
+  
+    <!-- Kampferplantage in Enbesa -->
+    <ModOp Type="addNextSibling" GUID="101251">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420022</GUID>
+            <Name>TreePlanter_Colony01_Camphora_Camphor</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_cellulose.png</IconFilename>
+            <InfoDescription>1404420023</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!-- Münzen -->
+                <Amount>550</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!-- Wanza-Bretter -->
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114402</Ingredient>
+                <!-- Lehmziegel -->
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc08/graphics/buildings/production/tree_planter/tree_planter_comfort_plastic.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Farm</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5316</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200795</Sound>
+              </Item>
+              <Item>
+                <Sound>200559</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>134616</Product>
+                <!-- Camphor -->
+                <Amount>1</Amount>
+                <StorageAmount>8</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <ModuleOwner>
+            <ModuleBuildRadius>0</ModuleBuildRadius>
+            <ModuleLimits>
+              <Main>
+                <Limit>216</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1404420003</ModuleGUID>
+                <!-- Camphor Field -->
+              </Item>
+            </ConstructionOptions>
+            <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+            <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
+            <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
+            <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
+            <HardFarmsConfig>2</HardFarmsConfig>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <!-- Münzen -->
+                <Amount>100</Amount>
+                <InactiveAmount>50</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>114340</Product>
+                <!-- Hirten-Arbeitskräfte -->
+                <Amount>40</Amount>
+                <InactiveAmount>20</InactiveAmount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityFactor>0.025</DensityFactor>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable />
+          <Culture>
+            <CultureType>Landscaping</CultureType>
+          </Culture>
+          <QuestObject />
+          <Industrializable />
+          <EcoSystemProvider />
+          <MonoCulture />
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="125109,193955,368,190011,193856,6000018,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1404420022</GUID>
+      </Item>
+    </ModOp>
+    <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1404420022</Factory>
+      </Item>
+    </ModOp>  
+  
+    <!-- Kirschplantage in Enbesa -->
+    <ModOp Type="addNextSibling" GUID="101251">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420040</GUID>
+            <Name>TreePlanter_Moderate_Cherries</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_jam.png</IconFilename>
+            <InfoDescription>1404420041</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!-- Münzen -->
+                <Amount>550</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!-- Wanza-Bretter -->
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114402</Ingredient>
+                <!-- Lehmziegel -->
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc08/graphics/buildings/production/tree_planter/tree_planter_cherry.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Farm</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5316</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200795</Sound>
+              </Item>
+              <Item>
+                <Sound>200559</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>133183</Product>
+                <!-- Jam -->
+                <Amount>1</Amount>
+                <StorageAmount>8</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <ModuleOwner>
+            <ModuleBuildRadius>0</ModuleBuildRadius>
+            <ModuleLimits>
+              <Main>
+                <Limit>216</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1404420004</ModuleGUID>
+                <!-- Cherry Field -->
+              </Item>
+            </ConstructionOptions>
+            <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+            <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
+            <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
+            <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
+            <HardFarmsConfig>2</HardFarmsConfig>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <!-- Münzen -->
+                <Amount>100</Amount>
+                <InactiveAmount>50</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>114340</Product>
+                <!-- Hirten-Arbeitskräfte -->
+                <Amount>40</Amount>
+                <InactiveAmount>20</InactiveAmount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityFactor>0.025</DensityFactor>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable />
+          <Culture>
+            <CultureType>Landscaping</CultureType>
+          </Culture>
+          <QuestObject />
+          <Industrializable />
+          <EcoSystemProvider />
+          <MonoCulture />
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="125109,193955,368,190011,193856,6000018,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1404420040</GUID>
+      </Item>
+    </ModOp>
+    <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1404420040</Factory>
+      </Item>
+    </ModOp>  
+  
+    <!-- Kirschholzplantage in Enbesa -->
+    <ModOp Type="addNextSibling" GUID="101251">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420060</GUID>
+            <Name>TreePlanter_Moderate_CherryWood</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_cherry_wood.png</IconFilename>
+            <InfoDescription>1404420061</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!-- Münzen -->
+                <Amount>550</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!-- Wanza-Bretter -->
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114402</Ingredient>
+                <!-- Lehmziegel -->
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc09/graphics/buildings/production/tree_planter/tree_planter_cherry_wood.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Farm</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5316</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200795</Sound>
+              </Item>
+              <Item>
+                <Sound>200559</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>135087</Product>
+                <!-- Cherry Wood -->
+                <Amount>1</Amount>
+                <StorageAmount>8</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <ModuleOwner>
+            <ModuleBuildRadius>0</ModuleBuildRadius>
+            <ModuleLimits>
+              <Main>
+                <Limit>216</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1404420007</ModuleGUID>
+                <!-- Cherry Wood Field -->
+              </Item>
+            </ConstructionOptions>
+            <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+            <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
+            <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
+            <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
+            <HardFarmsConfig>2</HardFarmsConfig>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <!-- Münzen -->
+                <Amount>100</Amount>
+                <InactiveAmount>50</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>114340</Product>
+                <!-- Hirten-Arbeitskräfte -->
+                <Amount>40</Amount>
+                <InactiveAmount>20</InactiveAmount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityFactor>0.025</DensityFactor>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable />
+          <Culture>
+            <CultureType>Landscaping</CultureType>
+          </Culture>
+          <QuestObject />
+          <Industrializable />
+          <EcoSystemProvider />
+          <MonoCulture />
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="125109,193955,368,190011,193856,6000018,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1404420060</GUID>
+      </Item>
+    </ModOp>
+    <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1404420060</Factory>
+      </Item>
+    </ModOp>  
+  
+    <!-- Harzplantage in der Arktis -->
+    <ModOp Type="addNextSibling" GUID="114705">
+      <Asset>
+        <Template>HeavyFreeAreaBuilding_Arctic</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420064</GUID>
+            <Name>TreePlanter_Moderate_Resin</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_wood_resin.png</IconFilename>
+            <InfoDescription>1404420065</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Arctic</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <DeletePropsRadius>1</DeletePropsRadius>
+          </Blocking>
+          <Cost>
+            <Costs>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding_Arctic</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>500</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>1</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                      <Index>1</Index>
+                    </Entry>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding_Arctic</TemplateName>
+                      <Index>1</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>2</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>2</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                      <Index>2</Index>
+                    </Entry>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding_Arctic</TemplateName>
+                      <Index>2</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>3</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                      <Index>3</Index>
+                    </Entry>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding_Arctic</TemplateName>
+                      <Index>3</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>4</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                      <Index>4</Index>
+                    </Entry>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding_Arctic</TemplateName>
+                      <Index>4</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>5</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                      <Index>5</Index>
+                    </Entry>
+                    <Entry>
+                      <TemplateName>HeavyFreeAreaBuilding_Arctic</TemplateName>
+                      <Index>5</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc09/graphics/buildings/production/tree_planter/tree_planter_terpentine.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>114705</DefaultSkinName>
+              <DefaultSkinDescription>23853</DefaultSkinDescription>
+              <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            </Skins>
+          </Object>
+          <Mesh/>
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList/>
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Arctic_Resident_tier01_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Resin Kiln</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>35490</LineID>
+          </Text>
+          <Constructable/>
+          <Locked/>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>236994</Sound>
+              </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+              <BuildSuccessful>
+                <Item>
+                  <VectorElement>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FarmBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>203830</Sound>
+                </Item>
+              </BuildSuccessful>
+              <BuildMoveSuccess>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>HeavyFreeAreaBuilding_Arctic</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>203995</Sound>
+                </Item>
+              </BuildMoveSuccess>
+            </ConstructionSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+              <ExplosionOneShots>
+                <Item>
+                  <Sound>203849</Sound>
+                </Item>
+              </ExplosionOneShots>
+            </IncidentSounds>
+            <BuildingRepaired>
+              <Item>
+                <Sound>203866</Sound>
+              </Item>
+            </BuildingRepaired>
+            <MaterialType>Soil</MaterialType>
+          </SoundEmitter>
+          <FeedbackController/>
+          <Infolayer/>
+          <UpgradeList/>
+          <Factory7>
+            <NeededFertility>114236</NeededFertility>
+          </Factory7>
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>135086</Product>
+                <!-- Resin -->
+                <Amount>1</Amount>
+                <StorageAmount>8</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+          </FactoryBase>
+          <LogisticNode/>
+          <AmbientMoodProvider>
+            <Murmur>Arctic_Farm</Murmur>
+            <GlacierMurmur>Arctic_Farm</GlacierMurmur>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>50</Amount>
+                <InactiveAmount>25</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>112653</Product>
+                <Amount>40</Amount>
+                <ShutdownThreshold>0.2</ShutdownThreshold>
+              </Item>
+            </Maintenances>
+            <ConsumerPriority>3</ConsumerPriority>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>1750</MaximumHitPoints>
+            <SelfHealPerHealTick>6</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable/>
+          <IncidentInfectable>
+            <Infectable>
+              <Fire>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Fire>
+              <Riot>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Riot>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>2000</ExplosionCoreDamage>
+              <DamageExplosionChance>15</DamageExplosionChance>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <BaseChance>10</BaseChance>
+                <DensityFactor>0.1</DensityFactor>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0</FactoryHappinessFactor>
+                <ResidenceHappinessFactor>0</ResidenceHappinessFactor>
+                <HappinessMin>0</HappinessMin>
+                <HappinessMax>0</HappinessMax>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+              <Illness>
+                <ResidenceSatisfactionFactor>0</ResidenceSatisfactionFactor>
+                <HappinessMin>0</HappinessMin>
+                <HappinessMax>0</HappinessMax>
+                <SatisfactionThreshold>0</SatisfactionThreshold>
+              </Illness>
+              <Explosion>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                <HappinessMin>0</HappinessMin>
+                <HappinessMax>0</HappinessMax>
+                <SatisfactionThreshold>0</SatisfactionThreshold>
+              </Explosion>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Culture>
+            <Attractiveness>0</Attractiveness>
+            <HasPollution>1</HasPollution>
+          </Culture>
+          <IncidentInfluencer>
+            <Influence>
+              <Illness>
+                <Distance>10</Distance>
+              </Illness>
+            </Influence>
+          </IncidentInfluencer>
+          <FreeAreaProductivity>
+            <InfluenceRadius>11</InfluenceRadius>
+            <MaxWorkerAmount>3</MaxWorkerAmount>
+            <AdditionalWorkerForForestation>3</AdditionalWorkerForForestation>
+            <WorkerPause>10000</WorkerPause>
+          </FreeAreaProductivity>
+          <Heated>
+            <RequiresHeat>1</RequiresHeat>
+          </Heated>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="193959,125109,193955,368,190011,193856,6000018,190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1404420064</GUID>
+      </Item>
+    </ModOp>
+    <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1404420064</Factory>
       </Item>
     </ModOp>  
   </Group>
@@ -566,6 +1931,735 @@
         </Values>
       </Asset>
     </ModOp>
+    <!-- Coconut Field in Enbesa -->
+    <ModOp GUID="114488" Type="addNextSibling">
+      <!-- Coconut Field -->
+      <Asset>
+        <Template>Farmfield</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420001</GUID>
+            <Name>Coconut Field</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>117650</GroundDecalAsset>
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          </Blocking>
+          <Cost>
+            <Costs>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>1</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>1</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>2</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>2</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>3</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>3</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>4</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>4</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>5</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>5</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/coconut_fields/orchard_field_00.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/coconut_fields/orchard_field_01.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/coconut_fields/orchard_field_02.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/coconut_fields/orchard_field_03.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/coconut_fields/orchard_field_04.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/coconut_fields/orchard_field_05.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/coconut_fields/orchard_field_06.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Forest</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>44451</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter />
+          <FeedbackController />
+          <Infolayer />
+          <BuildingModule />
+          <AmbientMoodProvider>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <ModuleIrrigation>
+            <RequiresIrrigation>1</RequiresIrrigation>
+          </ModuleIrrigation>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- Cinnamon Field in Enbesa -->
+    <ModOp GUID="114488" Type="addNextSibling">
+      <!-- Cinnamon Field -->
+      <Asset>
+        <Template>Farmfield</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420002</GUID>
+            <Name>Cinnamon Field</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>117650</GroundDecalAsset>
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          </Blocking>
+          <Cost>
+            <Costs>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>1</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>1</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>2</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>2</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>3</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>3</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>4</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>4</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>5</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>5</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_00.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_01.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_02.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_03.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_04.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_05.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_06.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Forest</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>44451</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter />
+          <FeedbackController />
+          <Infolayer />
+          <BuildingModule />
+          <AmbientMoodProvider>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <ModuleIrrigation>
+            <RequiresIrrigation>1</RequiresIrrigation>
+          </ModuleIrrigation>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- Camphor Field in Enbesa -->
+    <ModOp GUID="114488" Type="addNextSibling">
+      <!-- Camphor Field -->
+      <Asset>
+        <Template>Farmfield</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420003</GUID>
+            <Name>Camphor Field</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>117650</GroundDecalAsset>
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          </Blocking>
+          <Cost>
+            <Costs>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>1</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>1</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>2</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>2</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>3</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>3</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>4</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>4</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>5</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>5</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_00.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_01.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_02.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_03.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_04.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_05.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cinnamon_fields/orchard_field_06.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Forest</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>44451</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter />
+          <FeedbackController />
+          <Infolayer />
+          <BuildingModule />
+          <AmbientMoodProvider>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <ModuleIrrigation>
+            <RequiresIrrigation>1</RequiresIrrigation>
+          </ModuleIrrigation>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- Cherry Field in Enbesa -->
+    <ModOp GUID="114488" Type="addNextSibling">
+      <!-- Cherry Field -->
+      <Asset>
+        <Template>Farmfield</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420004</GUID>
+            <Name>Cherry Field</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>117650</GroundDecalAsset>
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          </Blocking>
+          <Cost>
+            <Costs>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>1</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>1</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>2</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>2</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>3</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>3</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>4</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>4</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>5</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>5</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_01.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_02.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_03.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_04.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_05.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_farm_field/cherry_farm_field_06.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Forest</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>44451</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter />
+          <FeedbackController />
+          <Infolayer />
+          <BuildingModule />
+          <AmbientMoodProvider>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <ModuleIrrigation>
+            <RequiresIrrigation>1</RequiresIrrigation>
+          </ModuleIrrigation>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- Cherry Wood Field in Enbesa -->
+    <ModOp GUID="114488" Type="addNextSibling">
+      <!-- Cherry Wood Field -->
+      <Asset>
+        <Template>Farmfield</Template>
+        <Values>
+          <Standard>
+            <GUID>1404420007</GUID>
+            <Name>Cherry Wood Field</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>117650</GroundDecalAsset>
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          </Blocking>
+          <Cost>
+            <Costs>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>1</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>1</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>2</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>2</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>3</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>3</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>4</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>4</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>5</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Farmfield</TemplateName>
+                      <Index>5</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_wood_farm_field/agriculture_04_field_01.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_wood_farm_field/agriculture_04_field_02.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_wood_farm_field/agriculture_04_field_03.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_wood_farm_field/agriculture_04_field_04.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_wood_farm_field/agriculture_04_field_05.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/cherry_wood_farm_field/agriculture_04_field_06.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Forest</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>44451</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter />
+          <FeedbackController />
+          <Infolayer />
+          <BuildingModule />
+          <AmbientMoodProvider>
+            <Murmur>Africa_Farms</Murmur>
+          </AmbientMoodProvider>
+          <ModuleIrrigation>
+            <RequiresIrrigation>1</RequiresIrrigation>
+          </ModuleIrrigation>
+        </Values>
+      </Asset>
+    </ModOp>
   </Group>
   
   <!-- Baumenüs -->
@@ -579,6 +2673,78 @@
     <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1404420012']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
       <Item>
         <Building>1404420010</Building>
+      </Item>
+    </ModOp>
+  
+    <!-- Kokosplantagen Enbesa in diversen Baumenüs ergänzen -->
+    <ModOp Type="addNextSibling" GUID="114553" Condition="!@114553/ConstructionCategory/BuildingList/Item[Building='1404420016']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420014</Building>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1404420016']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420014</Building>
+      </Item>
+    </ModOp>
+  
+    <!-- Zimtplantagen Enbesa in diversen Baumenüs ergänzen -->
+    <ModOp Type="addNextSibling" GUID="114553" Condition="!@114553/ConstructionCategory/BuildingList/Item[Building='1404420020']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420018</Building>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1404420020']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420018</Building>
+      </Item>
+    </ModOp>
+  
+    <!-- Kampferplantagen Enbesa in diversen Baumenüs ergänzen -->
+    <ModOp Type="addNextSibling" GUID="114553" Condition="!@114553/ConstructionCategory/BuildingList/Item[Building='1404420024']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420022</Building>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1404420024']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420022</Building>
+      </Item>
+    </ModOp>
+  
+    <!-- Kirschplantagen Enbesa in diversen Baumenüs ergänzen -->
+    <ModOp Type="addNextSibling" GUID="114553" Condition="!@114553/ConstructionCategory/BuildingList/Item[Building='1404420042']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420040</Building>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1404420042']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420040</Building>
+      </Item>
+    </ModOp>
+  
+    <!-- Kirschholzplantagen Enbesa in diversen Baumenüs ergänzen -->
+    <ModOp Type="addNextSibling" GUID="114553" Condition="!@114553/ConstructionCategory/BuildingList/Item[Building='1404420062']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420060</Building>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1404420062']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1404420060</Building>
+      </Item>
+    </ModOp>
+  
+    <!-- Harzplantagen Arktis in diversen Baumenüs ergänzen -->
+    <ModOp Type="addNextSibling" GUID="112790" Condition="!@112790/ConstructionCategory/BuildingList/Item[Building='1404420066']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='112713']">
+      <Item>
+        <Building>1404420064</Building>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1404420066']" Path="/Values/ConstructionCategory/BuildingList/Item[Building='112713']">
+      <Item>
+        <Building>1404420064</Building>
       </Item>
     </ModOp>
   </Group>
