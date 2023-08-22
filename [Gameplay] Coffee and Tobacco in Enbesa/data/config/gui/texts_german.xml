@@ -9,6 +9,10 @@
       <Text>Kaffeerösterei</Text>
     </Text>
     <Text>
+      <GUID>1999000104</GUID>
+      <Text>Baumwollplantage</Text>
+    </Text>
+    <Text>
       <GUID>1999000102</GUID>
       <Text>Tabakplantage</Text>
     </Text>
@@ -19,6 +23,10 @@
     <Text>
       <GUID>1999000108</GUID>
       <Text>Kaffeefeld</Text>
+    </Text>
+    <Text>
+      <GUID>1999000106</GUID>
+      <Text>Baumwollfeld</Text>
     </Text>
     <Text>
       <GUID>1999000109</GUID>
