@@ -6200,22 +6200,32 @@
           </ProductivityUpgrade>
           <AdditionalOutput>
             <Item>
-              <Product>1010235</Product> <!-- Flour -->
-              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Product>114408</Product> <!-- Spiced Flour -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>114390</Product> <!-- Hibiscus Tea -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>120035</Product> <!-- Tortillas -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
           </AdditionalOutput>
           <ReplaceInputs>
             <Item>
-              <OldInput>114367</OldInput> <!-- Teff -->
-              <NewInput>1010192</NewInput> <!-- Grain -->
+              <OldInput>1010192</OldInput> <!-- Grain -->
+              <NewInput>114367</NewInput> <!-- Teff -->
             </Item>
           </ReplaceInputs>
         </FactoryUpgrade>
         <ItemEffect>
           <EffectTargets>
             <Item>
-              <GUID>114459</GUID> <!-- Teff Mill -->
+              <GUID>1010313</GUID> <!-- Flour Mill -->
             </Item>
           </EffectTargets>
         </ItemEffect>
@@ -6903,12 +6913,12 @@
               <Amount>1</Amount>
             </Item>
             <Item>
-              <Product>5389</Product> <!-- Costumes -->
+              <Product>135230</Product> <!-- Typewriter -->
               <AdditionalOutputCycle>8</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
             <Item>
-              <Product>5391</Product> <!-- Scooter -->
+              <Product>135231</Product> <!-- Toys -->
               <AdditionalOutputCycle>12</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
@@ -6916,7 +6926,7 @@
           <ReplaceInputs>
             <Item>
               <OldInput>114368</OldInput> <!-- Indigo Dye -->
-              <NewInput>5400</NewInput> <!-- Pigments -->
+              <NewInput>135129</NewInput> <!-- Lacquer -->
             </Item>
           </ReplaceInputs>
         </FactoryUpgrade>
@@ -8874,7 +8884,7 @@
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
           <ItemType>Specialist</ItemType>
-          <Allocation>Lodge</Allocation>
+          <Allocation>GuildHouse</Allocation>
           <TradePrice>1200000</TradePrice>
           <TradePriceOnlineCurrency>1200000</TradePriceOnlineCurrency>
         </Item>
@@ -8941,7 +8951,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END Flappy, The best Arctic friend -->
+  <!-- END Wanda Wiggum -->
   <!-- START Salazar Sarini 1742000178-1742000179 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
