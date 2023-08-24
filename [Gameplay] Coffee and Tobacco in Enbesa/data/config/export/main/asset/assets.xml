@@ -31,17 +31,17 @@
       </Item>
     </ModOp>
     <!-- Fruchtbarkeitsitems funktionieren in Enbesa -->
-    <ModOp GUID="190946,190947,190948" Type="add" Path="/Values/ItemEffect/EffectTargets">
+    <ModOp GUID="190946,190947,190948,190150" Type="add" Path="/Values/ItemEffect/EffectTargets">
       <Item>
         <GUID>1999000100</GUID>
       </Item>
     </ModOp>
-    <ModOp GUID="190934,190935,190936" Type="add" Path="/Values/ItemEffect/EffectTargets">
+    <ModOp GUID="190934,190935,190936,190070" Type="add" Path="/Values/ItemEffect/EffectTargets">
       <Item>
         <GUID>1999000102</GUID>
       </Item>
     </ModOp>
-    <ModOp GUID="190934,190935,190936" Type="add" Path="/Values/ItemEffect/EffectTargets">
+    <ModOp GUID="190937,190938,190939,190069" Type="add" Path="/Values/ItemEffect/EffectTargets">
       <Item>
         <GUID>1999000104</GUID>
       </Item>
@@ -497,6 +497,9 @@
                         <Item>
                           <Asset>190948</Asset>
                         </Item>
+                        <Item>
+                          <Asset>190150</Asset>
+                        </Item>
                       </UnhideAssets>
                     </ActionUnlockAsset>
                   </Values>
@@ -560,6 +563,9 @@
                         </Item>
                         <Item>
                           <Asset>190948</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>190150</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
@@ -987,6 +993,9 @@
                         <Item>
                           <Asset>190939</Asset>
                         </Item>
+                        <Item>
+                          <Asset>190069</Asset>
+                        </Item>
                       </UnhideAssets>
                     </ActionUnlockAsset>
                   </Values>
@@ -1046,6 +1055,9 @@
                         </Item>
                         <Item>
                           <Asset>190939</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>190069</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
@@ -1460,6 +1472,9 @@
                         <Item>
                           <Asset>190936</Asset>
                         </Item>
+                        <Item>
+                          <Asset>190070</Asset>
+                        </Item>
                       </UnhideAssets>
                     </ActionUnlockAsset>
                   </Values>
@@ -1515,6 +1530,9 @@
                         </Item>
                         <Item>
                           <Asset>190936</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>190070</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
