@@ -467,6 +467,9 @@
                 <!-- Citrus Field -->
               </Item>
             </ConstructionOptions>
+            <FertilizerModuleData>
+              <Module>25242</Module>
+            </FertilizerModuleData>
             <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
             <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
             <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
@@ -647,6 +650,9 @@
                 <!-- Coconut Field -->
               </Item>
             </ConstructionOptions>
+            <FertilizerModuleData>
+              <Module>25242</Module>
+            </FertilizerModuleData>
             <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
             <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
             <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
@@ -827,6 +833,9 @@
                 <!-- Cinnamon Field -->
               </Item>
             </ConstructionOptions>
+            <FertilizerModuleData>
+              <Module>25242</Module>
+            </FertilizerModuleData>
             <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
             <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
             <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
@@ -1008,6 +1017,9 @@
               </Item>
             </ConstructionOptions>
             <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+            <FertilizerModuleData>
+              <Module>25242</Module>
+            </FertilizerModuleData>
             <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
             <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
             <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
@@ -1188,6 +1200,9 @@
               </Item>
             </ConstructionOptions>
             <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+            <FertilizerModuleData>
+              <Module>25242</Module>
+            </FertilizerModuleData>
             <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
             <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
             <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
@@ -1368,6 +1383,9 @@
               </Item>
             </ConstructionOptions>
             <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+            <FertilizerModuleData>
+              <Module>25242</Module>
+            </FertilizerModuleData>
             <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
             <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
             <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
