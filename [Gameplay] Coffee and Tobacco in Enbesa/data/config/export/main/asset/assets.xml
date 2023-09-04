@@ -30,22 +30,6 @@
         <Fertility>120039</Fertility>
       </Item>
     </ModOp>
-    <!-- Fruchtbarkeitsitems funktionieren in Enbesa -->
-    <ModOp GUID="190946,190947,190948,190150" Type="add" Path="/Values/ItemEffect/EffectTargets">
-      <Item>
-        <GUID>1999000100</GUID>
-      </Item>
-    </ModOp>
-    <ModOp GUID="190934,190935,190936,190070" Type="add" Path="/Values/ItemEffect/EffectTargets">
-      <Item>
-        <GUID>1999000102</GUID>
-      </Item>
-    </ModOp>
-    <ModOp GUID="190937,190938,190939,190069" Type="add" Path="/Values/ItemEffect/EffectTargets">
-      <Item>
-        <GUID>1999000104</GUID>
-      </Item>
-    </ModOp>
     <!-- add to some pools -->
     <ModOp GUID="127457" Type="add" Path="/Values/RewardPool/ItemsPool">
       <Item>

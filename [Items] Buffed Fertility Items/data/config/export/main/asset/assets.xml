@@ -551,6 +551,9 @@
 						<Item>
 							<GUID>1010330</GUID>
 						</Item>
+						<Item>
+							<GUID>1999000102</GUID>
+						</Item>
 					</EffectTargets>
 				</ItemEffect>
 				<ItemAction />
@@ -612,6 +615,9 @@
 					<EffectTargets>
 						<Item>
 							<GUID>1010331</GUID>
+						</Item>
+						<Item>
+							<GUID>1999000104</GUID>
 						</Item>
 					</EffectTargets>
 				</ItemEffect>
@@ -678,6 +684,9 @@
 						<Item>
 							<GUID>25005</GUID>
 						</Item>
+						<Item>
+							<GUID>1999000100</GUID>
+						</Item>
 					</EffectTargets>
 				</ItemEffect>
 				<ItemAction />
@@ -709,7 +718,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Cotton Extra Seeds</Text>
+							<Text>Banana Extra Seeds</Text>
 							<Status>Exported</Status>
 							<ExportCount>1</ExportCount>
 						</English>
@@ -1342,6 +1351,9 @@
 						<Item>
 							<GUID>1010330</GUID>
 						</Item>
+						<Item>
+							<GUID>1999000102</GUID>
+						</Item>
 					</EffectTargets>
 				</ItemEffect>
 				<ItemAction />
@@ -1399,6 +1411,9 @@
 					<EffectTargets>
 						<Item>
 							<GUID>1010331</GUID>
+						</Item>
+						<Item>
+							<GUID>1999000104</GUID>
 						</Item>
 					</EffectTargets>
 				</ItemEffect>
@@ -1461,6 +1476,9 @@
 						<Item>
 							<GUID>25005</GUID>
 						</Item>
+						<Item>
+							<GUID>1999000100</GUID>
+						</Item>
 					</EffectTargets>
 				</ItemEffect>
 				<ItemAction />
@@ -1492,7 +1510,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Cotton Seeds</Text>
+							<Text>Banana Seeds</Text>
 							<Status>Exported</Status>
 							<ExportCount>1</ExportCount>
 						</English>
