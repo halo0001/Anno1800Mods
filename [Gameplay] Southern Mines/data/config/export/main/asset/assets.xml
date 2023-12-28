@@ -1,0 +1,30 @@
+<!-- Little Southern Mines Rework -->
+<ModOps>
+	<!-- Mineral Mine 1388 -->
+	<ModOp Type="add" GUID="1388"   Path="/Values/FactoryBase">
+		<FactoryInputs>
+			<Item>
+				<Product>1591</Product>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+	<!-- Mineral Mine 1390 -->
+	<ModOp Type="add" GUID="1390"   Path="/Values/FactoryBase">
+		<FactoryInputs>
+			<Item>
+				<Product>1591</Product>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+	<!-- Mineral Mine 1010311 -->
+	<ModOp Type="add" GUID="1010311"   Path="/Values/FactoryBase">
+		<FactoryInputs>
+			<Item>
+				<Product>1591</Product>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+</ModOps>
