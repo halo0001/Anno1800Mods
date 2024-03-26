@@ -27,4 +27,40 @@
 			</Item>
 		</FactoryInputs>
 	</ModOp>
+	<!--
+  Move Gas Spring using Move Oil Permit
+  
+  5000000 - Region: The Old World
+    1010500 - Slot: Coal Deposit
+    1010501 - Slot: Iron Deposit
+    1010503 - Slot: Zinc Deposit
+    1010505 - Slot: Limestone Deposit
+    1010504 - Slot: Copper Deposit
+
+  5000001 - Region: The New World
+    1010507 - Slot: Gold Deposit
+    1372 - Slot: Bauxite Deposit
+    1375 - Slot: Helium Pocket
+    1386 - Slot: Iron Deposit
+    1387 - Slot: Mineral Deposit
+  -->
+  <ModOp Type="add" GUID="5000001" Path="/Values/Region">
+    <AllowedMineSlots>
+      <Item>
+        <MineSlot>1010507</MineSlot>
+      </Item>
+      <Item>
+        <MineSlot>1372</MineSlot>
+      </Item>
+      <Item>
+        <MineSlot>1375</MineSlot>
+      </Item>
+      <Item>
+        <MineSlot>1386</MineSlot>
+      </Item>
+      <Item>
+        <MineSlot>1387</MineSlot>
+      </Item>
+    </AllowedMineSlots>
+  </ModOp>
 </ModOps>
