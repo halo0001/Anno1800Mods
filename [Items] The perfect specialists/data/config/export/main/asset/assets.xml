@@ -3971,7 +3971,7 @@
           <FluffText>1742000061</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
         <ModuleOwnerUpgrade>
-          <ModuleLimitPercent>-50</ModuleLimitPercent>
+          <ModuleLimitPercent>-25</ModuleLimitPercent>
         </ModuleOwnerUpgrade>
       </Values>
     </Asset>
@@ -4046,7 +4046,7 @@
           <FluffText>1742000063</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
         <ModuleOwnerUpgrade>
-          <ModuleLimitPercent>-40</ModuleLimitPercent>
+          <ModuleLimitPercent>-25</ModuleLimitPercent>
         </ModuleOwnerUpgrade>
       </Values>
     </Asset>
@@ -4124,7 +4124,7 @@
           <FluffText>1742000065</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
         <ModuleOwnerUpgrade>
-          <ModuleLimitPercent>-50</ModuleLimitPercent>
+          <ModuleLimitPercent>-25</ModuleLimitPercent>
         </ModuleOwnerUpgrade>
       </Values>
     </Asset>
