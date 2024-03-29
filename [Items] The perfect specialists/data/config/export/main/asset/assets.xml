@@ -60,6 +60,15 @@
     <Item>
       <ItemLink>1742000162</ItemLink> <!-- Lena Brown, Fertiliser from the woods 1742000162-1742000163 -->
     </Item>
+    <Item>
+      <ItemLink>1742000430</ItemLink> <!-- Julie Black, Pump it up 1742000430-1742000431 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000437</ItemLink> <!-- Herbert Scholz, Scraps from steel 1742000437-1742000438 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000439</ItemLink> <!-- Heidi Scholz, Scraps from weapons 1742000439-1742000440 -->
+    </Item>
   </ModOp>
 
   <!-- LEGENDARY - EU - Public Buildings & City Institutions -->
@@ -108,6 +117,9 @@
     </Item>
     <Item>
       <ItemLink>1742000212</ItemLink> <!-- Raveena Bhargava, The Airship Architect 1742000212-1742000213 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000432</ItemLink> <!-- Olivier Levassier, You shall not pass without paying -  1742000432-1742000433 -->
     </Item>
   </ModOp>
 
@@ -170,6 +182,12 @@
     </Item>
     <Item>
       <ItemLink>1742000204</ItemLink> <!-- Gary Gaslight 1742000204-1742000205 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000435</ItemLink> <!-- Rudy Scholz, Scraps from the sea 1742000435-1742000436 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000443</ItemLink> <!-- Marie-Antoinette Montagne, Rich gases 1742000443-1742000444 -->
     </Item>
   </ModOp>
 
@@ -373,6 +391,9 @@
     </Item>
     <Item>
       <ItemLink>1742000415</ItemLink> <!-- Frotz Wogmann, Inventor Of Synthetic Rubber 1742000415-1742000416 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000441</ItemLink> <!-- Regina Scholz, Scraps from advanced weapons 1742000441-1742000442 -->
     </Item>
     <Item>
       <ItemLink>1742001427</ItemLink> <!-- Gras Goole, Cooling Specialist 1742001427-1742001428 -->
@@ -743,7 +764,7 @@
                         <Asset>1742000142</Asset> <!-- Brandon Branch, Wooden toys 1742000142-1742000143 -->
                       </Item>
                       <Item>
-                        <Asset>1742000144 </Asset> <!-- Irene Braunkopf, Curly fresh hair 1742000144-1742000145 -->
+                        <Asset>1742000144</Asset> <!-- Irene Braunkopf, Curly fresh hair 1742000144-1742000145 -->
                       </Item>
                       <Item>
                         <Asset>1742000146</Asset> <!-- John Lemon, Sugarfree lemonade 1742000146-1742000147 -->
@@ -891,6 +912,27 @@
                       </Item>
                       <Item>
                         <Asset>1742001427</Asset> <!-- Gras Goole, Cooling Specialist 1742001427-1742001428 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000430</Asset> <!-- Julie Black, Pump it up 1742000430-1742000431 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000432</Asset> <!-- Olivier Levassier, You shall not pass without paying 1742000432-1742000433 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000435</Asset> <!-- Rudy Scholz, Scraps from the sea -  1742000435-1742000436 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000437</Asset> <!-- Herbert Scholz, Scraps from steel -  1742000437-1742000438 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000439</Asset> <!-- Heidi Scholz, Scraps from weapons -  1742000439-1742000440 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000441</Asset> <!-- Regina Scholz, Scraps from advanced weapons -  1742000441-1742000442 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000443</Asset> <!-- Marie-Antoinette Montagne, Rich gases 1742000443-1742000444 -->
                       </Item>
                     </UnhideAssets>
                   </ActionUnlockAsset>
@@ -1086,7 +1128,7 @@
                         <Asset>1742000102</Asset> <!-- Hibo Ameziane, Stylish clothing 1742000102-1742000103 -->
                       </Item>
                       <Item>
-                        <Asset>1742000104</Asset> <!--Ghudan Keita, The finest looms 1742000104-1742000105 -->
+                        <Asset>1742000104</Asset> <!-- Ghudan Keita, The finest looms 1742000104-1742000105 -->
                       </Item>
                       <Item>
                         <Asset>1742000106</Asset> <!-- Rua Okoro, With the tides of the sea 1742000106-1742000107 -->
@@ -1146,7 +1188,7 @@
                         <Asset>1742000142</Asset> <!-- Brandon Branch, Wooden toys 1742000142-1742000143 -->
                       </Item>
                       <Item>
-                        <Asset>1742000144 </Asset> <!-- Irene Braunkopf, Curly fresh hair 1742000144-1742000145 -->
+                        <Asset>1742000144</Asset> <!-- Irene Braunkopf, Curly fresh hair 1742000144-1742000145 -->
                       </Item>
                       <Item>
                         <Asset>1742000146</Asset> <!-- John Lemon, Sugarfree lemonade 1742000146-1742000147 -->
@@ -1204,6 +1246,27 @@
                       </Item>
                       <Item>
                         <Asset>1742000182</Asset> <!-- Kulwa Mto Wa Bluu, Less damage more speed & cargo 1742000182-1742000183 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000430</Asset> <!-- Julie Black, Pump it up 1742000430-1742000431 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000432</Asset> <!-- Olivier Levassier, You shall not pass without paying 1742000432-1742000433 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000435</Asset> <!-- Rudy Scholz, Scraps from the sea -  1742000435-1742000436 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000437</Asset> <!-- Herbert Scholz, Scraps from steel -  1742000437-1742000438 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000439</Asset> <!-- Heidi Scholz, Scraps from weapons -  1742000439-1742000440 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000441</Asset> <!-- Regina Scholz, Scraps from advanced weapons -  1742000441-1742000442 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000443</Asset> <!-- Marie-Antoinette Montagne, Rich gases 1742000443-1742000444 -->
                       </Item>
                       <Item>
                         <Asset>1742000184</Asset> <!-- Daynamo Kyrallo 1742000184-1742000185 -->
@@ -11624,6 +11687,84 @@
     </Asset>
   </ModOp>
   <!-- END Frotz Wogmann, Inventor Of Synthetic Rubber -->
+  <!-- START Julie Black 1742000430-174200431 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742000430</GUID>          <!-- GUID 0 -->
+          <Name>Julie Black, Gas and oil can work together</Name>
+          <IconFilename>data/graphics/icons/icon_julie_black.png</IconFilename>
+          <InfoDescription>1742000431</InfoDescription>          <!-- GUID 1 -->
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>362500</TradePrice>
+          <TradePriceOnlineCurrency>362500</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112706</Product>              <!-- Arctic Gas -->
+              <AdditionalOutputCycle>30</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>191042</GUID>              <!-- Oil Wells -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkArcheologist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000431</FluffText>          <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <CultureUpgrade>
+          <AttractivenessUpgrade>
+            <Value>-50</Value>
+          </AttractivenessUpgrade>
+        </CultureUpgrade>
+        <IncidentInfectableUpgrade>
+          <IncidentFireIncreaseUpgrade>
+            <Value>3</Value>
+          </IncidentFireIncreaseUpgrade>
+          <IncidentExplosionIncreaseUpgrade>
+            <Value>3</Value>
+          </IncidentExplosionIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Julie Black -->
   <!-- START Gras Goole, Cooling Specialist 1742001427-1742001428 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
@@ -11712,6 +11853,456 @@
     </Asset>
   </ModOp>
   <!-- END Gras Goole, Cooling Specialist -->
+  <!-- START - Olivier Levassier, You shall not pass without paying -  1742000432-1742000433 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>HarborOfficeItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742000432</GUID>          <!-- GUID 0 -->
+          <Name>Olivier Levassier, You shall not pass without paying</Name>
+          <IconFilename>data/graphics/icons/icon_olivier_levassier.png</IconFilename>
+          <InfoDescription>1742000433</InfoDescription>          <!-- GUID 1 -->
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>1500000</TradePrice>
+          <TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>193480</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction/>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>60</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000433</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade/>
+        <BuildingUpgrade/>
+        <AttackerUpgrade/>
+        <VisitorHarborUpgrade/>
+        <PassiveTradeGoodGenUpgrade>
+          <GenProbability>75</GenProbability>
+          <GenPool>1742000434</GenPool>
+        </PassiveTradeGoodGenUpgrade>
+        <ShipyardUpgrade/>
+        <Locked />
+        <AttackableUpgrade/>
+        <ProjectileUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <VehicleUpgrade/>
+        <RepairCraneUpgrade/>
+        <KontorUpgrade/>
+        <CraftableItem/>
+        <PierUpgrade />
+        <WarehouseUpgrade/>
+        <ItemContainerUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Olivier Levassier, You shall not pass without paying -  1742000432-1742000433 -->
+  <!-- START - Rudy Scholz, Scraps from the sea -  1742000435-1742000436 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742000435</GUID>          <!-- GUID 0 -->
+          <Name>Rudy Scholz, Scraps from the sea</Name>
+          <IconFilename>data/graphics/icons/icon_rudy_scholz.png</IconFilename>
+          <InfoDescription>1742000436</InfoDescription>          <!-- GUID 1 -->
+          <Version>dlc03</Version>
+        </Standard>
+        <Text />
+        <Locked>
+          <DLCDependency>410042</DLCDependency>
+        </Locked>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>Lodge</Allocation>
+          <TradePrice>1250000</TradePrice>
+          <TradePriceOnlineCurrency>1250000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>115980</Product>
+              <AdditionalOutputCycle>10</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>112674</GUID>              <!-- Seal Hunting Docks -->
+            </Item>
+            <Item>
+              <GUID>112666</GUID>              <!-- Whaling Station -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Navigation</Attribute>
+              <Amount>60</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000436</FluffText>          <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Rudy Scholz, Scraps from the sea -  1742000435-1742000436 -->
+  <!-- START - Herbert Scholz, Scraps from steel -  1742000435-1742000436 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742000437</GUID>          <!-- GUID 0 -->
+          <Name>Herbert Scholz, Scraps from steel</Name>
+          <IconFilename>data/graphics/icons/icon_herbert_scholz.png</IconFilename>
+          <InfoDescription>1742000438</InfoDescription>          <!-- GUID 1 -->
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Rare</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>80000</TradePrice>
+          <TradePriceOnlineCurrency>80000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-25</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112518</Product>
+              <AdditionalOutputCycle>10</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1742000419</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>25</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000438</FluffText>          <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Herbert Scholz, Scraps from steel -  1742000436-1742000437 -->
+  <!-- START - Heidi Scholz, Scraps from weapons -  1742000439-1742000440 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742000439</GUID>          <!-- GUID 0 -->
+          <Name>Heidi Scholz, Scraps from weapons</Name>
+          <IconFilename>data/graphics/icons/icon_heidi_scholz.png</IconFilename>
+          <InfoDescription>1742000440</InfoDescription>          <!-- GUID 1 -->
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1850000</TradePrice>
+          <TradePriceOnlineCurrency>1850000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-25</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112520</Product>
+              <AdditionalOutputCycle>10</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010299</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>40</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000440</FluffText>          <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>75</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade>
+          <IncidentExplosionIncreaseUpgrade>
+            <Value>5</Value>
+          </IncidentExplosionIncreaseUpgrade>
+          <IncidentFireIncreaseUpgrade>
+            <Value>5</Value>
+          </IncidentFireIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Heidi Scholz, Scraps from weapons -  1742000439-1742000440 -->
+  <!-- START - Regina Scholz, Scraps from advanced weapons -  1742000441-1742000442 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742000441</GUID>          <!-- GUID 0 -->
+          <Name>Regina Scholz, Scraps from advanced weapons</Name>
+          <IconFilename>data/graphics/icons/icon_regina_scholz.png</IconFilename>
+          <InfoDescription>1742000442</InfoDescription>          <!-- GUID 1 -->
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1850000</TradePrice>
+          <TradePriceOnlineCurrency>1850000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112523</Product>
+              <AdditionalOutputCycle>20</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010301</GUID>
+            </Item>
+            <Item>
+              <GUID>1742000218</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>60</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000442</FluffText>          <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade>
+          <IncidentExplosionIncreaseUpgrade>
+            <Value>5</Value>
+          </IncidentExplosionIncreaseUpgrade>
+          <IncidentFireIncreaseUpgrade>
+            <Value>5</Value>
+          </IncidentFireIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Regina Scholz, Scraps from advanced weapons -  1742000441-1742000442 -->
+  <!-- START Marie-Antoinette Montagne, Rich gases 1742000443-1742000444 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742000443</GUID>          <!-- GUID 0 -->
+          <Name>Marie-Antoinette Montagne, Rich gases</Name>
+          <IconFilename>data/graphics/icons/icon_marie_antoinne_montagne.png</IconFilename>
+          <InfoDescription>1742000444</InfoDescription>          <!-- GUID 1 -->
+          <Version>dlc03</Version>
+        </Standard>
+        <Text />
+        <Locked>
+          <DLCDependency>410042</DLCDependency>
+        </Locked>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>Lodge</Allocation>
+          <TradePrice>1370000</TradePrice>
+          <TradePriceOnlineCurrency>1370000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>840</Product>              <!-- Helium -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>112690</GUID>              <!-- Gas mine -->
+            </Item>
+            <Item>
+              <GUID>116029</GUID>              <!-- Deep Gold Mine -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>60</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkArchaeologist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000444</FluffText>          <!-- GUID 1 -->
+        </ExpeditionAttribute>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <IncidentInfectableUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Marie-Antoinette Montagne, Rich gases  -->
   
   <!-- START LIST OF ALL EXTRA POOLS -->
 
