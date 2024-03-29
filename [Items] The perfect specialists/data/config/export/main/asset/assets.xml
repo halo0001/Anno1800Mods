@@ -8103,11 +8103,27 @@
           </ProductivityUpgrade>
           <AdditionalOutput>
             <Item>
+              <Product>1010216</Product> <!-- Schnapps -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010257</Product> <!-- Rum -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
               <Product>1414</Product> <!-- Industrial Lubricant -->
-              <AdditionalOutputCycle>10</AdditionalOutputCycle>
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
           </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>120008</OldInput> <!-- Wood -->
+              <NewInput>1010195</NewInput> <!-- Pottatoes -->
+            </Item>
+          </ReplaceInputs>
         </FactoryUpgrade>
         <ItemEffect>
           <EffectTargets>
