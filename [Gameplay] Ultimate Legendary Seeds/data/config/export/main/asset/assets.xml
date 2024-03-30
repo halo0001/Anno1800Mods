@@ -46,6 +46,9 @@
 						<Item>
 							<GUID>190785</GUID>
 						</Item>
+						<Item>
+							<GUID>25019</GUID>
+						</Item>
 					</EffectTargets>
 				</ItemEffect>
 				<ItemAction />
@@ -111,6 +114,9 @@
 					<EffectTargets>
 						<Item>
 							<GUID>1010262</GUID>
+						</Item>
+						<Item>
+							<GUID>25128</GUID>
 						</Item>
 					</EffectTargets>
 				</ItemEffect>
@@ -573,6 +579,9 @@
 						<Item>
 							<GUID>1010329</GUID>
 						</Item>
+						<Item>
+							<GUID>24798</GUID>
+						</Item>
 					</EffectTargets>
 				</ItemEffect>
 				<ItemAction />
@@ -705,6 +714,9 @@
 						<Item>
 							<GUID>1010333</GUID>
 						</Item>
+						<Item>
+							<GUID>25006</GUID>
+						</Item>
 					</EffectTargets>
 				</ItemEffect>
 				<ItemAction />
@@ -771,6 +783,9 @@
 						<Item>
 							<GUID>101270</GUID>
 						</Item>
+						<Item>
+							<GUID>25003</GUID>
+						</Item>
 					</EffectTargets>
 				</ItemEffect>
 				<ItemAction />
@@ -836,6 +851,9 @@
 					<EffectTargets>
 						<Item>
 							<GUID>101251</GUID>
+						</Item>
+						<Item>
+							<GUID>25005</GUID>
 						</Item>
 					</EffectTargets>
 				</ItemEffect>
@@ -1036,6 +1054,9 @@
 					<EffectTargets>
 						<Item>
 							<GUID>1010332</GUID>
+						</Item>
+						<Item>
+							<GUID>25009</GUID>
 						</Item>
 					</EffectTargets>
 				</ItemEffect>
@@ -1499,6 +1520,9 @@
 					<EffectTargets>
 						<Item>
 							<GUID>114452</GUID>
+						</Item>
+						<Item>
+							<GUID>25020</GUID>
 						</Item>
 					</EffectTargets>
 				</ItemEffect>
