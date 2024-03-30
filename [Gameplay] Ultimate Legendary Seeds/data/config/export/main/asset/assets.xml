@@ -35,7 +35,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010195</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -101,7 +101,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010192</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -167,7 +167,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010194</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -233,7 +233,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010198</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -299,7 +299,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010209</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -364,7 +364,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010232</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -429,7 +429,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>120014</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -496,7 +496,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>120041</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -562,7 +562,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010251</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -628,7 +628,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010253</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -694,7 +694,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010255</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -760,7 +760,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>120034</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -826,7 +826,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>120031</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -892,7 +892,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010256</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -960,7 +960,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010252</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1026,7 +1026,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>1010254</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1092,7 +1092,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>5383</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1158,7 +1158,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>5386</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1225,7 +1225,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>114365</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1291,7 +1291,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>114364</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1357,7 +1357,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>114367</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1423,7 +1423,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>114368</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1489,7 +1489,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>114369</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1555,7 +1555,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>114370</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
@@ -1621,7 +1621,7 @@
 					<AdditionalOutput>
 						<Item>
 							<Product>118728</Product>
-							<AdditionalOutputCycle>7</AdditionalOutputCycle>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
 							<Amount>1</Amount>
 						</Item>
 					</AdditionalOutput>
