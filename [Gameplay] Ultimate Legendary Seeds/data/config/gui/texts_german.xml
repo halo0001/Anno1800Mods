@@ -1,0 +1,104 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>190063</GUID>
+      <Text>Legendäre Kartoffelkeimlinge</Text>
+    </Text>
+    <Text>
+      <GUID>190064</GUID>
+      <Text>Legendäres Getreidesaatgut</Text>
+    </Text>
+    <Text>
+      <GUID>190065</GUID>
+      <Text>Legendäres Hopfensaatgut</Text>
+    </Text>
+    <Text>
+      <GUID>190066</GUID>
+      <Text>Legendäre Zuckerrohrsetzlinge</Text>
+    </Text>
+    <Text>
+      <GUID>190067</GUID>
+      <Text>Legendäre Kautschuksetzlinge</Text>
+    </Text>
+    <Text>
+      <GUID>190068</GUID>
+      <Text>Legendäre Kakaobohnen</Text>
+    </Text>
+    <Text>
+      <GUID>190069</GUID>
+      <Text>Legendäre Baumwollsamen</Text>
+    </Text>
+    <Text>
+      <GUID>190070</GUID>
+      <Text>Legendäres Tabaksaatgut</Text>
+    </Text>
+    <Text>
+      <GUID>190071</GUID>
+      <Text>Legendäre Jagdköder</Text>
+    </Text>
+    <Text>
+      <GUID>190072</GUID>
+      <Text>Legendäres Flachssaatgut</Text>
+    </Text>
+    <Text>
+      <GUID>190073</GUID>
+      <Text>Legendäre Hibiskussamen</Text>
+    </Text>
+    <Text>
+      <GUID>190074</GUID>
+      <Text>Legendäres Tefsaatgut</Text>
+    </Text>
+    <Text>
+      <GUID>190075</GUID>
+      <Text>Legendäre Indigosetzlinge</Text>
+    </Text>
+    <Text>
+      <GUID>190076</GUID>
+      <Text>Legendäre Gewürzsamen</Text>
+    </Text>
+    <Text>
+      <GUID>190077</GUID>
+      <Text>Legendäre Imker-Bienenkörbe</Text>
+    </Text>
+    <Text>
+      <GUID>190078</GUID>
+      <Text>Legendäre Hummeraufzucht</Text>
+    </Text>
+    <Text>
+      <GUID>190150</GUID>
+      <Text>Legendäre Kaffeebohnen</Text>
+    </Text>
+    <Text>
+      <GUID>190151</GUID>
+      <Text>Legendäre Bananensetzlinge</Text>
+    </Text>
+    <Text>
+      <GUID>190152</GUID>
+      <Text>Legendäres Maissaatgut</Text>
+    </Text>
+    <Text>
+      <GUID>190153</GUID>
+      <Text>Legendäre Austernlaich</Text>
+    </Text>
+    <Text>
+      <GUID>190154</GUID>
+      <Text>Legendäre Kräutersetzlinge</Text>
+    </Text>
+    <Text>
+      <GUID>190155</GUID>
+      <Text>Legendäre Orchideenkeimlinge</Text>
+    </Text>
+    <Text>
+      <GUID>190373</GUID>
+      <Text>Legendäres Paprikasaatgut</Text>
+    </Text>
+    <Text>
+      <GUID>190374</GUID>
+      <Text>Legendäre Weinreben</Text>
+    </Text>
+    <Text>
+      <GUID>190375</GUID>
+      <Text>Legendäre Salpetergewinnung</Text>
+    </Text>
+  </ModOp>
+</ModOps>

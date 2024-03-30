@@ -1,0 +1,104 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>190063</GUID>
+      <Text>Legendary Potato Sprouts</Text>
+    </Text>
+    <Text>
+      <GUID>190064</GUID>
+      <Text>Legendary Grain Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190065</GUID>
+      <Text>Legendary Hop Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190066</GUID>
+      <Text>Legendary Cane Saplings</Text>
+    </Text>
+    <Text>
+      <GUID>190067</GUID>
+      <Text>Legendary Caoutchouc Saplings</Text>
+    </Text>
+    <Text>
+      <GUID>190068</GUID>
+      <Text>Legendary Cocoa Beans</Text>
+    </Text>
+    <Text>
+      <GUID>190069</GUID>
+      <Text>Legendary Cotton Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190070</GUID>
+      <Text>Legendary Tobacco Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190071</GUID>
+      <Text>Legendary Animal Bait</Text>
+    </Text>
+    <Text>
+      <GUID>190072</GUID>
+      <Text>Legendary Linseeds</Text>
+    </Text>
+    <Text>
+      <GUID>190073</GUID>
+      <Text>Legendary Hibiscus Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190074</GUID>
+      <Text>Legendary Teff Seedlings</Text>
+    </Text>
+    <Text>
+      <GUID>190075</GUID>
+      <Text>Legendary Indigo Saplings</Text>
+    </Text>
+    <Text>
+      <GUID>190076</GUID>
+      <Text>Legendary Spice Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190077</GUID>
+      <Text>Legendary Beekeeper Equipment</Text>
+    </Text>
+    <Text>
+      <GUID>190078</GUID>
+      <Text>Legendary Lobster Spawn</Text>
+    </Text>
+    <Text>
+      <GUID>190150</GUID>
+      <Text>Legendary Coffee Beans</Text>
+    </Text>
+    <Text>
+      <GUID>190151</GUID>
+      <Text>Legendary Plantain Saplings</Text>
+    </Text>
+    <Text>
+      <GUID>190152</GUID>
+      <Text>Legendary Corn Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190153</GUID>
+      <Text>Legendary Oyster Spawn</Text>
+    </Text>
+    <Text>
+      <GUID>190154</GUID>
+      <Text>Legendary Herbal Saplings</Text>
+    </Text>
+    <Text>
+      <GUID>190155</GUID>
+      <Text>Legendary Orchid Sprouts</Text>
+    </Text>
+    <Text>
+      <GUID>190373</GUID>
+      <Text>Legendary Pepper Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190374</GUID>
+      <Text>Legendary Grape Vines</Text>
+    </Text>
+    <Text>
+      <GUID>190375</GUID>
+      <Text>Legendary Saltpetre Mining</Text>
+    </Text>
+  </ModOp>
+</ModOps>
