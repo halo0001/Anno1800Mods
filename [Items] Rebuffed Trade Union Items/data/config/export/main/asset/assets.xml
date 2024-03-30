@@ -306,4 +306,424 @@
 			</PipeCapacityUpgrade>
 		</IrrigationUpgrade>    
 	</ModOp>
+  <!-- fertility grain UNCOMMON -->
+  <ModOp GUID="190915" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010192</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility grain RARE -->
+  <ModOp GUID="190916" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010192</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility grain EPIC -->
+  <ModOp GUID="190917" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010192</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility hop UNCOMMON -->
+  <ModOp GUID="190919" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010194</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility hop RARE -->
+  <ModOp GUID="190920" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010194</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility hop EPIC -->
+  <ModOp GUID="190921" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010194</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility potato UNCOMMON -->
+  <ModOp GUID="190922" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010195</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility potato RARE -->
+  <ModOp GUID="190923" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010195</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility potato EPIC -->
+  <ModOp GUID="190924" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010195</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility grapes UNCOMMON -->
+  <ModOp GUID="190925" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120014</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility grapes RARE -->
+  <ModOp GUID="190926" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120014</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility grapes EPIC -->
+  <ModOp GUID="190927" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120014</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility red peppers UNCOMMON -->
+  <ModOp GUID="190928" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010198</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility red peppers RARE -->
+  <ModOp GUID="190929" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010198</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility red peppers EPIC -->
+  <ModOp GUID="190930" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010198</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility sugar cane UNCOMMON -->
+  <ModOp GUID="190931" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010251</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility sugar cane RARE -->
+  <ModOp GUID="190932" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010251</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility sugar cane EPIC -->
+  <ModOp GUID="190933" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010251</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility tobacco UNCOMMON -->
+  <ModOp GUID="190934" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010252</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility tobacco RARE -->
+  <ModOp GUID="190935" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010252</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility tobacco EPIC -->
+  <ModOp GUID="190936" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010252</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility cotton UNCOMMON -->
+  <ModOp GUID="190937" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010253</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility cotton RARE -->
+  <ModOp GUID="190938" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010253</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility cotton EPIC -->
+  <ModOp GUID="190939" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010253</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility cocoa UNCOMMON -->
+  <ModOp GUID="190940" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010254</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility cocoa RARE -->
+  <ModOp GUID="190941" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010254</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility cocoa EPIC -->
+  <ModOp GUID="190942" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010254</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility caoutchouc UNCOMMON -->
+  <ModOp GUID="190943" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010255</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility caoutchouc RARE -->
+  <ModOp GUID="190944" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010255</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility caoutchouc EPIC -->
+  <ModOp GUID="190945" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010255</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility coffee UNCOMMON -->
+  <ModOp GUID="190946" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120031</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility coffee RARE -->
+  <ModOp GUID="190947" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120031</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility coffee EPIC -->
+  <ModOp GUID="190948" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120031</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility corn UNCOMMON -->
+  <ModOp GUID="190949" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120034</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility corn RARE -->
+  <ModOp GUID="190950" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120034</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility corn EPIC -->
+  <ModOp GUID="190951" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120034</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility plantains UNCOMMON -->
+  <ModOp GUID="191897" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120041</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility plantains RARE -->
+  <ModOp GUID="191898" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120041</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility plantains EPIC -->
+  <ModOp GUID="191899" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>120041</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility pearls UNCOMMON -->
+  <ModOp GUID="191900" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010256</Product>
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility pearls RARE -->
+  <ModOp GUID="191901" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010256</Product>
+        <AdditionalOutputCycle>7</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
+  <!-- fertility pearls EPIC -->
+  <ModOp GUID="191902" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <Product>1010256</Product>
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
 </ModOps>
