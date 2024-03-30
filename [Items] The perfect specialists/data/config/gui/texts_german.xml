@@ -1476,6 +1476,14 @@
     </Text>
   </ModOp>
   <!-- END - Olivier Levassier -->
+  <!-- START EXPENSIVE THINGS - Rewardpool -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1742000434</GUID>
+      <Text>Teure Dinge</Text>
+    </Text>
+  </ModOp>
+  <!-- END EXPENSIVE THINGS - Rewardpool -->
   <!-- START - Rudy Scholz -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>

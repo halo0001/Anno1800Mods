@@ -11936,6 +11936,62 @@
     </Asset>
   </ModOp>
   <!-- END Olivier Levassier, You shall not pass without paying -  1742000432-1742000433 -->
+  <!-- START EXPENSIVE THINGS 1742000434 -->
+  <ModOp GUID="193483" Type="addNextSibling">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+            <GUID>1742000434</GUID>
+            <Name>Expensive Things</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010249</ItemLink>
+              <MinAmount>5</MinAmount>
+              <MaxAmount>20</MaxAmount>
+              <Weight>40</Weight>
+            </Item>
+            <Item>
+              <ItemLink>1010246</ItemLink>
+              <MinAmount>5</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>10</Weight>
+            </Item>
+            <Item>
+              <ItemLink>1010250</ItemLink>
+              <MinAmount>5</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>10</Weight>
+            </Item>
+            <Item>
+              <ItemLink>1010248</ItemLink>
+              <MinAmount>5</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>10</Weight>
+            </Item>
+            <Item>
+              <ItemLink>135234</ItemLink>
+              <MinAmount>5</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>10</Weight>
+            </Item>
+            <Item>
+              <ItemLink>133532</ItemLink>
+              <MinAmount>5</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>10</Weight>
+            </Item>
+          </ItemsPool>
+          <GenerateUniqueRewards>0</GenerateUniqueRewards>
+        </RewardPool>
+        <Locked/>
+        <Text/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END EXPENSIVE THINGS 1742000434 -->
   <!-- START - Rudy Scholz, Scraps from the sea -  1742000435-1742000436 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
