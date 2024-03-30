@@ -8099,12 +8099,12 @@
           </ProductivityUpgrade>
           <AdditionalOutput>
             <Item>
-              <Product>1010216</Product> <!-- Schnapps -->
+              <Product>6600</Product> <!-- Mezcal -->
               <AdditionalOutputCycle>6</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
             <Item>
-              <Product>1010257</Product> <!-- Rum -->
+              <Product>135234</Product> <!-- Cognac -->
               <AdditionalOutputCycle>8</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
