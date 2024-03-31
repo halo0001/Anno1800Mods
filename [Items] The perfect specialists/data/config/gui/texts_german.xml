@@ -1545,7 +1545,7 @@
     </Text>
   </ModOp>
   <!-- END - Marie-Antoinette Montagne -->
-  <!-- START - Sappeur -->
+  <!-- START - Sebstian Salwas -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1742000445</GUID>
@@ -1556,7 +1556,7 @@
       <Text>Reisender Bergmann, Erneuerer der Kohleindustrie, Begründer der Salwas-Bewegung.</Text>
     </Text>
   </ModOp>
-  <!-- END - Sappeur -->
+  <!-- END - Sebstian Salwas -->
   <!-- START - Anya the Whaling Lobbyist -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>

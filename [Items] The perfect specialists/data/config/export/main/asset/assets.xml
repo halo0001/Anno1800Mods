@@ -400,6 +400,12 @@
     <Item>
       <ItemLink>1742000188</ItemLink> <!-- Franka Franja 1742000188-1742000189 -->
     </Item>
+    <Item>
+      <ItemLink>1742000445</ItemLink> <!-- Sebstian Salwas 1742000445-1742000446 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000447</ItemLink> <!-- Anya the Whaling Lobbyist 1742000447-1742000448 -->
+    </Item>
   </ModOp>
 
   <!-- LEGENDARY - OW -->
@@ -907,7 +913,7 @@
                         <Asset>1742000415</Asset> <!-- Frotz Wogmann, Inventor Of Synthetic Rubber 1742000415-1742000416 -->
                       </Item>
                       <Item>
-                        <Asset>1742001427</Asset> <!-- Gras Goole, Cooling Specialist 1742001427-1742001428 -->
+                        <Asset>1742001427</Asset> <!-- Heike Onnes, Cooling Specialist 1742001427-1742001428 -->
                       </Item>
                       <Item>
                         <Asset>1742000430</Asset> <!-- Julie Black, Pump it up 1742000430-1742000431 -->
@@ -929,6 +935,12 @@
                       </Item>
                       <Item>
                         <Asset>1742000443</Asset> <!-- Marie-Antoinette Montagne, Rich gases 1742000443-1742000444 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000445</Asset> <!-- Sebstian Salwas 1742000445-1742000446 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000447</Asset> <!-- Anya the Whaling Lobbyist 1742000447-1742000448 -->
                       </Item>
                     </UnhideAssets>
                   </ActionUnlockAsset>
@@ -1352,7 +1364,13 @@
                         <Asset>1742000415</Asset> <!-- Frotz Wogmann, Inventor Of Synthetic Rubber 1742000415-1742000416 -->
                       </Item>
                       <Item>
-                        <Asset>1742001427</Asset> <!-- Gras Goole, Cooling Specialist 1742001427-1742001428 -->
+                        <Asset>1742001427</Asset> <!-- Heike Onnes, Cooling Specialist 1742001427-1742001428 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000445</Asset> <!-- Sebstian Salwas 1742000445-1742000446 -->
+                      </Item>
+                      <Item>
+                        <Asset>1742000447</Asset> <!-- Anya the Whaling Lobbyist 1742000447-1742000448 -->
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -12371,71 +12389,71 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END Marie-Antoinette Montagne, Rich gases  -->@ -0,0 +1,98 @@
-  <!-- START Sappeur -->
+  <!-- END Marie-Antoinette Montagne, Rich gases  -->
+  <!-- START Sebstian Salwas -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
-      <Standard>
-        <GUID>1742000445</GUID>
-        <Name>First Rate Sappeur</Name>
-        <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_106.png</IconFilename>
-        <InfoDescription>1742000446</InfoDescription>
-      </Standard>
-      <Text>
-        <LocaText>
-          <English>
-            <Text>First Rate Sappeur</Text>
-            <Status>Exported</Status>
-            <ExportCount>1</ExportCount>
-          </English>
-        </LocaText>
-      </Text>
-      <Item>
-        <MaxStackSize>1</MaxStackSize>
-        <Rarity>Legendary</Rarity>
-        <ItemType>Specialist</ItemType>
-        <TradePrice>875000</TradePrice>
-      </Item>
-      <FactoryUpgrade>
-        <AdditionalOutput>
-          <Item>
-            <Product>1010226</Product> <!-- Coal -->
-            <AdditionalOutputCycle>4</AdditionalOutputCycle>
-            <Amount>1</Amount>
-          </Item>
-          <Item>
-            <Product>1010227</Product> <!-- Iron -->
-            <AdditionalOutputCycle>4</AdditionalOutputCycle>
-            <Amount>1</Amount>
-          </Item>
-          <Item>
-            <Product>1010230</Product> <!-- Copper -->
-            <AdditionalOutputCycle>6</AdditionalOutputCycle>
-            <Amount>1</Amount>
-          </Item>
-          <Item>
-            <Product>1010229</Product> <!-- Zinc -->
-            <AdditionalOutputCycle>6</AdditionalOutputCycle>
-            <Amount>1</Amount>
-          </Item>
-          <Item>
-            <Product>1010233</Product> <!-- Gold Ore -->
-            <AdditionalOutputCycle>8</AdditionalOutputCycle>
-            <Amount>1</Amount>
-          </Item>
-          <Item>
-            <Product>5398</Product> <!-- Minerals -->
-            <AdditionalOutputCycle>8</AdditionalOutputCycle>
-            <Amount>1</Amount>
-          </Item>
-          <Item>
-            <Product>836</Product> <!-- Bauxite -->
-            <AdditionalOutputCycle>8</AdditionalOutputCycle>
-            <Amount>1</Amount>
-          </Item>
-        </AdditionalOutput>
+        <Standard>
+          <GUID>1742000445</GUID>
+          <Name>First Rate Sappeur</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_106.png</IconFilename>
+          <InfoDescription>1742000446</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>First Rate Sappeur</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>875000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010226</Product> <!-- Coal -->
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010227</Product> <!-- Iron -->
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010230</Product> <!-- Copper -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010229</Product> <!-- Zinc -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010233</Product> <!-- Gold Ore -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>5398</Product> <!-- Minerals -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>836</Product> <!-- Bauxite -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
         </FactoryUpgrade>
         <ItemEffect>
           <EffectTargets>
@@ -12477,10 +12495,10 @@
         <ItemGeneratorUpgrade />
         <Locked />
         <Buff />
-      <Values>
+      </Values>
     </Asset>
   </ModOp>
-  <!-- END Sappeur -->
+  <!-- END Sebstian Salwas -->
   <!-- START Anya the Whaling Lobbyist -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
@@ -12537,8 +12555,8 @@
         <ItemEffect>
           <EffectTargets>
             <Item>
-            <GUID>1010286</GUID>
-          </Item>
+              <GUID>1010286</GUID>
+            </Item>
           </EffectTargets>
         </ItemEffect>
         <ItemAction />
