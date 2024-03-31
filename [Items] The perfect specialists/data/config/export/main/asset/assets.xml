@@ -11640,13 +11640,7 @@
         <ItemEffect>
           <EffectTargets>
             <Item>
-              <GUID>1742000424</GUID> <!-- All Chemical plants: Laquer -->
-            </Item>
-            <Item>
-              <GUID>135134</GUID> <!-- Chemical plants: Ethanol -->
-            </Item>
-            <Item>
-              <GUID>135224</GUID> <!-- Chemical plants: Celluloid -->
+              <GUID>194011</GUID> <!-- All Chemical plants -->
             </Item>
           </EffectTargets>
         </ItemEffect>
