@@ -1545,6 +1545,18 @@
     </Text>
   </ModOp>
   <!-- END - Marie-Antoinette Montagne -->
+  <!-- START - Sappeur -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1742000445</GUID>
+      <Text>Sebstian Salwas, sensationeller Sappeur</Text>
+    </Text>
+    <Text>
+      <GUID>1742000446</GUID>
+      <Text>Reisender Bergmann, Erneuerer der Kohleindustrie, Begründer der Salwas-Bewegung.</Text>
+    </Text>
+  </ModOp>
+  <!-- END - Sappeur -->
   <!-- START ALL GLASSMAKERS -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
