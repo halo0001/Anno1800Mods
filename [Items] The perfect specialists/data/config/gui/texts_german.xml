@@ -1557,6 +1557,18 @@
     </Text>
   </ModOp>
   <!-- END - Sappeur -->
+  <!-- START - Anya the Whaling Lobbyist -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1742000447</GUID>
+      <Text>Anja, die Walfang-Lobbyistin</Text>
+    </Text>
+    <Text>
+      <GUID>1742000448</GUID>
+      <Text>Anja hat nach langer Überzeugungsarbeit durchsetzen können, dass die Stadtbeleuchtung wieder durch Walöl befeuert wird.</Text>
+    </Text>
+  </ModOp>
+  <!-- END - Anya the Whaling Lobbyist -->
   <!-- START ALL GLASSMAKERS -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
