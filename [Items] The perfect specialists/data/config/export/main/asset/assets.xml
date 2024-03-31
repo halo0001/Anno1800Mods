@@ -11771,14 +11771,14 @@
     </Asset>
   </ModOp>
   <!-- END Julie Black -->
-  <!-- START Gras Goole, Cooling Specialist 1742001427-1742001428 -->
+  <!-- START Heike Onnes, Cooling Specialist 1742001427-1742001428 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>1742001427</GUID> <!-- GUID 0 -->
-          <Name>Gras Goole, Cooling Specialist</Name>
+          <Name>Heike Kamerlingh Onnes</Name>
           <IconFilename>data/graphics/icons/icon_frotz_wogmann.png</IconFilename>
           <InfoDescription>1742001428</InfoDescription> <!-- GUID 1 -->
         </Standard>
@@ -11807,6 +11807,9 @@
             <Item>
               <GUID>6631</GUID> <!-- Laboratory: Medicine -->
             </Item>
+            <Item>
+              <GUID>132777</GUID> <!-- Chemical Plant: Lemonade -->
+            </Item>
           </EffectTargets>
         </ItemEffect>
         <FactoryUpgrade>
@@ -11815,22 +11818,26 @@
             <Percental>1</Percental>
           </ProductivityUpgrade>
           <AdditionalOutput>
-			  <Item>
-				<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-				<AdditionalOutputCycle>1</AdditionalOutputCycle>
-				<Amount>2</Amount>
-			  </Item>
-		  </AdditionalOutput>
-		  <ReplaceInputs>
-			<Item>
-				<OldInput>1010255</OldInput> <!-- Caoutchouc -->
-				<NewInput>840</NewInput> <!-- Helium -->
-			</Item>
-			<Item>
-				<OldInput>135130</OldInput> <!-- Ethanol -->
-				<NewInput>840</NewInput> <!-- Helium -->
-			</Item>
-		  </ReplaceInputs>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>1</AdditionalOutputCycle>
+              <Amount>2</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010255</OldInput> <!-- Caoutchouc -->
+              <NewInput>840</NewInput> <!-- Helium -->
+            </Item>
+            <Item>
+              <OldInput>135130</OldInput> <!-- Ethanol -->
+              <NewInput>840</NewInput> <!-- Helium -->
+            </Item>
+            <Item>
+              <OldInput>1010232</OldInput> <!-- Saltpetre -->
+              <NewInput>840</NewInput> <!-- Helium -->
+            </Item>
+          </ReplaceInputs>
         </FactoryUpgrade>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
@@ -11858,7 +11865,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END Gras Goole, Cooling Specialist -->
+  <!-- END Heike Onnes, Cooling Specialist -->
   <!-- START - Olivier Levassier, You shall not pass without paying -  1742000432-1742000433 -->
   <ModOp GUID="191388" Type="addNextSibling">
     <Asset>
