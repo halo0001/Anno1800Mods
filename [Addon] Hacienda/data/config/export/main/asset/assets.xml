@@ -1,0 +1,277 @@
+<!-- Little Hacienda Rework -->
+<ModOps>
+  
+  <!-- Specialised Lumberjack Training works on All New World Orchards -->
+  <ModOp Type="replace" GUID="25734"   Path="/Values/ItemEffect">
+    <ItemEffect>
+    <EffectTargets>
+      <Item>
+      <GUID>25736</GUID>
+      </Item>
+      <Item>
+      <GUID>194013</GUID>
+      </Item>
+    </EffectTargets>
+    </ItemEffect>
+  </ModOp>
+  
+  <!-- Jornalero-Hacienda residences get +2 attractivness per residence -->
+  <ModOp Type="replace" GUID="24792" Path="/Values/Culture" ModOpID="HaciendaObrerosAttractivness">
+    <Culture>
+      <Attractiveness>2</Attractiveness>
+    </Culture>
+  </ModOp>
+  
+  <!-- Hacienda Jornaleros max pop 65 -->
+  <ModOp Type="replace" GUID="24792" Path="/Values/Residence7/ResidentMax">
+    <ResidentMax>65</ResidentMax>
+  </ModOp>
+  
+  <ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+    <Item>
+      <Product>25506</Product> <!-- Hot Sauce -->
+      <AdditionalSupply>6</AdditionalSupply>
+    </Item>
+  </ModOp>
+  
+  <ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+    <Item>
+      <Product>1010216</Product> <!-- Schnapps -->
+      <AdditionalSupply>4</AdditionalSupply>
+    </Item>
+  </ModOp>
+  
+  <!-- Obrero-Hacienda residences get +3 attractivness per residence -->
+  <ModOp Type="replace" GUID="24793" Path="/Values/Culture" ModOpID="HaciendaObrerosAttractivness">
+    <Culture>
+      <Attractiveness>3</Attractiveness>
+    </Culture>
+  </ModOp>
+  
+  
+  <!-- Hacienda Obreros max pop 135 -->
+  <ModOp Type="replace" GUID="24793" Path="/Values/Residence7">
+    <Residence7>
+      <PopulationLevel7>15000006</PopulationLevel7>
+      <ResidentMax>135</ResidentMax>
+    </Residence7>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120033']">
+      <Item>
+          <Product>120033</Product> <!-- Fried Plantains -->
+          <AdditionalSupply>4</AdditionalSupply>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120043']">
+      <Item>
+          <Product>120043</Product> <!-- Ponchos -->
+          <AdditionalSupply>4</AdditionalSupply>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+      <Item>
+          <Product>25506</Product> <!-- Hot Sauce -->
+          <AdditionalSupply>4</AdditionalSupply>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+      <Item>
+          <Product>120035</Product> <!-- Tortillas -->
+          <AdditionalSupply>2</AdditionalSupply>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+      <Item>
+          <Product>25131</Product> <!-- Atole -->
+          <AdditionalSupply>1</AdditionalSupply>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120037']">
+      <Item>
+          <Product>120037</Product> <!-- Bombins -->
+          <AdditionalSupply>2</AdditionalSupply>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120032']">
+      <Item>
+          <Product>120032</Product> <!-- Coffee -->
+          <AdditionalSupply>2</AdditionalSupply>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010206']">
+      <Item>
+          <Product>1010206</Product> <!-- Sewing Machines -->
+          <AdditionalSupply>2</AdditionalSupply>
+      </Item>
+  </ModOp>
+  
+  <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs">
+      <Item>
+          <Product>135186</Product> <!-- Chewing Gum -->
+          <Amount>0.0000866667</Amount>
+          <SupplyWeight>7</SupplyWeight>
+          <MoneyValue>25</MoneyValue>
+          <FullWeightPopulationCount>2500</FullWeightPopulationCount>
+          <NoWeightPopulationCount>1999</NoWeightPopulationCount>
+          <RequiredBuildings>
+              <Item>
+                  <RequiredBuilding>24793</RequiredBuilding>
+              </Item>
+          </RequiredBuildings>
+      </Item>
+  </ModOp>
+  
+  <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs">
+      <Item>
+          <Product>135233</Product> <!-- Violins -->
+          <Amount>0.00005</Amount>
+          <SupplyWeight>10</SupplyWeight>
+          <MoneyValue>40</MoneyValue>
+          <FullWeightPopulationCount>3000</FullWeightPopulationCount>
+          <NoWeightPopulationCount>2499</NoWeightPopulationCount>
+          <RequiredBuildings>
+              <Item>
+                  <RequiredBuilding>24793</RequiredBuilding>
+              </Item>
+          </RequiredBuildings>
+      </Item>
+  </ModOp>
+  
+  <!-- Artistas max Pop 215, +5 Attractiveness -->
+  <ModOp Type="replace" GUID="6086" Path="/Values/Residence7/ResidentMax">
+      <ResidentMax>215</ResidentMax>
+  </ModOp>
+  <ModOp Type="replace" GUID="6086" Path="/Values/Culture" ModOpID="HaciendaArtistasAttractivness">
+      <Culture>
+          <Attractiveness>5</Attractiveness>
+      </Culture>
+  </ModOp>
+  
+  
+  <!-- add Hacienda, Atole, Tabasco, Chewing Gums and Violins to consumption -->
+  <ModOp Type="addPrevSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+      <Item>
+          <Product>25546</Product> <!-- Hacienda -->
+          <SupplyWeight>7</SupplyWeight>
+          <RequiredBuildings>
+              <Item>
+                  <RequiredBuilding>6086</RequiredBuilding>
+              </Item>
+          </RequiredBuildings>
+      </Item>
+  </ModOp>
+  
+  <ModOp Type="addPrevSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+      <Item>
+          <Product>25506</Product> <!-- Hot Sauce	 -->
+          <Amount>0.000476191</Amount>
+          <SupplyWeight>10</SupplyWeight>
+          <MoneyValue>10</MoneyValue>
+          <RequiredBuildings>
+              <Item>
+                  <RequiredBuilding>6086</RequiredBuilding>
+              </Item>
+          </RequiredBuildings>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+      <Item>
+          <Product>25131</Product> <!-- Atole -->
+          <Amount>0.000952381</Amount>
+          <SupplyWeight>8</SupplyWeight>
+          <MoneyValue>40</MoneyValue>
+          <RequiredBuildings>
+              <Item>
+                  <RequiredBuilding>6086</RequiredBuilding>
+              </Item>
+          </RequiredBuildings>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010206']">
+      <Item>
+          <Product>135186</Product> <!-- Chewing Gum -->
+          <Amount>0.0000866667</Amount>
+          <SupplyWeight>7</SupplyWeight>
+          <MoneyValue>25</MoneyValue>
+          <RequiredBuildings>
+              <Item>
+                  <RequiredBuilding>6086</RequiredBuilding>
+              </Item>
+          </RequiredBuildings>
+      </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']">
+      <Item>
+          <Product>135233</Product> <!-- Violins -->
+          <Amount>0.00005</Amount>
+          <SupplyWeight>10</SupplyWeight>
+          <MoneyValue>40</MoneyValue>
+          <RequiredBuildings>
+              <Item>
+                  <RequiredBuilding>6086</RequiredBuilding>
+              </Item>
+          </RequiredBuildings>
+      </Item>
+  </ModOp>
+  
+  <!-- Storage modules become warehouse -->
+  <ModOp Type="replace" GUID="24775" Path="/Template">
+    <Template>Warehouse</Template>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="24775" Path="/Values/Standard/InfoDescription">
+    <InfoDescription>1999002028</InfoDescription>
+  </ModOp>
+
+  <ModOp Type="add" GUID="24775" Path="/Values/Building">
+    <BuildingType>Logistic</BuildingType>
+    <BuildingCategoryName>11151</BuildingCategoryName>
+    <AllowChangeDirection>1</AllowChangeDirection>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="24775" Path="/Values/LogisticNode">
+    <LogisticNode>
+      <TransporterCountMax>0</TransporterCountMax>
+      <QueueConfiguration>
+        <ProcessingQueueParallelCount>3</ProcessingQueueParallelCount>
+      </QueueConfiguration>
+    </LogisticNode>
+  </ModOp>
+
+  <ModOp Type="add" GUID="24775" Path="/Values/Selection">
+    <GUIType>Warehouse</GUIType>
+    <ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="24775" Path="/Values/Warehouse/WarehouseStorage">
+    <WarehouseStorage>
+      <StorageMax>100</StorageMax>
+    </WarehouseStorage>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="24775" Path="/Values/Maintenance/Maintenances">
+    <Maintenances>
+      <Item>
+        <Product>1010017</Product>
+        <Amount>250</Amount>
+        <InactiveAmount>125</InactiveAmount>
+      </Item>
+      <Item>
+        <Product>1010367</Product>
+        <Amount>50</Amount>
+        <InactiveAmount>25</InactiveAmount>
+      </Item>
+    </Maintenances>
+	</ModOp>
+</ModOps>
