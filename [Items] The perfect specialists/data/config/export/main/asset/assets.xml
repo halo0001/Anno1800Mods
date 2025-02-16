@@ -406,6 +406,15 @@
     <Item>
       <ItemLink>1742000447</ItemLink> <!-- Anya the Whaling Lobbyist 1742000447-1742000448 -->
     </Item>
+    <Item>
+      <ItemLink>1742000449</ItemLink> <!-- Someone with Seal Skin 1742000449-1742000450 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000451</ItemLink> <!-- Anton from the mountains 1742000451-1742000452 -->
+    </Item>
+    <Item>
+      <ItemLink>1742000453</ItemLink> <!-- Prof Linus Liquicious 1742000453-1742000454 -->
+    </Item>
   </ModOp>
 
   <!-- LEGENDARY - OW -->
@@ -942,6 +951,15 @@
                       <Item>
                         <Asset>1742000447</Asset> <!-- Anya the Whaling Lobbyist 1742000447-1742000448 -->
                       </Item>
+                      <Item>
+                        <ItemLink>1742000449</ItemLink> <!-- Someone with Seal Skin 1742000449-1742000450 -->
+                      </Item>
+                      <Item>
+                        <ItemLink>1742000451</ItemLink> <!-- Anton from the mountains 1742000451-1742000452 -->
+                      </Item>
+                      <Item>
+                        <ItemLink>1742000453</ItemLink> <!-- Prof Linus Liquicious 1742000453-1742000454 -->
+                      </Item>
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -1371,6 +1389,15 @@
                       </Item>
                       <Item>
                         <Asset>1742000447</Asset> <!-- Anya the Whaling Lobbyist 1742000447-1742000448 -->
+                      </Item>
+                      <Item>
+                        <ItemLink>1742000449</ItemLink> <!-- Someone with Seal Skin 1742000449-1742000450 -->
+                      </Item>
+                      <Item>
+                        <ItemLink>1742000451</ItemLink> <!-- Anton from the mountains 1742000451-1742000452 -->
+                      </Item>
+                      <Item>
+                        <ItemLink>1742000453</ItemLink> <!-- Prof Linus Liquicious 1742000453-1742000454 -->
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -2579,7 +2606,7 @@
           <ReplaceInputs>
             <Item>
               <OldInput>112696</OldInput> <!-- Seal skin -->
-              <NewInput>1010209</NewInput> <!--Furs -->
+              <NewInput>1010210</NewInput> <!-- Sails -->
             </Item>
           </ReplaceInputs>
           <ProductivityUpgrade>
@@ -2593,7 +2620,7 @@
               <Amount>1</Amount>
             </Item>
             <Item>
-              <Product>1010210</Product> <!-- Sails -->
+              <Product>1010211</Product> <!-- Chassis -->
               <AdditionalOutputCycle>5</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
@@ -6569,7 +6596,7 @@
           <FluffText>1742000123</FluffText> <!-- GUID 1 -->
         </ExpeditionAttribute>
         <ModuleOwnerUpgrade>
-          <ModuleLimitPercent>-40</ModuleLimitPercent>
+          <ModuleLimitPercent>-25</ModuleLimitPercent>
         </ModuleOwnerUpgrade>
       </Values>
     </Asset>
@@ -12530,17 +12557,17 @@
         <FactoryUpgrade>
           <AdditionalOutput>
             <Item>
-              <Product>112702</Product>
+              <Product>112702</Product> <!-- Oil Lamps -->
               <AdditionalOutputCycle>6</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
             <Item>
-              <Product>117699</Product>
+              <Product>117699</Product> <!-- Lanterns -->
               <AdditionalOutputCycle>8</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
             <Item>
-              <Product>1414</Product>
+              <Product>1414</Product> <!-- Industrial Lubricant -->
               <AdditionalOutputCycle>12</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
@@ -12605,7 +12632,319 @@
     </Asset>
   </ModOp>
   <!-- END Anya the Whaling Lobbyist -->
-
+  <!-- START Someone with seal skin -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742000449</GUID>
+          <Name>Someone with seal skin</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/icon_captain_uncommon.png</IconFilename>
+          <InfoDescription>1742000450</InfoDescription>
+          <Version>dlc03</Version>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+            <Text>Someone with seal skin</Text>
+            <Status>Exported</Status>
+            <ExportCount>1</ExportCount>
+          </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>512500</TradePrice>
+          <TradePriceOnlineCurrency>100</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>114428</Product> <!-- Leather Boots -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>114430</Product> <!-- Tailored Suits -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>112695</Product> <!-- Bear Fur -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010209</OldInput> <!-- Furs -->
+              <NewInput>112696</NewInput> <!-- Seal Skin -->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010325</GUID> <!-- Fur Dealer -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+            <Attribute>PerkMale</Attribute>
+            <Amount>1</Amount>
+          </Item>
+            <Item>
+            <Attribute>Crafting</Attribute>
+            <Amount>40</Amount>
+          </Item>
+          <Item>
+            <Attribute>Hunting</Attribute>
+            <Amount>20</Amount>
+          </Item>
+          <Item />
+          <Item />
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000450</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+          <DLCDependency>410042</DLCDependency>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Someone with seal skin -->
+  <!-- START Anton from the mountains -->
+  <ModOp GUID="191388" Type="AddNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+        <GUID>1742000451</GUID>
+        <Name>Anton from the mountains</Name>
+        <IconFilename>data/ui/2kimages/main/3dicons/specialists/icon_navigator_epic.png</IconFilename>
+        <InfoDescription>1742000452</InfoDescription>
+        <Version>dlc03</Version>
+      </Standard>
+      <Text>
+        <LocaText>
+          <English>
+          <Text>Anton from the mountains</Text>
+          <Status>Exported</Status>
+          <ExportCount>1</ExportCount>
+        </English>
+        </LocaText>
+      </Text>
+      <Item>
+        <MaxStackSize>1</MaxStackSize>
+        <Rarity>Legendary</Rarity>
+        <ItemType>Specialist</ItemType>
+        <TradePrice>612500</TradePrice>
+        <TradePriceOnlineCurrency>100</TradePriceOnlineCurrency>
+      </Item>
+      <FactoryUpgrade>
+        <ProductivityUpgrade>
+          <Value>40</Value>
+        <Percental>1</Percental>
+        </ProductivityUpgrade>
+        <AdditionalOutput>
+          <Item>
+            <Product>112697</Product> <!-- Goose Feathers -->
+            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+            <Amount>1</Amount>
+          </Item>
+          <Item>
+            <Product>112697</Product> <!-- Goose Feathers -->
+            <AdditionalOutputCycle>8</AdditionalOutputCycle>
+            <Amount>1</Amount>
+          </Item>
+          <Item>
+            <Product>112697</Product> <!-- Goose Feathers -->
+            <AdditionalOutputCycle>12</AdditionalOutputCycle>
+            <Amount>1</Amount>
+          </Item>
+        </AdditionalOutput>
+        <ReplaceInputs>
+          <Item>
+          <OldInput>1010240</OldInput> <!-- Cotton Fabric -->
+          <NewInput>112697</NewInput> <!-- Goose Feathers -->
+        </Item>
+        </ReplaceInputs>
+      </FactoryUpgrade>
+      <ItemEffect>
+        <EffectTargets>
+          <Item>
+          <GUID>101273</GUID> <!-- Bombin Weaver -->
+        </Item>
+        </EffectTargets>
+      </ItemEffect>
+      <ItemAction />
+      <ExpeditionAttribute>
+        <BaseMorale>0</BaseMorale>
+        <ExpeditionAttributes>
+          <Item>
+          <Attribute>PerkMale</Attribute>
+          <Amount>1</Amount>
+        </Item>
+          <Item>
+          <Attribute>Crafting</Attribute>
+          <Amount>35</Amount>
+        </Item>
+        <Item>
+          <Attribute>Diplomacy</Attribute>
+          <Amount>25</Amount>
+        </Item>
+        <Item />
+        <Item />
+        </ExpeditionAttributes>
+        <ItemDifficulties>Average;Hard</ItemDifficulties>
+        <FluffText>1742000452</FluffText>
+      </ExpeditionAttribute>
+      <CultureUpgrade />
+      <BuildingUpgrade />
+      <ModuleOwnerUpgrade />
+      <IncidentInfluencerUpgrade />
+      <IncidentInfectableUpgrade />
+      <ResidenceUpgrade />
+      <PopulationUpgrade />
+      <IndustrializableUpgrade />
+      <Locked>
+        <DLCDependency>410042</DLCDependency>
+      </Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Anton from the mountains -->
+  <!-- START Prof Linus Liquicious -->
+  <ModOp GUID="191388" Type="AddNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1742000453</GUID>
+          <Name>Prof Linus Liquicious</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normal_dressed_102.png</IconFilename>
+          <InfoDescription>1742000454</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Prof Linus Liquicious</Text>
+              <Status>Exported</Status>
+              <ExportCount>2</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>750000</TradePrice>
+          <TradePriceOnlineCurrency>300</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010294</GUID> <!-- Schnapps Distillery -->
+            </Item>
+            <Item>
+              <GUID>124737</GUID> <!-- Advanced Rum Distillery -->
+            </Item>
+            <Item>
+              <GUID>135418</GUID> <!-- Artisans Worrkshop Cognac -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>135130</Product> <!-- Ethanol -->
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010216</Product> <!-- Schnapps -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>135234</Product> <!-- Cognac -->
+              <AdditionalOutputCycle>7</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010257</Product> <!-- Rum -->
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>6600</Product> <!-- Mezcal -->
+              <AdditionalOutputCycle>9</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>45</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1742000454</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Prof Linus Liquicious -->
+  
   <!-- START LIST OF ALL EXTRA POOLS -->
 
   <!-- START All DEPOTS ADD -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModOps>
+  <!--
+    Change Deposit Ore in New World
+    
+    124854 - Slot Heading
+    125506 - Slot Tooltip
+    124841 - Research Institute Heading
+    124318 - Research Institute Description
+    124304 - Research Institute Hint
+  -->
+
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '124304']/Text">
+    <!-- Original: <Text>Wählen Sie ein beliebiges ungenutztes Erzvorkommen auf einer Ihrer Inseln in der Alten Welt, um es umzuwandeln.</Text> -->
+    <Text>testWählen Sie ein beliebiges ungenutztes Erzvorkommen auf einer Ihrer Inseln in der Alten Welt oder Neuen Welt, um es umzuwandeln.</Text>
+  </ModOp>
+</ModOps>

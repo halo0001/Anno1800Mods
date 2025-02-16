@@ -306,6 +306,16 @@
 			</PipeCapacityUpgrade>
 		</IrrigationUpgrade>    
 	</ModOp>
+  <!-- Calla Lily, Of The Desert Bloom -->
+  <ModOp GUID="125116" Path="/Values/FactoryUpgrade" Type="Add">
+    <AdditionalOutput>
+      <Item>
+        <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+        <AdditionalOutputCycle>3</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </AdditionalOutput>
+  </ModOp>
   <!-- fertility grain UNCOMMON -->
   <ModOp GUID="190915" Path="/Values/FactoryUpgrade" Type="Add">
     <AdditionalOutput>

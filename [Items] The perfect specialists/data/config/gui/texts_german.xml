@@ -1569,6 +1569,42 @@
     </Text>
   </ModOp>
   <!-- END - Anya the Whaling Lobbyist -->
+  <!-- START - Someone with seal skin -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1742000449</GUID>
+      <Text>Robert, der finstere Robbenfänger</Text>
+    </Text>
+    <Text>
+      <GUID>1742000450</GUID>
+      <Text>Auch Mäntel aus Robbenpelz stellen großartige Prestigeobjekte dar.</Text>
+    </Text>
+  </ModOp>
+  <!-- END - Someone with seal skin -->
+  <!-- START - Anton from the mountains -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1742000451</GUID>
+      <Text>Anton aus den Bergen</Text>
+    </Text>
+    <Text>
+      <GUID>1742000452</GUID>
+      <Text>Anton hat sein Zuhause in den Bergen der alten Welt verlassen, um der Welt zu zeigen, welche stilvollen Designs er zu bieten hat.</Text>
+    </Text>
+  </ModOp>
+  <!-- END - Anton from the mountains -->
+  <!-- START - Prof Linus Liquicious -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1742000453</GUID>
+      <Text>Prof. Linus Liquiscious</Text>
+    </Text>
+    <Text>
+      <GUID>1742000454</GUID>
+      <Text>Dekan der Chemiefakultät. Betreibt einen florierenden Schwarzmarkt mit allerlei selbstgemachten Spirituosen in seinem Labor.</Text>
+    </Text>
+  </ModOp>
+  <!-- END - Prof Linus Liquicious -->
   <!-- START ALL GLASSMAKERS -->
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
